@@ -1,0 +1,85 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgService" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="carService" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1f2937;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#374151;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow2" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="3" dy="5" stdDeviation="4" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgService)"/>
+  
+  <!-- Professional locksmith at work -->
+  <g transform="translate(400,300)">
+    <!-- Car -->
+    <g transform="translate(-200,100)">
+      <rect x="-80" y="-30" width="160" height="60" rx="30" fill="url(#carService)" filter="url(#shadow2)"/>
+      <rect x="-70" y="-20" width="140" height="40" rx="20" fill="#3b82f6"/>
+      
+      <!-- Windows -->
+      <rect x="-60" y="-15" width="50" height="30" rx="5" fill="#87ceeb"/>
+      <rect x="10" y="-15" width="50" height="30" rx="5" fill="#87ceeb"/>
+      
+      <!-- Wheels -->
+      <circle cx="-50" cy="30" r="20" fill="#1f2937"/>
+      <circle cx="-50" cy="30" r="15" fill="#6b7280"/>
+      <circle cx="-50" cy="30" r="8" fill="#1f2937"/>
+      
+      <circle cx="50" cy="30" r="20" fill="#1f2937"/>
+      <circle cx="50" cy="30" r="15" fill="#6b7280"/>
+      <circle cx="50" cy="30" r="8" fill="#1f2937"/>
+      
+      <!-- Headlights -->
+      <circle cx="-70" cy="-10" r="8" fill="#fbbf24"/>
+      <circle cx="70" cy="-10" r="8" fill="#fbbf24"/>
+    </g>
+    
+    <!-- Locksmith working -->
+    <g transform="translate(100,0)">
+      <!-- Locksmith figure -->
+      <circle cx="0" cy="-80" r="25" fill="#fbbf24"/> <!-- Head -->
+      <rect x="-20" y="-55" width="40" height="60" rx="20" fill="#fbbf24"/> <!-- Body -->
+      <rect x="-15" y="5" width="30" height="40" rx="15" fill="#1f2937"/> <!-- Legs -->
+      
+      <!-- Arms -->
+      <rect x="-35" y="-45" width="15" height="40" rx="7" fill="#fbbf24"/>
+      <rect x="20" y="-45" width="15" height="40" rx="7" fill="#fbbf24"/>
+      
+      <!-- Tools in hand -->
+      <line x1="-40" y1="-25" x2="-60" y2="-15" stroke="#fbbf24" stroke-width="4"/>
+      <line x1="25" y1="-25" x2="45" y2="-15" stroke="#fbbf24" stroke-width="4"/>
+    </g>
+    
+    <!-- Professional equipment -->
+    <g transform="translate(0,-100)">
+      <!-- Tool box -->
+      <rect x="-60" y="-40" width="120" height="80" rx="10" fill="#6b7280" filter="url(#shadow2)"/>
+      <rect x="-50" y="-30" width="100" height="60" rx="8" fill="#374151"/>
+      
+      <!-- Tools -->
+      <line x1="-40" y1="-20" x2="-40" y2="20" stroke="#fbbf24" stroke-width="3"/>
+      <line x1="-20" y1="-15" x2="-20" y2="15" stroke="#fbbf24" stroke-width="3"/>
+      <line x1="0" y1="-25" x2="0" y2="25" stroke="#fbbf24" stroke-width="3"/>
+      <line x1="20" y1="-10" x2="20" y2="10" stroke="#fbbf24" stroke-width="3"/>
+      <line x1="40" y1="-30" x2="40" y2="30" stroke="#fbbf24" stroke-width="3"/>
+    </g>
+    
+    <!-- Professional badge -->
+    <g transform="translate(300,-150)">
+      <circle cx="0" cy="0" r="40" fill="#fbbf24" stroke="#92400e" stroke-width="3" filter="url(#shadow2)"/>
+      <text x="0" y="8" text-anchor="middle" fill="#1f2937" font-family="Arial, sans-serif" font-size="20" font-weight="bold">P</text>
+    </g>
+  </g>
+  
+  <!-- Service Text -->
+  <text x="400" y="550" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+    Professional Car Locksmith Service
+  </text>
+</svg>

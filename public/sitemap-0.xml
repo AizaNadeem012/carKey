@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Core Pages -->
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/about</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/services</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/areas</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/contact</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/faq</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Service / Intent Pages -->
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/cheshire-car-keys</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/lost-car-keys-gosport</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/replacement-car-keys-stockport</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Main Location Pages -->
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/stockport</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/bramhall</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/cheadle</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/hazel-grove</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/manchester</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/oldham</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/rochdale</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/salford</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/tameside</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/trafford</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/bury</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/gosport</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Auto Locksmith Near Me Pages -->
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/auto-locksmith-near-me-adswood</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/auto-locksmith-near-me-bramhall</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/auto-locksmith-near-me-bredbury</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/auto-locksmith-near-me-brinnington</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/auto-locksmith-near-me-cheadle</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/auto-locksmith-near-me-davenport</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/auto-locksmith-near-me-edgeley</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/auto-locksmith-near-me-gatley</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/auto-locksmith-near-me-hazel-grove</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/auto-locksmith-near-me-heaton-mersey</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/auto-locksmith-near-me-heaton-moors</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/auto-locksmith-near-me-high-lane</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/auto-locksmith-near-me-marple</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/auto-locksmith-near-me-offerton</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/auto-locksmith-near-me-portwood</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/auto-locksmith-near-me-reddish</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/auto-locksmith-near-me-stepping-hill</loc>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Blog -->
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/blog</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Legal -->
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/privacy-policy</loc>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.carkeysinstockport.co.uk/terms-and-conditions</loc>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>
+=======
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://carkeysinstockport.co.uk/services/car-key-replacement</loc><lastmod>2026-01-19T08:08:40.849Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/services/auto-keys-programming</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/services/lockout-assistance</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/services/key-fob-programming</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/services/emergency-service</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/services/ignition-repair</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/services/remote-key-fobs</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/services/van-lockout</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/services/testimonials</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/services/terms</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/areas/stockport</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/areas/cheadle</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/areas/bramhall</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/areas/stockport/bury</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/areas/stockport/manchester</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/areas/stockport/oldham</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/areas/stockport/rochdale</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/areas/stockport/salford</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/areas/stockport/tameside</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/areas/stockport/trafford</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/about</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/contact</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/faq</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/terms-and-conditions</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://carkeysinstockport.co.uk/privacy-policy</loc><lastmod>2026-01-19T08:08:40.850Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+</urlset>
+>>>>>>> 16fdb7eb5d5e0e2b2289683a7642c430d8c08828

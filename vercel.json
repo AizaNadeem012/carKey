@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.carkeysinstockport.co.uk" }],
+      "destination": "https://carkeysinstockport.co.uk/:path*",
+      "permanent": true
+    }
+  ]
+}

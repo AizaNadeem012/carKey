@@ -1,0 +1,59 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0891b2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="fobGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1f2937;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#374151;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bg5)" rx="20"/>
+  
+  <!-- Key Fobs -->
+  <g transform="translate(200,150)">
+    <!-- Main Key Fob -->
+    <rect x="-40" y="-60" width="80" height="120" rx="15" fill="url(#fobGradient)" stroke="#fbbf24" stroke-width="3"/>
+    <rect x="-35" y="-55" width="70" height="110" rx="12" fill="#374151"/>
+    
+    <!-- Buttons -->
+    <circle cx="-20" cy="-30" r="8" fill="#ef4444"/>
+    <circle cx="20" cy="-30" r="8" fill="#10b981"/>
+    <circle cx="-20" cy="-10" r="8" fill="#3b82f6"/>
+    <circle cx="20" cy="-10" r="8" fill="#f59e0b"/>
+    <circle cx="0" cy="10" r="8" fill="#8b5cf6"/>
+    <circle cx="0" cy="30" r="8" fill="#ec4899"/>
+    
+    <!-- Key Ring -->
+    <circle cx="0" cy="60" r="12" fill="none" stroke="#fbbf24" stroke-width="3"/>
+    
+    <!-- Signal Waves -->
+    <g transform="translate(-80,-80)">
+      <circle cx="0" cy="0" r="15" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.6"/>
+      <circle cx="0" cy="0" r="25" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.4"/>
+      <circle cx="0" cy="0" r="35" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.2"/>
+    </g>
+    
+    <g transform="translate(80,-80)">
+      <circle cx="0" cy="0" r="15" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.6"/>
+      <circle cx="0" cy="0" r="25" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.4"/>
+      <circle cx="0" cy="0" r="35" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0.2"/>
+    </g>
+  </g>
+  
+  <!-- Car Icon -->
+  <g transform="translate(200,50)">
+    <rect x="-30" y="-15" width="60" height="30" rx="15" fill="#1f2937"/>
+    <rect x="-25" y="-10" width="50" height="20" rx="10" fill="#3b82f6"/>
+    <circle cx="-15" cy="15" r="8" fill="#1f2937"/>
+    <circle cx="15" cy="15" r="8" fill="#1f2937"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="250" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+    Remote Key Fob Programming
+  </text>
+</svg>

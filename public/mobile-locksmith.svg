@@ -1,0 +1,65 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="vanGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bg4)" rx="20"/>
+  
+  <!-- Mobile Van -->
+  <g transform="translate(200,200)">
+    <!-- Van Body -->
+    <rect x="-90" y="-40" width="180" height="80" rx="20" fill="url(#vanGradient)"/>
+    <rect x="-80" y="-30" width="160" height="60" rx="15" fill="#1e40af"/>
+    
+    <!-- Van Windows -->
+    <rect x="-70" y="-20" width="40" height="40" rx="5" fill="#87ceeb"/>
+    <rect x="-20" y="-20" width="40" height="40" rx="5" fill="#87ceeb"/>
+    <rect x="30" y="-20" width="40" height="40" rx="5" fill="#87ceeb"/>
+    <rect x="80" y="-20" width="40" height="40" rx="5" fill="#87ceeb"/>
+    
+    <!-- Wheels -->
+    <circle cx="-60" cy="40" r="25" fill="#1f2937"/>
+    <circle cx="-60" cy="40" r="18" fill="#6b7280"/>
+    <circle cx="-60" cy="40" r="10" fill="#1f2937"/>
+    
+    <circle cx="60" cy="40" r="25" fill="#1f2937"/>
+    <circle cx="60" cy="40" r="18" fill="#6b7280"/>
+    <circle cx="60" cy="40" r="10" fill="#1f2937"/>
+    
+    <!-- Headlights -->
+    <circle cx="-80" cy="-15" r="10" fill="#fbbf24"/>
+    <circle cx="80" cy="-15" r="10" fill="#fbbf24"/>
+  </g>
+  
+  <!-- Locksmith Tools -->
+  <g transform="translate(200,100)">
+    <!-- Tool Box -->
+    <rect x="-30" y="-20" width="60" height="40" rx="5" fill="#fbbf24" stroke="#92400e" stroke-width="2"/>
+    <rect x="-25" y="-15" width="50" height="30" rx="3" fill="#1f2937"/>
+    
+    <!-- Tools -->
+    <line x1="-15" y1="-10" x2="-15" y2="10" stroke="#fbbf24" stroke-width="3"/>
+    <line x1="0" y1="-5" x2="0" y2="15" stroke="#fbbf24" stroke-width="3"/>
+    <line x1="15" y1="-12" x2="15" y2="12" stroke="#fbbf24" stroke-width="3"/>
+  </g>
+  
+  <!-- Mobile Icon -->
+  <g transform="translate(320,80)">
+    <rect x="-15" y="-25" width="30" height="50" rx="5" fill="#10b981" stroke="#059669" stroke-width="2"/>
+    <rect x="-10" y="-20" width="20" height="35" rx="3" fill="#1f2937"/>
+    <circle cx="0" cy="0" r="3" fill="#10b981"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="250" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+    Mobile Locksmith Service
+  </text>
+</svg>
