@@ -25,7 +25,7 @@ const faqItems = [
   {
     question: "Do you offer cheap locksmith services in Denton?",
     answer:
-      "Yes. We offer transparent, competitive pricing with no call-out fee and no hidden charges. You get a fixed price before any work begins — whether it's a car key, van lockout or ignition repair.",
+      "Yes. We offer transparent, competitive pricing with no call-out fee and no hidden charges. You get a fixed price before any work begins â€” whether it's a car key, van lockout or ignition repair.",
   },
   {
     question: "Are you available 24 hours in Denton?",
@@ -40,7 +40,7 @@ const faqItems = [
   {
     question: "Do you charge a call-out fee in Denton?",
     answer:
-      "No. We never charge a call-out fee anywhere in Denton or Greater Manchester. You receive an upfront fixed price before work starts — no surprises.",
+      "No. We never charge a call-out fee anywhere in Denton or Greater Manchester. You receive an upfront fixed price before work starts â€” no surprises.",
   },
 ]
 
@@ -94,19 +94,19 @@ export default function DentonPage() {
 
       <main className="bg-slate-900 text-white pt-20">
 
-        {/* ── Hero ─────────────────────────────────────────────────────────── */}
+        {/* â”€â”€ Hero â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
         <section className="section-padding bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
           <div className="container-custom">
             <div className="max-w-3xl">
               <div className="flex items-center gap-2 text-orange-400 mb-4">
                 <MapPin className="w-5 h-5" aria-hidden="true" />
-                <span className="font-semibold">Tameside Auto Locksmith – SK14</span>
+                <span className="font-semibold">Tameside Auto Locksmith â€“ SK14</span>
               </div>
 
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Locksmith in{" "}
                 <span className="text-orange-400">Denton</span>
-                {" "}— Auto, Car &amp; Van Services 24/7
+                {" "}â€” Auto, Car &amp; Van Services 24/7
               </h1>
 
               <p className="text-xl text-gray-300 mb-4 leading-relaxed">
@@ -155,7 +155,7 @@ export default function DentonPage() {
                   { icon: <Shield className="w-6 h-6 text-orange-400 mx-auto mb-2" />, label: "Fully Insured" },
                   { icon: <Clock className="w-6 h-6 text-orange-400 mx-auto mb-2" />, label: "20 Min Response" },
                   { icon: <MapPin className="w-6 h-6 text-orange-400 mx-auto mb-2" />, label: "No Call-Out Fee" },
-                  { icon: <Star className="w-6 h-6 text-orange-400 mx-auto mb-2" />, label: "5★ Rated" },
+                  { icon: <Star className="w-6 h-6 text-orange-400 mx-auto mb-2" />, label: "5â˜… Rated" },
                 ].map(({ icon, label }) => (
                   <div key={label} className="card text-center text-sm font-semibold">
                     {icon}
@@ -167,7 +167,7 @@ export default function DentonPage() {
           </div>
         </section>
 
-        {/* ── About ────────────────────────────────────────────────────────── */}
+        {/* â”€â”€ About â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
         <section className="section-padding bg-slate-800">
           <div className="container-custom">
             <div className="grid lg:grid-cols-3 gap-8">
@@ -175,11 +175,11 @@ export default function DentonPage() {
               {/* Main content */}
               <article className="lg:col-span-2 space-y-8">
                 <h2 className="text-3xl font-bold">
-                  Car Locksmith in Denton — Why Choose Us?
+                  Car Locksmith in Denton â€” Why Choose Us?
                 </h2>
                 <p className="text-gray-300 text-lg leading-relaxed">
                   Whether you need an auto locksmith on Ashton Road, car keys programmed near Crown Point Retail
-                  Park, or van lockout assistance on Hyde Road — we&apos;re with you in 20 minutes. Our mobile
+                  Park, or van lockout assistance on Hyde Road â€” we&apos;re with you in 20 minutes. Our mobile
                   locksmith covers all of Denton SK14, from Denton town centre to Audenshaw Road and Manchester
                   Road. We handle all car and van makes and models, with keys cut and programmed on-site.
                   Transparent pricing, no hidden fees, and a fully insured professional service every time.
@@ -189,7 +189,7 @@ export default function DentonPage() {
                   <h3 className="text-2xl font-bold mb-4">Services Available in Denton</h3>
                   <ul className="space-y-3">
                     {[
-                      { label: "Car key replacement — all makes and models", href: "/services/car-key-replacement" },
+                      { label: "Car key replacement â€” all makes and models", href: "/services/car-key-replacement" },
                       { label: "Emergency 24/7 car & van lockout assistance", href: "/services/lockout-assistance" },
                       { label: "Key fob and remote key programming", href: "/services/key-fob-programming" },
                       { label: "Van lockout and van key replacement", href: "/services/van-lockout" },
@@ -237,7 +237,7 @@ export default function DentonPage() {
                   <h3 className="text-2xl font-bold mb-3">A Local Locksmith You Can Trust</h3>
                   <p className="text-gray-300 leading-relaxed">
                     Car Keys Stockport is a fully insured, mobile auto locksmith covering Denton SK14 and the
-                    wider Tameside area. We offer cheap, transparent pricing — you get a fixed price before work
+                    wider Tameside area. We offer cheap, transparent pricing â€” you get a fixed price before work
                     starts, with no call-out fee and no hidden charges. Available 24/7, including evenings,
                     weekends and bank holidays. Call 07309903243 any time.
                   </p>
@@ -255,7 +255,7 @@ export default function DentonPage() {
                         { label: "Area:", value: "Denton SK14" },
                         { label: "Response time:", value: "20 minutes" },
                         { label: "Available:", value: "24/7" },
-                        { label: "Service type:", value: "Mobile — we come to you" },
+                        { label: "Service type:", value: "Mobile â€” we come to you" },
                         { label: "Call-out fee:", value: "None" },
                         { label: "Insurance:", value: "Fully insured" },
                       ].map(({ label, value }) => (
@@ -297,7 +297,7 @@ export default function DentonPage() {
                       ].map((s) => (
                         <li key={s.name}>
                           <Link href={s.href} className="text-orange-400 hover:text-orange-300 transition-colors">
-                            {s.name} →
+                            {s.name} â†’
                           </Link>
                         </li>
                       ))}
@@ -309,11 +309,11 @@ export default function DentonPage() {
           </div>
         </section>
 
-        {/* ── FAQ ──────────────────────────────────────────────────────────── */}
+        {/* â”€â”€ FAQ â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
         <section className="section-padding">
           <div className="container-custom">
             <h2 className="text-3xl font-bold mb-8 text-center">
-              Denton Auto Locksmith — Frequently Asked Questions
+              Denton Auto Locksmith â€” Frequently Asked Questions
             </h2>
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {faqItems.map((item, i) => (
@@ -326,7 +326,7 @@ export default function DentonPage() {
           </div>
         </section>
 
-        {/* ── Nearby Areas ─────────────────────────────────────────────────── */}
+        {/* â”€â”€ Nearby Areas â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
         <section className="section-padding bg-slate-800">
           <div className="container-custom">
             <h2 className="text-3xl font-bold mb-4 text-center">
@@ -348,7 +348,7 @@ export default function DentonPage() {
                     {area.postcode && <span className="text-gray-400 text-sm">{area.postcode}</span>}
                   </div>
                   <p className="text-gray-300 text-sm">
-                    Auto locksmith — {area.response} response
+                    Auto locksmith â€” {area.response} response
                   </p>
                 </Link>
               ))}
@@ -358,7 +358,7 @@ export default function DentonPage() {
               >
                 <div className="flex items-center justify-between mb-1">
                   <span className="font-bold text-orange-400">All Stockport Areas</span>
-                  <span className="text-gray-400 text-sm">→</span>
+                  <span className="text-gray-400 text-sm">â†’</span>
                 </div>
                 <p className="text-gray-300 text-sm">View the full Stockport coverage map</p>
               </Link>
@@ -366,7 +366,7 @@ export default function DentonPage() {
           </div>
         </section>
 
-        {/* ── CTA ──────────────────────────────────────────────────────────── */}
+        {/* â”€â”€ CTA â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
         <section className="section-padding bg-gradient-to-br from-orange-600 to-orange-700">
           <div className="container-custom text-center">
             <h2 className="text-4xl font-bold mb-4">
@@ -391,12 +391,12 @@ export default function DentonPage() {
           </div>
         </section>
 
-        {/* ── Back link ────────────────────────────────────────────────────── */}
+        {/* â”€â”€ Back link â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
         <section className="py-8 bg-slate-800">
           <div className="container-custom text-center">
             <p className="text-gray-300">
               <Link href="/areas/stockport" className="text-orange-400 hover:text-orange-300 font-semibold">
-                ← Back to all Stockport service areas
+                â† Back to all Stockport service areas
               </Link>
             </p>
           </div>

@@ -1,7 +1,7 @@
 // app/faq/page.jsx
 import React from "react";
 export const metadata = {
-    title: "FAQ – Car Keys Stockport",
+    title: "FAQ â€“ Car Keys Stockport",
     description:
       "Frequently Asked Questions about car key replacement, lockout assistance, ignition repair, and remote key fobs in Stockport. Fast, mobile service available 24/7.",
   };
@@ -61,7 +61,7 @@ export const metadata = {
         {/* Call to Action */}
         <section className="mt-8">
           <p className="text-lg leading-relaxed">
-            Have a question that’s not listed here? <strong>Call us now</strong> or use our contact form,
+            Have a question thatâ€™s not listed here? <strong>Call us now</strong> or use our contact form,
             and our team will assist you immediately.
           </p>
         </section>

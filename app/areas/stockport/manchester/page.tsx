@@ -118,7 +118,7 @@ export default function ManchesterPage() {
                 </div>
                 <div className="card">
                   <Star className="w-6 h-6 text-orange-400 mx-auto mb-2" aria-hidden="true" />
-                  <div className="text-sm font-semibold">5★ Rated</div>
+                  <div className="text-sm font-semibold">5â˜… Rated</div>
                 </div>
               </div>
             </div>

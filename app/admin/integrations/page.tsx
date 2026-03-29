@@ -55,7 +55,7 @@ export default function Integrations() {
                 </div>
                 <div>
                   <p className="text-sm font-medium text-foreground">{site.name}</p>
-                  <p className="text-xs text-muted-foreground">{site.submissions} submissions · Last: {site.lastSubmission}</p>
+                  <p className="text-xs text-muted-foreground">{site.submissions} submissions Â· Last: {site.lastSubmission}</p>
                 </div>
               </div>
               <div className="flex items-center gap-2">
@@ -76,11 +76,11 @@ export default function Integrations() {
         <p className="text-xs text-muted-foreground mb-4">Map incoming form fields to your dashboard fields</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {[
-            "Name → customer_name",
-            "Email → customer_email",
-            "Phone → customer_phone",
-            "Service → service_type",
-            "Message → description",
+            "Name â†’ customer_name",
+            "Email â†’ customer_email",
+            "Phone â†’ customer_phone",
+            "Service â†’ service_type",
+            "Message â†’ description",
           ].map((mapping) => (
             <div key={mapping} className="flex items-center gap-2 p-2.5 rounded-lg bg-muted/30 text-sm text-muted-foreground font-mono text-xs">
               {mapping}

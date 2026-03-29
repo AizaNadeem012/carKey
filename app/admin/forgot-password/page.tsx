@@ -131,7 +131,7 @@ export default function ChangePassword() {
                     value={formData.oldPassword}
                     onChange={(e) => setFormData({ ...formData, oldPassword: e.target.value })}
                     className="w-full pl-12 pr-4 py-3 bg-white/5 border border-white/20 rounded-lg focus:outline-none focus:border-orange-400 text-white placeholder-gray-400"
-                    placeholder="••••••••"
+                    placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢"
                   />
                 </div>
               </div>
@@ -174,7 +174,7 @@ export default function ChangePassword() {
                     value={formData.newPassword}
                     onChange={(e) => setFormData({ ...formData, newPassword: e.target.value })}
                     className="w-full pl-12 pr-4 py-3 bg-white/5 border border-white/20 rounded-lg focus:outline-none focus:border-green-400 text-white placeholder-gray-400"
-                    placeholder="••••••••"
+                    placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢"
                   />
                 </div>
                 <p className="text-xs text-gray-400 mt-2">Must be at least 6 characters</p>
@@ -194,7 +194,7 @@ export default function ChangePassword() {
                     value={formData.confirmPassword}
                     onChange={(e) => setFormData({ ...formData, confirmPassword: e.target.value })}
                     className="w-full pl-12 pr-4 py-3 bg-white/5 border border-white/20 rounded-lg focus:outline-none focus:border-green-400 text-white placeholder-gray-400"
-                    placeholder="••••••••"
+                    placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢"
                   />
                 </div>
               </div>
@@ -217,7 +217,7 @@ export default function ChangePassword() {
 
           {/* Info Box */}
           <div className="mt-6 p-4 bg-blue-500/20 rounded-lg border border-blue-500/30">
-            <p className="text-xs text-blue-200 mb-2 font-semibold">🔒 Security Notice:</p>
+            <p className="text-xs text-blue-200 mb-2 font-semibold">ðŸ”’ Security Notice:</p>
             <p className="text-xs text-blue-300">
               Enter your current credentials to verify your identity, then set your new username and password.
             </p>

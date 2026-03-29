@@ -78,7 +78,7 @@ export default function MobileNav() {
             className="text-white/50 hover:text-white hover:bg-slate-700 px-3 py-2 rounded transition-colors block text-sm flex items-center gap-2"
             onClick={closeMenu}
           >
-            🔒 Admin Login
+            ðŸ”’ Admin Login
           </Link>
           <div className="border-t border-slate-600 my-2" />
           <a

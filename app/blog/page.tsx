@@ -39,7 +39,7 @@ export const metadata = {
               <strong>Remote Key Fobs & Transponders:</strong> We repair, replace, and program remote key fobs for all vehicles.
             </li>
             <li>
-              <strong>Ignition Repair & Replacement:</strong> Avoid expensive towing – we fix ignition issues on-site.
+              <strong>Ignition Repair & Replacement:</strong> Avoid expensive towing â€“ we fix ignition issues on-site.
             </li>
           </ul>
         </section>
@@ -48,7 +48,7 @@ export const metadata = {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Why Choose Us?</h2>
           <ul className="list-disc list-inside space-y-2">
-            <li><strong>Fast Response:</strong> Mobile service across Stockport – we come to you.</li>
+            <li><strong>Fast Response:</strong> Mobile service across Stockport â€“ we come to you.</li>
             <li><strong>Insurance Approved:</strong> Safe and secure services accepted by all major insurers.</li>
             <li><strong>Expert Technicians:</strong> Trained professionals with years of experience.</li>
             <li><strong>Affordable Prices:</strong> Transparent pricing with no hidden fees.</li>

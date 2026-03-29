@@ -132,7 +132,7 @@ function ResetPasswordForm() {
                   value={formData.newPassword}
                   onChange={(e) => setFormData({ ...formData, newPassword: e.target.value })}
                   className="w-full pl-12 pr-4 py-3 bg-white/5 border border-white/20 rounded-lg focus:outline-none focus:border-orange-400 text-white placeholder-gray-400"
-                  placeholder="••••••••"
+                  placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢"
                 />
               </div>
               <p className="text-xs text-gray-400 mt-2">Must be at least 6 characters</p>
@@ -152,7 +152,7 @@ function ResetPasswordForm() {
                   value={formData.confirmPassword}
                   onChange={(e) => setFormData({ ...formData, confirmPassword: e.target.value })}
                   className="w-full pl-12 pr-4 py-3 bg-white/5 border border-white/20 rounded-lg focus:outline-none focus:border-orange-400 text-white placeholder-gray-400"
-                  placeholder="••••••••"
+                  placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢"
                 />
               </div>
             </div>
@@ -174,12 +174,12 @@ function ResetPasswordForm() {
 
           {/* Security Tips */}
           <div className="mt-6 p-4 bg-blue-500/20 rounded-lg border border-blue-500/30">
-            <p className="text-xs text-blue-200 mb-2 font-semibold">🔒 Security Tips:</p>
+            <p className="text-xs text-blue-200 mb-2 font-semibold">ðŸ”’ Security Tips:</p>
             <ul className="text-xs text-blue-300 space-y-1">
-              <li>• Use at least 6 characters</li>
-              <li>• Mix uppercase and lowercase letters</li>
-              <li>• Add numbers and special characters</li>
-              <li>• Don't reuse old passwords</li>
+              <li>â€¢ Use at least 6 characters</li>
+              <li>â€¢ Mix uppercase and lowercase letters</li>
+              <li>â€¢ Add numbers and special characters</li>
+              <li>â€¢ Don't reuse old passwords</li>
             </ul>
           </div>
         </div>

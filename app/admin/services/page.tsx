@@ -230,7 +230,7 @@ export default function Services() {
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 pb-4 border-b border-border/50">
         <div>
           <h1 className="text-2xl font-bold text-foreground tracking-tight flex items-center gap-3">
-            <span className="p-2 bg-primary/10 rounded-lg">🛠️</span>
+            <span className="p-2 bg-primary/10 rounded-lg">ðŸ› ï¸</span>
             Services
           </h1>
           <p className="text-sm text-muted-foreground mt-2 flex items-center gap-2">
@@ -252,7 +252,7 @@ export default function Services() {
           <DialogContent className="bg-card border-border max-w-md">
             <DialogHeader>
               <DialogTitle className="text-foreground flex items-center gap-2">
-                <span className="text-xl">{editingService ? "✏️" : "➕"}</span>
+                <span className="text-xl">{editingService ? "âœï¸" : "âž•"}</span>
                 {editingService ? "Edit Service" : "Add New Service"}
               </DialogTitle>
             </DialogHeader>
@@ -271,7 +271,7 @@ export default function Services() {
                 </Select>
               </div>
               <div className="space-y-2">
-                <label className="text-sm font-medium text-foreground">Price (£)</label>
+                <label className="text-sm font-medium text-foreground">Price (Â£)</label>
                 <Input type="number" placeholder="150" value={form.price} onChange={e => setForm(f => ({ ...f, price: e.target.value }))} className="bg-muted/50 border-border focus:border-primary/50 focus:ring-primary/20" />
               </div>
               <div className="space-y-2">
@@ -279,7 +279,7 @@ export default function Services() {
                 <Input placeholder="Describe your service..." value={form.description} onChange={e => setForm(f => ({ ...f, description: e.target.value }))} className="bg-muted/50 border-border focus:border-primary/50 focus:ring-primary/20" />
               </div>
               <Button onClick={handleSave} className="w-full bg-gradient-to-r from-primary to-purple-600 hover:from-primary/90 hover:to-purple-600/90 text-white shadow-lg hover:shadow-xl transition-all duration-300">
-                {editingService ? "✓ Update Service" : "➕ Create Service"}
+                {editingService ? "âœ“ Update Service" : "âž• Create Service"}
               </Button>
             </div>
           </DialogContent>
@@ -289,7 +289,7 @@ export default function Services() {
       <div className="flex flex-col sm:flex-row gap-3 bg-muted/30 p-4 rounded-lg border border-border/50">
         <div className="relative flex-1">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-          <Input placeholder="🔍 Search services..." value={search} onChange={e => setSearch(e.target.value)} className="pl-9 bg-background/50 border-border focus:border-primary/50 focus:ring-primary/20" />
+          <Input placeholder="ðŸ” Search services..." value={search} onChange={e => setSearch(e.target.value)} className="pl-9 bg-background/50 border-border focus:border-primary/50 focus:ring-primary/20" />
         </div>
         <Select value={categoryFilter} onValueChange={setCategoryFilter}>
           <SelectTrigger className="w-full sm:w-48 bg-background/50 border-border focus:border-primary/50"><SelectValue /></SelectTrigger>
@@ -330,7 +330,7 @@ export default function Services() {
                       ? "bg-success/20 text-success border-success/30 shadow-sm shadow-success/20" 
                       : "bg-muted text-muted-foreground border-border"
                   }`}>
-                    {service.status === "active" ? "✓ Active" : "○ Inactive"}
+                    {service.status === "active" ? "âœ“ Active" : "â—‹ Inactive"}
                   </Badge>
                 </div>
                 
@@ -339,7 +339,7 @@ export default function Services() {
                 <div className="flex items-center justify-between pt-4 border-t border-border/50">
                   <div className="flex items-center gap-2">
                     <div className="p-2 bg-primary/10 rounded-lg">
-                      <span className="text-lg font-bold text-primary">£{service.price.toLocaleString()}</span>
+                      <span className="text-lg font-bold text-primary">Â£{service.price.toLocaleString()}</span>
                     </div>
                   </div>
                   

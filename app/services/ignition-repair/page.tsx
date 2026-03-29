@@ -38,7 +38,7 @@ export default function IgnitionRepairPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-6">Ignition Repair in Stockport</h1>
               <p className="text-xl text-gray-300 mb-8">
                 Struggling with a faulty or broken ignition? Our mobile locksmiths provide fast, professional ignition
-                repair services across Stockport. On-site repairs starting from £89.
+                repair services across Stockport. On-site repairs starting from Â£89.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -122,7 +122,7 @@ export default function IgnitionRepairPage() {
                     "Audi","BMW","Mercedes-Benz","Volkswagen","Ford","Vauxhall","Toyota",
                     "Honda","Nissan","Hyundai","Kia","Peugeot","Renault","Citroen","Fiat"
                   ].map((make, index) => (
-                    <div key={index} className="text-gray-300">• {make}</div>
+                    <div key={index} className="text-gray-300">â€¢ {make}</div>
                   ))}
                 </div>
               </div>
@@ -136,15 +136,15 @@ export default function IgnitionRepairPage() {
                 <div className="space-y-3">
                   <div className="flex justify-between">
                     <span>Basic Ignition Repair</span>
-                    <span className="text-orange-400 font-bold">From £89</span>
+                    <span className="text-orange-400 font-bold">From Â£89</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Ignition Barrel Replacement</span>
-                    <span className="text-orange-400 font-bold">From £129</span>
+                    <span className="text-orange-400 font-bold">From Â£129</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Full Ignition Replacement</span>
-                    <span className="text-orange-400 font-bold">From £179</span>
+                    <span className="text-orange-400 font-bold">From Â£179</span>
                   </div>
                 </div>
               </div>
@@ -166,7 +166,7 @@ export default function IgnitionRepairPage() {
                 <h3 className="text-xl font-bold mb-4">Service Areas</h3>
                 <div className="space-y-1 text-sm">
                   {["Stockport", "Cheadle", "Bramhall", "Hazel Grove", "Marple"].map((area, index) => (
-                    <div key={index} className="text-gray-300">• {area}</div>
+                    <div key={index} className="text-gray-300">â€¢ {area}</div>
                   ))}
                 </div>
               </div>

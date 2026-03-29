@@ -3,7 +3,7 @@ import { ImageResponse } from "next/og"
 export const runtime = "edge"
 
 export const alt =
-  "Vikki Heaton — Female Auto Locksmith Stockport | Car Keys Stockport"
+  "Vikki Heaton â€” Female Auto Locksmith Stockport | Car Keys Stockport"
 
 export const size = { width: 1200, height: 630 }
 export const contentType = "image/png"
@@ -20,7 +20,7 @@ export default function OGImage() {
           fontFamily: "system-ui, sans-serif",
         }}
       >
-        {/* Left panel — photo placeholder with gradient overlay */}
+        {/* Left panel â€” photo placeholder with gradient overlay */}
         <div
           style={{
             display: "flex",
@@ -51,7 +51,7 @@ export default function OGImage() {
           />
         </div>
 
-        {/* Right panel — branding */}
+        {/* Right panel â€” branding */}
         <div
           style={{
             display: "flex",
@@ -131,7 +131,7 @@ export default function OGImage() {
               { value: "24/7", label: "Available" },
               { value: "25min", label: "Response" },
               { value: "No Fee", label: "Call-Out" },
-              { value: "5★", label: "Rated" },
+              { value: "5â˜…", label: "Rated" },
             ].map(({ value, label }, i) => (
               <div
                 key={i}
@@ -168,7 +168,7 @@ export default function OGImage() {
               marginBottom: 20,
             }}
           >
-            📞 07309 903243
+            ðŸ“ž 07309 903243
           </div>
 
           {/* Location */}
