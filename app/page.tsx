@@ -443,15 +443,15 @@ export default function HomePage() {
                   </span>
                 </div>
 
-                {/* H1 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â personal brand authority */}
+                {/* H1 — personal brand authority */}
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
-                  <span className="text-orange-400">Vikki Heaton</span> ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ Stockport&apos;s Trusted Female Auto Locksmith Expert
+                  <span className="text-orange-400">Vikki Heaton</span> – Stockport&apos;s Trusted Female Auto Locksmith Expert
                 </h1>
 
-                {/* Subheading ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â matches emergency search intent */}
+                {/* Subheading — matches emergency search intent */}
                 <p className="text-lg sm:text-xl text-gray-300 mb-3 sm:mb-4 leading-relaxed">
                   Locked out or lost your car keys? I provide fast, affordable car key replacement and emergency lockout
-                  assistance across Stockport &amp; Greater Manchester ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â with same-day service.
+                  assistance across Stockport &amp; Greater Manchester — with same-day service.
                 </p>
 
                 {/* Price & speed hook */}
@@ -459,15 +459,15 @@ export default function HomePage() {
                   Replacement keys cut and programmed on-site. Fast arrival. Transparent pricing. No hidden charges.
                 </p>
 
-                {/* Service line ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â skimmable */}
+                {/* Service line — skimmable */}
                 <p className="text-sm sm:text-base text-gray-400 mb-2 leading-relaxed">
                   Car key replacement &bull; Emergency car lockouts &bull; Van locksmith services &bull; Ignition
                   repair &bull; Key fob programming
                 </p>
 
-                {/* Trust line ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â personal, no-call-centre differentiator */}
+                {/* Trust line — personal, no-call-centre differentiator */}
                 <p className="text-sm sm:text-base text-gray-400 mb-6 sm:mb-8 leading-relaxed">
-                  Fully insured &bull; Local Stockport specialist &bull; Speak directly to the locksmith ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â no call centres
+                  Fully insured &bull; Local Stockport specialist &bull; Speak directly to the locksmith — no call centres
                 </p>
 
                 {/* CTAs */}
@@ -479,7 +479,7 @@ export default function HomePage() {
                     style={{ minHeight: "48px" }}
                   >
                     <Phone className="w-5 h-5 flex-shrink-0" />
-                    ÃƒÂ°Ã…Â¸Ã¢â‚¬Å“Ã…Â¾ Call Vikki Now ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ Immediate Help
+                    📞 Call Vikki Now – Immediate Help
                   </a>
                   <Link
                     href="/contact"
@@ -491,9 +491,9 @@ export default function HomePage() {
                   </Link>
                 </div>
 
-                {/* Micro-conversion ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â removes pricing hesitation */}
+                {/* Micro-conversion — removes pricing hesitation */}
                 <p className="text-xs sm:text-sm text-gray-400 mb-6 sm:mb-8">
-                  Tell me your car make &amp; location ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â I&apos;ll give you a fixed price instantly.
+                  Tell me your car make &amp; location — I&apos;ll give you a fixed price instantly.
                 </p>
 
                 {/* Trust Indicators */}
