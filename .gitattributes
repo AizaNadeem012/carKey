@@ -1,0 +1,19 @@
+# Enforce UTF-8 encoding for all text files
+*.tsx working-tree-encoding=UTF-8
+*.ts working-tree-encoding=UTF-8
+*.js working-tree-encoding=UTF-8
+*.jsx working-tree-encoding=UTF-8
+*.css working-tree-encoding=UTF-8
+*.json working-tree-encoding=UTF-8
+*.html working-tree-encoding=UTF-8
+*.md working-tree-encoding=UTF-8
+
+# Binary files should remain binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
+*.woff binary
+*.woff2 binary
