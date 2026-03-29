@@ -39,6 +39,7 @@ export default function Orders() {
   const [selectedOrders, setSelectedOrders] = useState<Set<string>>(new Set())
   const [viewingOrder, setViewingOrder] = useState<Order | null>(null)
   const [viewingCustomerHistory, setViewingCustomerHistory] = useState<{email?: string, phone?: string} | null>(null)
+  const [visibleOrders, setVisibleOrders] = useState(10)
 
   useEffect(() => {
     fetchOrders()
@@ -53,6 +54,7 @@ export default function Orders() {
       const res = await fetch('/api/orders')
       const data = await res.json()
       setOrdersList(data.orders || [])
+      setVisibleOrders(10) // Reset to show first 10 on refresh
       setLoading(false)
     } catch (err) {
       console.error('Error fetching orders:', err)
@@ -162,7 +164,7 @@ export default function Orders() {
         </head>
         <body>
           <div class="header">
-            <div class="invoice-title">ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â°ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¹Ã…â€œ Car Keys Stockport - Invoice</div>
+            <div class="invoice-title">ðŸ”‘ Car Keys Stockport - Invoice</div>
             <div>Order #${order.id}</div>
             <div>Date: ${new Date(order.timestamp).toLocaleString()}</div>
           </div>
@@ -184,12 +186,12 @@ export default function Orders() {
             <tr>
               <td>${order.services}</td>
               <td>${serviceCount}</td>
-              <td>£150</td>
-              <td>£{amount}</td>
+              <td>Â£150</td>
+              <td>Â£${amount}</td>
             </tr>
           </table>
           
-          <div class="total">Total: £${amount}</div>
+          <div class="total">Total: Â£${amount}</div>
           
           <div style="margin-top: 40px; text-align: center; color: #999; font-size: 12px;">
             Thank you for choosing Car Keys Stockport!
@@ -229,46 +231,46 @@ export default function Orders() {
     <div className="space-y-6">
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
-          <h1 className="text-xl sm:text-2xl font-bold text-foreground tracking-tight">Orders</h1>
-          <p className="text-xs sm:text-sm text-muted-foreground mt-1">
+          <h1 className="text-2xl font-bold text-foreground tracking-tight">Orders</h1>
+          <p className="text-sm text-muted-foreground mt-1">
             Track and manage all orders from Google Sheets
-            {ordersList.length > 0 && ` • ${ordersList.length} order${ordersList.length !== 1 ? 's' : ''}`}
+            {ordersList.length > 0 && ` â€¢ ${ordersList.length} order${ordersList.length !== 1 ? 's' : ''}`}
           </p>
         </div>
         <div className="flex items-center gap-2 flex-wrap">
           <RevenueCalculator />
-          <Button onClick={fetchOrders} variant="outline" size="sm" className="border-border text-xs sm:text-sm">
-            <RefreshCw className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
-            <span className="hidden xs:inline">Refresh</span>
+          <Button onClick={fetchOrders} variant="outline" size="sm" className="border-border">
+            <RefreshCw className="h-4 w-4 mr-2" />
+            Refresh
           </Button>
-          <Button onClick={exportToCSV} variant="outline" className="border-border text-xs sm:text-sm">
-            <Download className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
-            <span className="hidden xs:inline">Export</span>
+          <Button onClick={exportToCSV} variant="outline" className="border-border">
+            <Download className="h-4 w-4 mr-2" />
+            Export CSV
           </Button>
         </div>
       </div>
 
       {/* Advanced Filters */}
-      <div className="glass-card p-3 sm:p-4 space-y-3 sm:space-y-4">
+      <div className="glass-card p-4 space-y-4">
         <div className="flex items-center gap-2 mb-2">
-          <Filter className="h-3 w-3 sm:h-4 sm:w-4 text-muted-foreground" />
-          <span className="text-xs sm:text-sm font-semibold text-foreground">Filters</span>
+          <Filter className="h-4 w-4 text-muted-foreground" />
+          <span className="text-sm font-semibold text-foreground">Advanced Filters</span>
         </div>
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2 sm:gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
           <div className="relative">
-            <Search className="absolute left-2.5 sm:left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 sm:h-4 sm:w-4 text-muted-foreground" />
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
             <Input 
               placeholder="Search..." 
               value={search} 
               onChange={e => setSearch(e.target.value)} 
-              className="pl-8 sm:pl-9 bg-muted/50 border-border text-xs sm:text-sm" 
+              className="pl-9 bg-muted/50 border-border" 
             />
           </div>
           
           <Select value={statusFilter} onValueChange={setStatusFilter}>
-            <SelectTrigger className="bg-muted/50 border-border text-xs sm:text-sm">
-              <SelectValue placeholder="Status" />
+            <SelectTrigger className="bg-muted/50 border-border">
+              <SelectValue placeholder="Filter by status" />
             </SelectTrigger>
             <SelectContent className="bg-card border-border">
               <SelectItem value="all">All Statuses</SelectItem>
@@ -280,8 +282,8 @@ export default function Orders() {
           </Select>
           
           <Select value={sortBy} onValueChange={setSortBy}>
-            <SelectTrigger className="bg-muted/50 border-border text-xs sm:text-sm">
-              <SelectValue placeholder="Sort" />
+            <SelectTrigger className="bg-muted/50 border-border">
+              <SelectValue placeholder="Sort by" />
             </SelectTrigger>
             <SelectContent className="bg-card border-border">
               <SelectItem value="newest">Newest First</SelectItem>
@@ -295,14 +297,16 @@ export default function Orders() {
             type="date" 
             value={dateFrom} 
             onChange={e => setDateFrom(e.target.value)} 
-            className="bg-muted/50 border-border text-xs sm:text-sm"
+            className="bg-muted/50 border-border"
+            placeholder="From date"
           />
           
           <Input 
             type="date" 
             value={dateTo} 
             onChange={e => setDateTo(e.target.value)} 
-            className="bg-muted/50 border-border text-xs sm:text-sm"
+            className="bg-muted/50 border-border"
+            placeholder="To date"
           />
         </div>
       </div>
@@ -321,36 +325,35 @@ export default function Orders() {
         <>
           {/* Bulk Actions Bar */}
           {selectedOrders.size > 0 && (
-            <div className="glass-card p-2.5 sm:p-3 bg-primary/10 border-primary/30 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 sm:gap-3 animate-in fade-in slide-in-from-top-2">
-              <div className="flex items-center gap-2 sm:gap-3">
+            <div className="glass-card p-3 bg-primary/10 border-primary/30 flex items-center justify-between animate-in fade-in slide-in-from-top-2">
+              <div className="flex items-center gap-3">
                 <Checkbox
                   checked={selectedOrders.size === filtered.length}
                   onCheckedChange={toggleSelectAll}
-                  className="flex-shrink-0"
                 />
-                <span className="text-xs sm:text-sm font-medium text-foreground">
+                <span className="text-sm font-medium text-foreground">
                   {selectedOrders.size} order{selectedOrders.size !== 1 ? 's' : ''} selected
                 </span>
               </div>
-              <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap">
-                <Button size="sm" variant="outline" className="h-7 sm:h-8 text-xs">
-                  <Printer className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
+              <div className="flex items-center gap-2">
+                <Button size="sm" variant="outline" className="h-8">
+                  <Printer className="h-3 w-3 mr-2" />
                   Print
                 </Button>
-                <Button size="sm" variant="outline" className="h-7 sm:h-8 text-xs">
-                  <Download className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
-                  Export
+                <Button size="sm" variant="outline" className="h-8">
+                  <Download className="h-3 w-3 mr-2" />
+                  Export Selected
                 </Button>
-                <Button size="sm" variant="destructive" className="h-7 sm:h-8 text-xs">
-                  Delete
+                <Button size="sm" variant="destructive" className="h-8">
+                  Delete Selected
                 </Button>
               </div>
             </div>
           )}
 
-          <div className="glass-card">
-            {/* Desktop Table View */}
-            <div className="hidden md:block w-full overflow-x-auto">
+          {/* Desktop Table View - Hidden on Mobile/Tablet */}
+          <div className="hidden lg:block glass-card">
+            <div className="w-full overflow-hidden">
               <table className="w-full">
                 <thead>
                   <tr className="border-b border-border">
@@ -362,16 +365,16 @@ export default function Orders() {
                     </th>
                     <th className="text-left text-xs font-medium text-muted-foreground uppercase tracking-wider px-2 py-3 w-[8%]">Order</th>
                     <th className="text-left text-xs font-medium text-muted-foreground uppercase tracking-wider px-2 py-3 w-[12%]">Customer</th>
-                    <th className="text-left text-xs font-medium text-muted-foreground uppercase tracking-wider px-2 py-3 w-[20%] hidden md:table-cell">Services & Details</th>
-                    <th className="text-left text-xs font-medium text-muted-foreground uppercase tracking-wider px-2 py-3 w-[15%] hidden lg:table-cell">Contact</th>
-                    <th className="text-left text-xs font-medium text-muted-foreground uppercase tracking-wider px-2 py-3 w-[15%] hidden xl:table-cell">Address</th>
+                    <th className="text-left text-xs font-medium text-muted-foreground uppercase tracking-wider px-2 py-3 w-[20%]">Services & Details</th>
+                    <th className="text-left text-xs font-medium text-muted-foreground uppercase tracking-wider px-2 py-3 w-[15%]">Contact</th>
+                    <th className="text-left text-xs font-medium text-muted-foreground uppercase tracking-wider px-2 py-3 w-[15%]">Address</th>
                     <th className="text-left text-xs font-medium text-muted-foreground uppercase tracking-wider px-2 py-3 w-[10%]">Status</th>
                     <th className="text-right text-xs font-medium text-muted-foreground uppercase tracking-wider px-2 py-3 w-[10%]">Amount</th>
                     <th className="text-right text-xs font-medium text-muted-foreground uppercase tracking-wider px-2 py-3 w-[5%]">Actions</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {filtered.map((order) => {
+                  {filtered.slice(0, visibleOrders).map((order) => {
                     const serviceCount = order.services.split(',').filter(s => s.trim()).length
                     const amount = serviceCount * 150
                     
@@ -404,13 +407,13 @@ export default function Orders() {
                             </div>
                           </div>
                         </td>
-                        <td className="px-2 py-3.5 hidden md:table-cell">
+                        <td className="px-2 py-3.5">
                           <p className="text-sm font-medium text-foreground line-clamp-2" title={order.services}>{order.services}</p>
                           {order.additionalDescription && (
                             <p className="text-xs text-muted-foreground truncate mt-1" title={order.additionalDescription}>{order.additionalDescription}</p>
                           )}
                         </td>
-                        <td className="px-2 py-3.5 hidden lg:table-cell">
+                        <td className="px-2 py-3.5">
                           <div className="space-y-1">
                             {order.email && (
                               <a href={`mailto:${order.email}`} className="flex items-center gap-1 text-xs text-blue-600 hover:underline">
@@ -426,7 +429,7 @@ export default function Orders() {
                             )}
                           </div>
                         </td>
-                        <td className="px-2 py-3.5 hidden xl:table-cell">
+                        <td className="px-2 py-3.5">
                           <div className="flex items-center gap-1 text-sm text-foreground">
                             <MapPin className="h-3 w-3 text-muted-foreground" />
                             <span className="truncate" title={order.address}>{order.address || 'N/A'}</span>
@@ -437,7 +440,7 @@ export default function Orders() {
                             {order.status === 'in_progress' ? 'In Progress' : order.status.charAt(0).toUpperCase() + order.status.slice(1)}
                           </Badge>
                         </td>
-                        <td className="px-2 py-3.5 text-right">
+                        <td className="px-5 py-3.5 text-right">
                           <p className="text-sm font-bold text-foreground">£{amount.toLocaleString()}</p>
                           <p className="text-xs text-muted-foreground">{serviceCount} service{serviceCount !== 1 ? 's' : ''}</p>
                         </td>
@@ -478,118 +481,142 @@ export default function Orders() {
                 </tbody>
               </table>
             </div>
+          </div>
 
-            {/* Mobile Card View */}
-            <div className="md:hidden space-y-3 p-3">
-              {filtered.map((order) => {
-                const serviceCount = order.services.split(',').filter(s => s.trim()).length
-                const amount = serviceCount * 150
-                
-                return (
-                  <div key={order.id} className="bg-card/50 border border-border rounded-lg p-3 space-y-2.5">
-                    {/* Header Row */}
-                    <div className="flex items-start justify-between gap-2">
-                      <div className="flex items-center gap-2 flex-1 min-w-0">
-                        <Checkbox
-                          checked={selectedOrders.has(order.id)}
-                          onCheckedChange={() => toggleSelectOrder(order.id)}
-                          className="flex-shrink-0 mt-0.5"
-                        />
-                        <div className="flex-1 min-w-0">
-                          <p className="text-xs font-mono font-medium text-foreground truncate">{order.id}</p>
-                          <p className="text-[10px] text-muted-foreground">
-                            {new Date(order.timestamp).toLocaleDateString()} • {new Date(order.timestamp).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
-                          </p>
+          {/* Mobile/Tablet Card View */}
+          <div className="lg:hidden space-y-3">
+            {filtered.slice(0, visibleOrders).map((order) => {
+              const serviceCount = order.services.split(',').filter(s => s.trim()).length
+              const amount = serviceCount * 150
+              
+              return (
+                <div key={order.id} className="glass-card p-4 space-y-3">
+                  {/* Header */}
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="flex items-center gap-3 flex-1">
+                      <Checkbox
+                        checked={selectedOrders.has(order.id)}
+                        onCheckedChange={() => toggleSelectOrder(order.id)}
+                      />
+                      <div className="flex-1">
+                        <div className="flex items-center gap-2">
+                          <p className="font-mono font-semibold text-foreground">#{order.id}</p>
+                          <Badge className={getStatusBadgeClass(order.status)}>
+                            {order.status === 'in_progress' ? 'In Progress' : order.status.charAt(0).toUpperCase() + order.status.slice(1)}
+                          </Badge>
                         </div>
-                      </div>
-                      <Badge className={getStatusBadgeClass(order.status)} variant="outline">
-                        {order.status === 'in_progress' ? 'In Progress' : order.status.charAt(0).toUpperCase() + order.status.slice(1)}
-                      </Badge>
-                    </div>
-
-                    {/* Customer Name */}
-                    <div className="flex items-center gap-2 text-sm">
-                      <User className="h-3.5 w-3.5 text-muted-foreground flex-shrink-0" />
-                      <span className="font-medium text-foreground truncate">
-                        {order.firstName} {order.lastName}
-                      </span>
-                    </div>
-
-                    {/* Services */}
-                    <div className="space-y-1">
-                      <div className="flex items-start gap-2">
-                        <ClipboardList className="h-3.5 w-3.5 text-muted-foreground flex-shrink-0 mt-0.5" />
-                        <div className="flex-1 min-w-0">
-                          <p className="text-xs font-medium text-foreground line-clamp-2">{order.services}</p>
-                          {order.additionalDescription && (
-                            <p className="text-[10px] text-muted-foreground mt-0.5 line-clamp-2">{order.additionalDescription}</p>
-                          )}
-                        </div>
+                        <p className="text-xs text-muted-foreground mt-1">
+                          {new Date(order.timestamp).toLocaleDateString()} • {new Date(order.timestamp).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
+                        </p>
                       </div>
                     </div>
-
-                    {/* Contact Links */}
-                    <div className="grid grid-cols-2 gap-2">
-                      {order.email && (
-                        <a href={`mailto:${order.email}`} className="flex items-center gap-1.5 text-xs text-blue-600 hover:underline truncate">
-                          <Mail className="h-3 w-3 flex-shrink-0" />
-                          <span className="truncate">{order.email}</span>
-                        </a>
-                      )}
-                      {order.phoneNumber && (
-                        <a href={`tel:${order.phoneNumber}`} className="flex items-center gap-1.5 text-xs text-blue-600 hover:underline truncate">
-                          <Phone className="h-3 w-3 flex-shrink-0" />
-                          <span className="truncate">{order.phoneNumber}</span>
-                        </a>
-                      )}
-                    </div>
-
-                    {/* Address - Only if present */}
-                    {order.address && (
-                      <div className="flex items-start gap-2">
-                        <MapPin className="h-3.5 w-3.5 text-muted-foreground flex-shrink-0 mt-0.5" />
-                        <span className="text-xs text-foreground line-clamp-2">{order.address}</span>
-                      </div>
-                    )}
-
-                    {/* Footer Row - Amount & Actions */}
-                    <div className="flex items-center justify-between gap-2 pt-2 border-t border-border/50">
-                      <div>
-                        <p className="text-sm font-bold text-foreground">£{amount.toLocaleString()}</p>
-                        <p className="text-[10px] text-muted-foreground">{serviceCount} service{serviceCount !== 1 ? 's' : ''}</p>
-                      </div>
-                      <div className="flex items-center gap-1">
-                        <Button
-                          size="sm"
-                          variant="ghost"
-                          onClick={() => setViewingCustomerHistory({ email: order.email, phone: order.phoneNumber })}
-                          className="h-7 w-7 p-0 hover:bg-blue-500/10 hover:text-blue-500"
-                        >
-                          <History className="h-3.5 w-3.5" />
-                        </Button>
-                        <Button
-                          size="sm"
-                          variant="ghost"
-                          onClick={() => setViewingOrder(order)}
-                          className="h-7 w-7 p-0 hover:bg-primary/10 hover:text-primary"
-                        >
-                          <Eye className="h-3.5 w-3.5" />
-                        </Button>
-                        <Button
-                          size="sm"
-                          variant="ghost"
-                          onClick={() => printOrder(order)}
-                          className="h-7 w-7 p-0 hover:bg-primary/10 hover:text-primary"
-                        >
-                          <Printer className="h-3.5 w-3.5" />
-                        </Button>
-                      </div>
+                    <div className="text-right">
+                      <p className="text-lg font-bold text-primary">£{amount.toLocaleString()}</p>
+                      <p className="text-xs text-muted-foreground">{serviceCount} service{serviceCount !== 1 ? 's' : ''}</p>
                     </div>
                   </div>
-                )
-              })}
-            </div>
+
+                  {/* Customer Info */}
+                  <div className="pt-2 border-t border-border/50">
+                    <div className="flex items-center gap-2 mb-2">
+                      <User className="h-4 w-4 text-primary" />
+                      <p className="text-sm font-medium text-foreground">{order.firstName} {order.lastName}</p>
+                    </div>
+                    <div className="space-y-1 ml-6">
+                      {order.phoneNumber && (
+                        <a href={`tel:${order.phoneNumber}`} className="flex items-center gap-1 text-xs text-blue-600 hover:underline">
+                          <Phone className="h-3 w-3" />
+                          {order.phoneNumber}
+                        </a>
+                      )}
+                      {order.email && (
+                        <a href={`mailto:${order.email}`} className="flex items-center gap-1 text-xs text-blue-600 hover:underline">
+                          <Mail className="h-3 w-3" />
+                          {order.email}
+                        </a>
+                      )}
+                    </div>
+                  </div>
+
+                  {/* Services */}
+                  <div className="pt-2 border-t border-border/50">
+                    <p className="text-xs text-muted-foreground mb-1">Services</p>
+                    <p className="text-sm font-medium text-foreground line-clamp-2">{order.services}</p>
+                    {order.additionalDescription && (
+                      <p className="text-xs text-muted-foreground mt-1 line-clamp-2">{order.additionalDescription}</p>
+                    )}
+                  </div>
+
+                  {/* Address */}
+                  {order.address && (
+                    <div className="pt-2 border-t border-border/50">
+                      <div className="flex items-center gap-2">
+                        <MapPin className="h-4 w-4 text-muted-foreground" />
+                        <p className="text-sm text-foreground">{order.address}</p>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Actions */}
+                  <div className="pt-2 border-t border-border/50 flex items-center gap-2">
+                    <Button
+                      size="sm"
+                      variant="outline"
+                      onClick={() => setViewingCustomerHistory({ email: order.email, phone: order.phoneNumber })}
+                      className="flex-1 h-9"
+                    >
+                      <History className="h-4 w-4 mr-2" />
+                      History
+                    </Button>
+                    <Button
+                      size="sm"
+                      variant="outline"
+                      onClick={() => setViewingOrder(order)}
+                      className="flex-1 h-9"
+                    >
+                      <Eye className="h-4 w-4 mr-2" />
+                      View
+                    </Button>
+                    <Button
+                      size="sm"
+                      variant="outline"
+                      onClick={() => printOrder(order)}
+                      className="flex-1 h-9"
+                    >
+                      <Printer className="h-4 w-4 mr-2" />
+                      Print
+                    </Button>
+                  </div>
+                </div>
+              )
+            })}
           </div>
+
+          {/* Show More Button */}
+          {visibleOrders < filtered.length && (
+            <div className="flex justify-center pt-4">
+              <Button
+                onClick={() => setVisibleOrders(prev => prev + 10)}
+                variant="outline"
+                className="w-full max-w-md h-12 text-base"
+              >
+                Show More Orders ({filtered.length - visibleOrders} remaining)
+              </Button>
+            </div>
+          )}
+
+          {/* Show Less Button (when more than 10 orders are visible) */}
+          {visibleOrders > 10 && (
+            <div className="flex justify-center pt-2">
+              <Button
+                onClick={() => setVisibleOrders(10)}
+                variant="ghost"
+                className="h-10"
+              >
+                Show Less
+              </Button>
+            </div>
+          )}
         </>
       )}
 
@@ -627,7 +654,7 @@ export default function Orders() {
                 <div>
                   <p className="text-xs text-muted-foreground mb-1">Total Amount</p>
                   <p className="text-lg font-bold text-primary">
-                    £{(viewingOrder.services.split(',').filter(s => s.trim()).length * 150).toLocaleString()}
+                    Â£{(viewingOrder.services.split(',').filter(s => s.trim()).length * 150).toLocaleString()}
                   </p>
                 </div>
               </div>

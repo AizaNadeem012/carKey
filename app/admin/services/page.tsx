@@ -271,7 +271,7 @@ export default function Services() {
                 </Select>
               </div>
               <div className="space-y-2">
-                <label className="text-sm font-medium text-foreground">Price (ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£)</label>
+                <label className="text-sm font-medium text-foreground">Price (£)</label>
                 <Input type="number" placeholder="150" value={form.price} onChange={e => setForm(f => ({ ...f, price: e.target.value }))} className="bg-muted/50 border-border focus:border-primary/50 focus:ring-primary/20" />
               </div>
               <div className="space-y-2">
@@ -339,7 +339,7 @@ export default function Services() {
                 <div className="flex items-center justify-between pt-4 border-t border-border/50">
                   <div className="flex items-center gap-2">
                     <div className="p-2 bg-primary/10 rounded-lg">
-                      <span className="text-lg font-bold text-primary">ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£{service.price.toLocaleString()}</span>
+                      <span className="text-lg font-bold text-primary">£{service.price.toLocaleString()}</span>
                     </div>
                   </div>
                   

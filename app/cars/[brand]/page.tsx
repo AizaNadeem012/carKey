@@ -115,7 +115,7 @@ const localBusinessSchema = {
     "@id": "https://carkeysinstockport.co.uk/about#vikki-heaton",
     name: "Vikki Heaton",
   },
-  priceRange: "ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£",
+  priceRange: "££",
   openingHoursSpecification: {
     "@type": "OpeningHoursSpecification",
     dayOfWeek: [

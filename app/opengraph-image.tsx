@@ -3,7 +3,7 @@ import { ImageResponse } from "next/og"
 export const runtime = "edge"
 
 export const alt =
-  "Vikki Heaton ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Female Auto Locksmith Stockport | Car Keys Stockport"
+  "Vikki Heaton — Female Auto Locksmith Stockport | Car Keys Stockport"
 
 export const size = { width: 1200, height: 630 }
 export const contentType = "image/png"
@@ -20,7 +20,7 @@ export default function OGImage() {
           fontFamily: "system-ui, sans-serif",
         }}
       >
-        {/* Left panel ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â photo placeholder with gradient overlay */}
+        {/* Left panel — photo placeholder with gradient overlay */}
         <div
           style={{
             display: "flex",
@@ -51,7 +51,7 @@ export default function OGImage() {
           />
         </div>
 
-        {/* Right panel ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â branding */}
+        {/* Right panel — branding */}
         <div
           style={{
             display: "flex",
@@ -131,7 +131,7 @@ export default function OGImage() {
               { value: "24/7", label: "Available" },
               { value: "25min", label: "Response" },
               { value: "No Fee", label: "Call-Out" },
-              { value: "5ÃƒÆ’Ã‚Â¢Ãƒâ€¹Ã…â€œÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦", label: "Rated" },
+              { value: "5.0⭐", label: "Rated" },
             ].map(({ value, label }, i) => (
               <div
                 key={i}
@@ -168,7 +168,7 @@ export default function OGImage() {
               marginBottom: 20,
             }}
           >
-            ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒâ€¦Ã‚Â¾ 07309 903243
+            📞 07309 903243
           </div>
 
           {/* Location */}

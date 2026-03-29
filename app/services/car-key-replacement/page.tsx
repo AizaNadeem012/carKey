@@ -9,7 +9,7 @@ import { serviceSchema, faqSchema } from "@/lib/schema"
 import { Phone, Clock, Shield, CheckCircle, Star } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Car Key Replacement Stockport | Cut & Programmed On-Site | From ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£89 | 25 Min Response",
+  title: "Car Key Replacement Stockport | Cut & Programmed On-Site | From £89 | 25 Min Response",
   description:
     "Professional car key replacement in Stockport & Greater Manchester. Lost, stolen, broken keys cut and programmed on-site for all makes and models. 25-min response. No call-out fee. Fully insured. Call 07309903243",
   keywords: "car key replacement, car key lost, broken car key, car key programming, auto key replacement Stockport",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Car Key Replacement Stockport | Professional On-Site Service",
-    description: "Lost your car key? We cut and program new keys on-site. From ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£89. 25-min response. Call 07309903243",
+    description: "Lost your car key? We cut and program new keys on-site. From £89. 25-min response. Call 07309903243",
     url: "https://carkeysinstockport.co.uk/services/car-key-replacement",
   },
   alternates: {
@@ -31,7 +31,7 @@ export default function CarKeyReplacementPage() {
   const faqItems = [
     {
       question: "How much does car key replacement cost?",
-      answer: "Car key replacement starts from ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£89 depending on your vehicle type and key complexity. We provide transparent pricing upfront with no hidden fees.",
+      answer: "Car key replacement starts from £89 depending on your vehicle type and key complexity. We provide transparent pricing upfront with no hidden fees.",
     },
     {
       question: "How long does car key replacement take?",
@@ -87,7 +87,7 @@ export default function CarKeyReplacementPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-6">Car Key Replacement in Stockport</h1>
               <p className="text-xl text-gray-300 mb-8">
                 Lost, stolen or broken car keys? Our mobile locksmiths provide fast, professional car key replacement
-                service across Stockport. Cut and programmed on-site from ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£89.
+                service across Stockport. Cut and programmed on-site from £89.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -240,19 +240,19 @@ export default function CarKeyReplacementPage() {
                 <div className="space-y-3">
                   <div className="flex justify-between">
                     <span>Basic Key Replacement</span>
-                    <span className="text-orange-400 font-bold">From ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£89</span>
+                    <span className="text-orange-400 font-bold">From £89</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Transponder Key</span>
-                    <span className="text-orange-400 font-bold">From ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£129</span>
+                    <span className="text-orange-400 font-bold">From £129</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Remote Key Fob</span>
-                    <span className="text-orange-400 font-bold">From ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£149</span>
+                    <span className="text-orange-400 font-bold">From £149</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Proximity Key</span>
-                    <span className="text-orange-400 font-bold">From ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£199</span>
+                    <span className="text-orange-400 font-bold">From £199</span>
                   </div>
                 </div>
                 <p className="text-sm text-gray-400 mt-4">

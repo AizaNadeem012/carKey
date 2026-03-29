@@ -30,7 +30,7 @@ export default function Contacts() {
     fetch('/api/contacts')
       .then(res => res.json())
       .then(data => {
-        console.log('ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ Contacts data received:', data)
+        console.log('ðŸ“‹ Contacts data received:', data)
         setContacts(data.contacts || [])
         setLoading(false)
       })
@@ -87,7 +87,7 @@ export default function Contacts() {
         <h1 className="text-2xl font-bold text-foreground tracking-tight">Contact Messages</h1>
         <p className="text-sm text-muted-foreground mt-1">
           Messages from your website visitors (via Google Forms)
-          {contacts.length > 0 && ` ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ ${contacts.length} submission${contacts.length !== 1 ? 's' : ''}`}
+          {contacts.length > 0 && ` â€¢ ${contacts.length} submission${contacts.length !== 1 ? 's' : ''}`}
         </p>
       </div>
 

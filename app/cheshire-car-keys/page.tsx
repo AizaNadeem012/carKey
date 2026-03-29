@@ -154,7 +154,7 @@ const localBusinessSchema = {
     { "@type": "City", name: "Knutsford" },
     { "@type": "City", name: "Altrincham" },
   ],
-  priceRange: "ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£",
+  priceRange: "££",
   paymentAccepted: "Cash, Credit Card, Debit Card",
   currenciesAccepted: "GBP",
   aggregateRating: {

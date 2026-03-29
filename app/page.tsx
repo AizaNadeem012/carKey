@@ -35,7 +35,7 @@ export const revalidate = 86400
 
 // Enhanced SEO Metadata
 export const metadata: Metadata = {
-  title: "Vikki Heaton | 24/7 Auto Locksmith Stockport ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ Fast & Reliable",
+  title: "Vikki Heaton | 24/7 Auto Locksmith Stockport – Fast & Reliable",
   description:
     "Locked out or lost your car keys in Stockport? Call Vikki Heaton, expert female auto locksmith. 25-min response, 24/7 service, no call-out fee, fully insured.",
   keywords: [
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Vikki Heaton | 24/7 Auto Locksmith Stockport ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ Fast & Reliable",
+    title: "Vikki Heaton | 24/7 Auto Locksmith Stockport – Fast & Reliable",
     description:
       "Locked out or lost your car keys in Stockport? Call Vikki Heaton, expert female auto locksmith. 25-min response, 24/7 service, no call-out fee, fully insured.",
     url: "https://carkeysinstockport.co.uk",
@@ -84,13 +84,13 @@ export const metadata: Metadata = {
         url: "https://carkeysinstockport.co.uk/images/auto-locksmith-hero.jpg",
         width: 1200,
         height: 630,
-        alt: "Vikki Heaton ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ Female Auto Locksmith Stockport",
+        alt: "Vikki Heaton – Female Auto Locksmith Stockport",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vikki Heaton | 24/7 Auto Locksmith Stockport ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ Fast & Reliable",
+    title: "Vikki Heaton | 24/7 Auto Locksmith Stockport – Fast & Reliable",
     description:
       "Locked out or lost your car keys in Stockport? Call Vikki Heaton, expert female auto locksmith. 25-min response, 24/7 service, no call-out fee, fully insured.",
     images: ["https://carkeysinstockport.co.uk/images/auto-locksmith-hero.jpg"],
@@ -192,7 +192,7 @@ const localBusinessSchema = {
     { "@type": "City", name: "Trafford" },
     { "@type": "City", name: "Salford" },
   ],
-  priceRange: "Ã‚Â£Ã‚Â£",
+  priceRange: "££",
   paymentAccepted: "Cash, Credit Card, Debit Card",
   currenciesAccepted: "GBP",
   review: [
@@ -380,7 +380,7 @@ export default function HomePage() {
               width: 600,
               height: 700,
               caption:
-                "Vikki Heaton ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â Professional Female Auto Locksmith in Stockport, Greater Manchester",
+                "Vikki Heaton — Professional Female Auto Locksmith in Stockport, Greater Manchester",
             },
             sameAs: [
               "https://carkeysinstockport.co.uk/about",
@@ -418,7 +418,7 @@ export default function HomePage() {
                 width: 600,
                 height: 700,
                 caption:
-                  "Vikki Heaton ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â Professional Female Auto Locksmith in Stockport, Greater Manchester",
+                  "Vikki Heaton — Professional Female Auto Locksmith in Stockport, Greater Manchester",
               },
             },
           }),
@@ -435,7 +435,7 @@ export default function HomePage() {
           <div className="container-custom">
             <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
               <div className="animate-fade-in">
-                {/* Top strip ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â female-owned + 24/7 + response + no fee */}
+                {/* Top strip — female-owned + 24/7 + response + no fee */}
                 <div className="flex items-center gap-2 text-orange-400 mb-3 sm:mb-4">
                   <Clock className="w-4 sm:w-5 h-4 sm:h-5 flex-shrink-0" />
                   <span className="font-semibold text-sm sm:text-base">
@@ -443,15 +443,15 @@ export default function HomePage() {
                   </span>
                 </div>
 
-                {/* H1 Ã¢â‚¬â€ personal brand authority */}
+                {/* H1 — personal brand authority */}
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
-                  <span className="text-orange-400">Vikki Heaton</span> Ã¢â‚¬â€œ Stockport&apos;s Trusted Female Auto Locksmith Expert
+                  <span className="text-orange-400">Vikki Heaton</span> – Stockport&apos;s Trusted Female Auto Locksmith Expert
                 </h1>
 
-                {/* Subheading Ã¢â‚¬â€ matches emergency search intent */}
+                {/* Subheading — matches emergency search intent */}
                 <p className="text-lg sm:text-xl text-gray-300 mb-3 sm:mb-4 leading-relaxed">
                   Locked out or lost your car keys? I provide fast, affordable car key replacement and emergency lockout
-                  assistance across Stockport &amp; Greater Manchester Ã¢â‚¬â€ with same-day service.
+                  assistance across Stockport &amp; Greater Manchester — with same-day service.
                 </p>
 
                 {/* Price & speed hook */}
@@ -459,15 +459,15 @@ export default function HomePage() {
                   Replacement keys cut and programmed on-site. Fast arrival. Transparent pricing. No hidden charges.
                 </p>
 
-                {/* Service line Ã¢â‚¬â€ skimmable */}
+                {/* Service line — skimmable */}
                 <p className="text-sm sm:text-base text-gray-400 mb-2 leading-relaxed">
                   Car key replacement &bull; Emergency car lockouts &bull; Van locksmith services &bull; Ignition
                   repair &bull; Key fob programming
                 </p>
 
-                {/* Trust line Ã¢â‚¬â€ personal, no-call-centre differentiator */}
+                {/* Trust line — personal, no-call-centre differentiator */}
                 <p className="text-sm sm:text-base text-gray-400 mb-6 sm:mb-8 leading-relaxed">
-                  Fully insured &bull; Local Stockport specialist &bull; Speak directly to the locksmith Ã¢â‚¬â€ no call centres
+                  Fully insured &bull; Local Stockport specialist &bull; Speak directly to the locksmith — no call centres
                 </p>
 
                 {/* CTAs */}
@@ -479,7 +479,7 @@ export default function HomePage() {
                     style={{ minHeight: "48px" }}
                   >
                     <Phone className="w-5 h-5 flex-shrink-0" />
-                    Ã°Å¸â€œÅ¾ Call Vikki Now Ã¢â‚¬â€œ Immediate Help
+                    📞 Call Vikki Now – Immediate Help
                   </a>
                   <Link
                     href="/contact"
@@ -491,9 +491,9 @@ export default function HomePage() {
                   </Link>
                 </div>
 
-                {/* Micro-conversion Ã¢â‚¬â€ removes pricing hesitation */}
+                {/* Micro-conversion — removes pricing hesitation */}
                 <p className="text-xs sm:text-sm text-gray-400 mb-6 sm:mb-8">
-                  Tell me your car make &amp; location Ã¢â‚¬â€ I&apos;ll give you a fixed price instantly.
+                  Tell me your car make &amp; location — I&apos;ll give you a fixed price instantly.
                 </p>
 
                 {/* Trust Indicators */}
@@ -515,7 +515,7 @@ export default function HomePage() {
                   </div>
                   <div className="card">
                     <Star className="w-6 sm:w-8 h-6 sm:h-8 text-yellow-400 mx-auto mb-2" />
-                    <div className="text-xs sm:text-sm font-semibold">5ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã¢â‚¬Â¹Ãƒâ€¦Ã¢â‚¬Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ Rating</div>
+                    <div className="text-xs sm:text-sm font-semibold">5★ Rating</div>
                     <div className="text-xs text-gray-400 mt-1">Trusted by 2,500+ customers</div>
                   </div>
                 </div>
@@ -526,7 +526,7 @@ export default function HomePage() {
                 <div className="relative h-64 sm:h-80 md:h-96 lg:h-[500px] rounded-2xl overflow-hidden border-2 border-orange-400/30">
                   <Image
                     src="/images/vikki-heaton-auto-locksmith-stockport.jpg"
-                    alt="Vikki Heaton ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â professional female auto locksmith in Stockport, Greater Manchester. Car key replacement and lockout specialist."
+                    alt="Vikki Heaton — professional female auto locksmith in Stockport, Greater Manchester. Car key replacement and lockout specialist."
                     title="Vikki Heaton | Auto Locksmith Stockport | Car Keys Stockport"
                     width={600}
                     height={700}
@@ -536,7 +536,7 @@ export default function HomePage() {
                   />
                 </div>
                 <p className="text-sm text-gray-500 mt-2 text-center">
-                  Vikki Heaton ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â Your Local Auto Locksmith in Stockport
+                  Vikki Heaton — Your Local Auto Locksmith in Stockport
                 </p>
               </div>
             </div>
@@ -756,7 +756,7 @@ export default function HomePage() {
                 Why CK Stockport is the Trusted Auto Locksmith Choice
               </h2>
               <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto px-2 sm:px-0">
-                Experience, expertise, and trustworthinessÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âthe foundation of CK Stockport's reputation as Stockport's
+                Experience, expertise, and trustworthinessâ€”the foundation of CK Stockport's reputation as Stockport's
                 leading auto locksmith service.
               </p>
             </div>
@@ -866,13 +866,13 @@ export default function HomePage() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-400 flex-shrink-0 mt-1" />
                   <span className="text-gray-300">
-                    <strong className="text-white">Mobile Service:</strong> We come to youÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âhome, work, or roadside
+                    <strong className="text-white">Mobile Service:</strong> We come to youâ€”home, work, or roadside
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-400 flex-shrink-0 mt-1" />
                   <span className="text-gray-300">
-                    <strong className="text-white">5ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ Rating:</strong> Trusted by 2,500+ customers across Greater
+                    <strong className="text-white">5â˜… Rating:</strong> Trusted by 2,500+ customers across Greater
                     Manchester
                   </span>
                 </li>
@@ -985,7 +985,7 @@ export default function HomePage() {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5 text-white" />
-                <span>5ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ Rated</span>
+                <span>5â˜… Rated</span>
               </div>
             </div>
           </div>

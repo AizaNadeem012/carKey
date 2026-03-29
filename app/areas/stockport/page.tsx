@@ -429,7 +429,7 @@ export default function StockportAreaPage() {
               longitude: "-2.1575",
             },
             openingHours: "Mo-Su 00:00-23:59",
-            priceRange: "ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£",
+            priceRange: "££",
             areaServed: [
               {
                 "@type": "City",

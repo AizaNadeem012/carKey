@@ -208,19 +208,19 @@ export default function KeyFobProgrammingPage() {
                 <div className="space-y-3">
                   <div className="flex justify-between">
                     <span>Transponder Key Programming</span>
-                    <span className="text-orange-400 font-bold">From ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£79</span>
+                    <span className="text-orange-400 font-bold">From £79</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Remote Key Fob Programming</span>
-                    <span className="text-orange-400 font-bold">From ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£99</span>
+                    <span className="text-orange-400 font-bold">From £99</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Smart Key / Proximity Key</span>
-                    <span className="text-orange-400 font-bold">From ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£149</span>
+                    <span className="text-orange-400 font-bold">From £149</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Key Fob Repair / Battery</span>
-                    <span className="text-orange-400 font-bold">From ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£30</span>
+                    <span className="text-orange-400 font-bold">From £30</span>
                   </div>
                 </div>
                 <p className="text-sm text-gray-400 mt-4">

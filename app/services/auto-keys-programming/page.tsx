@@ -27,7 +27,7 @@ export default function AutoKeysProgrammingPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-6">Auto Keys Programming in Stockport</h1>
               <p className="text-xl text-gray-300 mb-8">
                 Need to program your car keys or transponder? Our mobile technicians provide fast and professional auto
-                key programming services across Stockport. On-site programming from ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£89.
+                key programming services across Stockport. On-site programming from £89.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -124,15 +124,15 @@ export default function AutoKeysProgrammingPage() {
                 <div className="space-y-3">
                   <div className="flex justify-between">
                     <span>Basic Auto Key Programming</span>
-                    <span className="text-orange-400 font-bold">From ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£89</span>
+                    <span className="text-orange-400 font-bold">From £89</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Transponder Key</span>
-                    <span className="text-orange-400 font-bold">From ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£129</span>
+                    <span className="text-orange-400 font-bold">From £129</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Remote Key Fob</span>
-                    <span className="text-orange-400 font-bold">From ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£149</span>
+                    <span className="text-orange-400 font-bold">From £149</span>
                   </div>
                 </div>
               </div>
