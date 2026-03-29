@@ -192,7 +192,7 @@ const localBusinessSchema = {
     { "@type": "City", name: "Trafford" },
     { "@type": "City", name: "Salford" },
   ],
-  priceRange: "Â£Â£",
+  priceRange: "££",
   paymentAccepted: "Cash, Credit Card, Debit Card",
   currenciesAccepted: "GBP",
   review: [
@@ -380,7 +380,7 @@ export default function HomePage() {
               width: 600,
               height: 700,
               caption:
-                "Vikki Heaton â€” Professional Female Auto Locksmith in Stockport, Greater Manchester",
+                "Vikki Heaton — Professional Female Auto Locksmith in Stockport, Greater Manchester",
             },
             sameAs: [
               "https://carkeysinstockport.co.uk/about",
@@ -418,7 +418,7 @@ export default function HomePage() {
                 width: 600,
                 height: 700,
                 caption:
-                  "Vikki Heaton â€” Professional Female Auto Locksmith in Stockport, Greater Manchester",
+                  "Vikki Heaton — Professional Female Auto Locksmith in Stockport, Greater Manchester",
               },
             },
           }),
@@ -435,7 +435,7 @@ export default function HomePage() {
           <div className="container-custom">
             <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
               <div className="animate-fade-in">
-                {/* Top strip â€” female-owned + 24/7 + response + no fee */}
+                {/* Top strip — female-owned + 24/7 + response + no fee */}
                 <div className="flex items-center gap-2 text-orange-400 mb-3 sm:mb-4">
                   <Clock className="w-4 sm:w-5 h-4 sm:h-5 flex-shrink-0" />
                   <span className="font-semibold text-sm sm:text-base">
@@ -443,15 +443,15 @@ export default function HomePage() {
                   </span>
                 </div>
 
-                {/* H1 â€” personal brand authority */}
+                {/* H1 — personal brand authority */}
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
-                  <span className="text-orange-400">Vikki Heaton</span> â€“ Stockport&apos;s Trusted Female Auto Locksmith Expert
+                  <span className="text-orange-400">Vikki Heaton</span> – Stockport&apos;s Trusted Female Auto Locksmith Expert
                 </h1>
 
-                {/* Subheading â€” matches emergency search intent */}
+                {/* Subheading — matches emergency search intent */}
                 <p className="text-lg sm:text-xl text-gray-300 mb-3 sm:mb-4 leading-relaxed">
                   Locked out or lost your car keys? I provide fast, affordable car key replacement and emergency lockout
-                  assistance across Stockport &amp; Greater Manchester â€” with same-day service.
+                  assistance across Stockport &amp; Greater Manchester — with same-day service.
                 </p>
 
                 {/* Price & speed hook */}
@@ -459,15 +459,15 @@ export default function HomePage() {
                   Replacement keys cut and programmed on-site. Fast arrival. Transparent pricing. No hidden charges.
                 </p>
 
-                {/* Service line â€” skimmable */}
+                {/* Service line — skimmable */}
                 <p className="text-sm sm:text-base text-gray-400 mb-2 leading-relaxed">
                   Car key replacement &bull; Emergency car lockouts &bull; Van locksmith services &bull; Ignition
                   repair &bull; Key fob programming
                 </p>
 
-                {/* Trust line â€” personal, no-call-centre differentiator */}
+                {/* Trust line — personal, no-call-centre differentiator */}
                 <p className="text-sm sm:text-base text-gray-400 mb-6 sm:mb-8 leading-relaxed">
-                  Fully insured &bull; Local Stockport specialist &bull; Speak directly to the locksmith â€” no call centres
+                  Fully insured &bull; Local Stockport specialist &bull; Speak directly to the locksmith — no call centres
                 </p>
 
                 {/* CTAs */}
@@ -479,7 +479,7 @@ export default function HomePage() {
                     style={{ minHeight: "48px" }}
                   >
                     <Phone className="w-5 h-5 flex-shrink-0" />
-                    ðŸ“ž Call Vikki Now â€“ Immediate Help
+                    📞 Call Vikki Now – Immediate Help
                   </a>
                   <Link
                     href="/contact"
@@ -491,9 +491,9 @@ export default function HomePage() {
                   </Link>
                 </div>
 
-                {/* Micro-conversion â€” removes pricing hesitation */}
+                {/* Micro-conversion — removes pricing hesitation */}
                 <p className="text-xs sm:text-sm text-gray-400 mb-6 sm:mb-8">
-                  Tell me your car make &amp; location â€” I&apos;ll give you a fixed price instantly.
+                  Tell me your car make &amp; location — I&apos;ll give you a fixed price instantly.
                 </p>
 
                 {/* Trust Indicators */}
@@ -515,7 +515,7 @@ export default function HomePage() {
                   </div>
                   <div className="card">
                     <Star className="w-6 sm:w-8 h-6 sm:h-8 text-yellow-400 mx-auto mb-2" />
-                    <div className="text-xs sm:text-sm font-semibold">5â˜… Rating</div>
+                    <div className="text-xs sm:text-sm font-semibold">5★ Rating</div>
                     <div className="text-xs text-gray-400 mt-1">Trusted by 2,500+ customers</div>
                   </div>
                 </div>
@@ -526,7 +526,7 @@ export default function HomePage() {
                 <div className="relative h-64 sm:h-80 md:h-96 lg:h-[500px] rounded-2xl overflow-hidden border-2 border-orange-400/30">
                   <Image
                     src="/images/vikki-heaton-auto-locksmith-stockport.jpg"
-                    alt="Vikki Heaton â€” professional female auto locksmith in Stockport, Greater Manchester. Car key replacement and lockout specialist."
+                    alt="Vikki Heaton — professional female auto locksmith in Stockport, Greater Manchester. Car key replacement and lockout specialist."
                     title="Vikki Heaton | Auto Locksmith Stockport | Car Keys Stockport"
                     width={600}
                     height={700}
