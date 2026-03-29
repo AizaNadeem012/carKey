@@ -73,22 +73,22 @@ export default function TraffordPage() {
           __html: JSON.stringify(faqSchema(faqItems)),
         }}
       />
-      <Breadcrumb aria-label="Breadcrumb path">
-        <BreadcrumbList>
+      <Breadcrumb aria-label="Breadcrumb path" className="w-full overflow-x-auto">
+        <BreadcrumbList className="flex-wrap sm:flex-nowrap gap-1.5 sm:gap-2.5 py-2">
           <BreadcrumbItem>
-            <BreadcrumbLink href="/">Home</BreadcrumbLink>
+            <BreadcrumbLink href="/" className="text-xs sm:text-sm whitespace-nowrap">Home</BreadcrumbLink>
           </BreadcrumbItem>
-          <BreadcrumbSeparator />
+          <BreadcrumbSeparator className="[&>svg]:size-3 [&>svg]:sm:size-3.5" />
           <BreadcrumbItem>
-            <BreadcrumbLink href="/#locations">Service Areas</BreadcrumbLink>
+            <BreadcrumbLink href="/#locations" className="text-xs sm:text-sm whitespace-nowrap">Service Areas</BreadcrumbLink>
           </BreadcrumbItem>
-          <BreadcrumbSeparator />
+          <BreadcrumbSeparator className="[&>svg]:size-3 [&>svg]:sm:size-3.5" />
           <BreadcrumbItem>
-            <BreadcrumbLink href="/areas/stockport">Stockport</BreadcrumbLink>
+            <BreadcrumbLink href="/areas/stockport" className="text-xs sm:text-sm whitespace-nowrap">Stockport</BreadcrumbLink>
           </BreadcrumbItem>
-          <BreadcrumbSeparator />
+          <BreadcrumbSeparator className="[&>svg]:size-3 [&>svg]:sm:size-3.5" />
           <BreadcrumbItem>
-            <BreadcrumbPage>{locationName}</BreadcrumbPage>
+            <BreadcrumbPage className="text-xs sm:text-sm font-semibold whitespace-nowrap">{locationName}</BreadcrumbPage>
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
