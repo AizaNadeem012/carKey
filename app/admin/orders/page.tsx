@@ -270,7 +270,7 @@ export default function Orders() {
           
           <Select value={statusFilter} onValueChange={setStatusFilter}>
             <SelectTrigger className="bg-muted/50 border-border">
-              <SelectValue placeholder="Filter by status" />
+              <SelectValue placeholder="Status" />
             </SelectTrigger>
             <SelectContent className="bg-card border-border">
               <SelectItem value="all">All Statuses</SelectItem>
@@ -283,7 +283,7 @@ export default function Orders() {
           
           <Select value={sortBy} onValueChange={setSortBy}>
             <SelectTrigger className="bg-muted/50 border-border">
-              <SelectValue placeholder="Sort by" />
+              <SelectValue placeholder="Sort" />
             </SelectTrigger>
             <SelectContent className="bg-card border-border">
               <SelectItem value="newest">Newest First</SelectItem>
@@ -293,21 +293,25 @@ export default function Orders() {
             </SelectContent>
           </Select>
           
-          <Input 
-            type="date" 
-            value={dateFrom} 
-            onChange={e => setDateFrom(e.target.value)} 
-            className="bg-muted/50 border-border"
-            placeholder="From date"
-          />
+          <div className="relative">
+            <Calendar className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground pointer-events-none" />
+            <Input 
+              type="date" 
+              value={dateFrom} 
+              onChange={e => setDateFrom(e.target.value)} 
+              className="pl-10 bg-muted/50 border-border text-xs [&::-webkit-calendar-picker-indicator]:opacity-50 [&::-webkit-calendar-picker-indicator]:hover:opacity-100"
+            />
+          </div>
           
-          <Input 
-            type="date" 
-            value={dateTo} 
-            onChange={e => setDateTo(e.target.value)} 
-            className="bg-muted/50 border-border"
-            placeholder="To date"
-          />
+          <div className="relative">
+            <Calendar className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground pointer-events-none" />
+            <Input 
+              type="date" 
+              value={dateTo} 
+              onChange={e => setDateTo(e.target.value)} 
+              className="pl-10 bg-muted/50 border-border text-xs [&::-webkit-calendar-picker-indicator]:opacity-50 [&::-webkit-calendar-picker-indicator]:hover:opacity-100"
+            />
+          </div>
         </div>
       </div>
 
