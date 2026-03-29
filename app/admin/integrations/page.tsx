@@ -55,7 +55,7 @@ export default function Integrations() {
                 </div>
                 <div>
                   <p className="text-sm font-medium text-foreground">{site.name}</p>
-                  <p className="text-xs text-muted-foreground">{site.submissions} submissions Ãƒâ€šÃ‚Â· Last: {site.lastSubmission}</p>
+                  <p className="text-xs text-muted-foreground">{site.submissions} submissions ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· Last: {site.lastSubmission}</p>
                 </div>
               </div>
               <div className="flex items-center gap-2">
@@ -76,11 +76,11 @@ export default function Integrations() {
         <p className="text-xs text-muted-foreground mb-4">Map incoming form fields to your dashboard fields</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {[
-            "Name ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ customer_name",
-            "Email ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ customer_email",
-            "Phone ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ customer_phone",
-            "Service ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ service_type",
-            "Message ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ description",
+            "Name ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ customer_name",
+            "Email ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ customer_email",
+            "Phone ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ customer_phone",
+            "Service ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ service_type",
+            "Message ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ description",
           ].map((mapping) => (
             <div key={mapping} className="flex items-center gap-2 p-2.5 rounded-lg bg-muted/30 text-sm text-muted-foreground font-mono text-xs">
               {mapping}

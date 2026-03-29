@@ -155,7 +155,7 @@ const localBusinessSchema = {
     { "@type": "City", name: "Stubbington" },
     { "@type": "City", name: "Alverstoke" },
   ],
-  priceRange: "ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£",
+  priceRange: "ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£",
   paymentAccepted: "Cash, Credit Card, Debit Card",
   currenciesAccepted: "GBP",
   openingHoursSpecification: {
@@ -292,7 +292,7 @@ export default function LostCarKeysGosportPage() {
                 </div>
 
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
-                  Lost Car Keys Gosport ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ Expert Car Key Replacement & Auto Locksmith
+                  Lost Car Keys Gosport ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ Expert Car Key Replacement & Auto Locksmith
                 </h1>
 
                 <p className="text-lg sm:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed">
@@ -549,7 +549,7 @@ export default function LostCarKeysGosportPage() {
                 Why Choose Lost Car Keys Gosport?
               </h2>
               <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto px-2 sm:px-0">
-                Trust, professionalism, and reliabilityÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âthe foundation of Lost Car Keys Gosport's reputation as Gosport's
+                Trust, professionalism, and reliabilityÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Âthe foundation of Lost Car Keys Gosport's reputation as Gosport's
                 leading auto locksmith service.
               </p>
             </div>
@@ -567,7 +567,7 @@ export default function LostCarKeysGosportPage() {
                   <CheckCircle className="w-6 h-6 text-green-400 flex-shrink-0 mt-1" />
                   <span className="text-gray-300">
                     <strong className="text-white">No Call-Out Fee:</strong> Transparent pricing with no hidden
-                    charges or surprise feesÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âyou know exactly what you'll pay upfront before any work begins
+                    charges or surprise feesÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Âyou know exactly what you'll pay upfront before any work begins
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -660,7 +660,7 @@ export default function LostCarKeysGosportPage() {
                     <div>
                       <h3 className="text-xl sm:text-2xl font-bold mb-3 text-white">Fast Mobile Response</h3>
                       <p className="text-sm sm:text-base text-gray-300">
-                        Our mobile locksmiths arrive at your location quicklyÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âwhether you're at home, work, or roadside
+                        Our mobile locksmiths arrive at your location quicklyÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Âwhether you're at home, work, or roadside
                         in Gosport or surrounding areas. We're strategically positioned to provide fast response times,
                         typically within 30-45 minutes. Our fully equipped vans carry all necessary tools and equipment
                         for on-site key cutting and programming.
@@ -721,7 +721,7 @@ export default function LostCarKeysGosportPage() {
                 areas. Our mobile locksmiths are available 24 hours a day, 7 days a week, including weekends and
                 holidays. We understand that car key emergencies don't wait for convenient times, which is why we're
                 always ready to help. Fast response times, no call-out fee, and professional service when you need it
-                most. Our mobile service means we come to youÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âwhether you're at home, work, or stranded roadside.
+                most. Our mobile service means we come to youÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Âwhether you're at home, work, or stranded roadside.
               </p>
               <a
                 href="tel:07309903243"
@@ -732,7 +732,7 @@ export default function LostCarKeysGosportPage() {
                 Call Now: 07309903243
               </a>
               <p className="text-sm sm:text-base opacity-90">
-                Available 24/7 ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Fast Response ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ No Call-Out Fee ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Fully Insured ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Mobile Service
+                Available 24/7 ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ Fast Response ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ No Call-Out Fee ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ Fully Insured ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ Mobile Service
               </p>
             </div>
           </div>
@@ -811,7 +811,7 @@ export default function LostCarKeysGosportPage() {
             <p className="text-lg sm:text-xl mb-8 sm:mb-10 max-w-2xl mx-auto px-2 sm:px-0">
               Whether you need lost car key replacement, spare keys, key fob programming, emergency lockout assistance,
               or ignition repair, Lost Car Keys Gosport is ready to help. Fast response, professional service,
-              transparent pricing, and fully insuredÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âyour trusted local auto locksmith in Gosport, Hampshire.
+              transparent pricing, and fully insuredÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Âyour trusted local auto locksmith in Gosport, Hampshire.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mb-8 sm:mb-10">
               <a

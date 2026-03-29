@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     template: "%s | Car Keys Stockport",
   },
   description:
-    "Vikki Heaton ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â trusted female auto locksmith in Stockport. Car key replacement, van lockout & emergency locksmith services 24/7. No call-out fee. Call 07309903243.",
+    "Vikki Heaton ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â trusted female auto locksmith in Stockport. Car key replacement, van lockout & emergency locksmith services 24/7. No call-out fee. Call 07309903243.",
   keywords: [
     "car key replacement",
     "Stockport",
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Vikki Heaton ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Female Auto Locksmith Stockport | Car Keys Stockport",
+        alt: "Vikki Heaton ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Female Auto Locksmith Stockport | Car Keys Stockport",
       },
     ],
   },
@@ -109,17 +109,17 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 
-        {/* Brand colour in browser chrome ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â mobile Safari/Chrome address bar */}
+        {/* Brand colour in browser chrome ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â mobile Safari/Chrome address bar */}
         <meta name="theme-color" content="#f97316" />
 
         {/* Windows Start tile */}
         <meta name="msapplication-TileColor" content="#f97316" />
         <meta name="msapplication-TileImage" content="/favicon-192.png" />
 
-        {/* Safari pinned tab ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â uses SVG + brand colour */}
+        {/* Safari pinned tab ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â uses SVG + brand colour */}
         <link rel="mask-icon" href="/favicon.svg" color="#f97316" />
 
-        {/* Preload hero image ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â critical for LCP score */}
+        {/* Preload hero image ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â critical for LCP score */}
         <link
           rel="preload"
           as="image"
@@ -128,7 +128,7 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className} suppressHydrationWarning>
-        {/* GA4 SPA page-view tracker ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â fires on every client-side route change */}
+        {/* GA4 SPA page-view tracker ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â fires on every client-side route change */}
         <PageViewTracker />
 
         {/* Sticky Call Bar - Mobile */}
@@ -149,7 +149,7 @@ export default function RootLayout({
               <Link href="/" className="flex items-center gap-3">
                 <Image
                   src="/images/vikki-heaton-auto-locksmith-stockport.jpg"
-                  alt="Vikki Heaton ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Auto Locksmith Stockport"
+                  alt="Vikki Heaton ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Auto Locksmith Stockport"
                   title="Car Keys Stockport | Vikki Heaton Auto Locksmith"
                   width={44}
                   height={44}
@@ -195,7 +195,7 @@ export default function RootLayout({
                   className="text-white/50 hover:text-white transition-colors text-sm flex items-center gap-1"
                   title="Admin Portal"
                 >
-                  ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ¢â‚¬â„¢ Admin
+                  ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ Admin
                 </Link>
               </nav>
 
@@ -379,20 +379,20 @@ export default function RootLayout({
               </div>
             </div>
 
-            {/* Verified Author Block ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â E-E-A-T signal */}
+            {/* Verified Author Block ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â E-E-A-T signal */}
             <div className="border-t border-slate-700 mt-8 pt-8 mb-6 flex flex-col sm:flex-row items-center sm:items-start gap-4">
               <Image
                 src="/images/vikki-heaton-auto-locksmith-stockport.jpg"
-                alt="Vikki Heaton ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Auto Locksmith Stockport"
+                alt="Vikki Heaton ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Auto Locksmith Stockport"
                 width={64}
                 height={64}
                 className="rounded-full object-cover ring-2 ring-orange-400 flex-shrink-0"
               />
               <div>
                 <p className="text-white font-semibold text-sm">Vikki Heaton</p>
-                <p className="text-gray-400 text-xs mb-1">Auto Locksmith &amp; Business Owner ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Car Keys Stockport</p>
+                <p className="text-gray-400 text-xs mb-1">Auto Locksmith &amp; Business Owner ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Car Keys Stockport</p>
                 <p className="text-gray-400 text-xs leading-relaxed max-w-xl">
-                  Vikki is a fully insured, female auto locksmith based in Stockport, serving customers across Greater Manchester since 2016. She personally handles every job ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â no subcontractors.
+                  Vikki is a fully insured, female auto locksmith based in Stockport, serving customers across Greater Manchester since 2016. She personally handles every job ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â no subcontractors.
                 </p>
                 <a
                   href="https://www.facebook.com/vikki.heaton.5"
@@ -407,7 +407,7 @@ export default function RootLayout({
 
             <div className="border-t border-slate-700 pt-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-4">
               <p className="text-gray-400 text-xs sm:text-sm">
-                Ãƒâ€šÃ‚Â© {new Date().getFullYear()} Car Keys Stockport. All rights reserved.
+                ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© {new Date().getFullYear()} Car Keys Stockport. All rights reserved.
               </p>
               <div className="flex flex-wrap justify-center gap-x-4 sm:gap-x-6 gap-y-2 text-gray-400 text-xs sm:text-sm">
                 <Link href="/privacy-policy" className="hover:text-orange-400 transition-colors">
@@ -454,7 +454,7 @@ export default function RootLayout({
                 opens: "00:00",
                 closes: "23:59",
               },
-              priceRange: "Ãƒâ€šÃ‚Â£Ãƒâ€šÃ‚Â£",
+              priceRange: "ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£",
               description:
                 "24/7 car key replacement, programming and lockout assistance in Stockport and Greater Manchester. No call-out fee. Fully insured.",
               areaServed: [
@@ -477,7 +477,7 @@ export default function RootLayout({
             }),
           }}
         />
-        {/* Google Analytics 4 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â loads after page is interactive, no render-blocking */}
+        {/* Google Analytics 4 ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â loads after page is interactive, no render-blocking */}
         <Script
           strategy="afterInteractive"
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}

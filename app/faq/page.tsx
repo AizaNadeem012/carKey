@@ -1,7 +1,7 @@
 // app/faq/page.jsx
 import React from "react";
 export const metadata = {
-    title: "FAQ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ Car Keys Stockport",
+    title: "FAQ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ Car Keys Stockport",
     description:
       "Frequently Asked Questions about car key replacement, lockout assistance, ignition repair, and remote key fobs in Stockport. Fast, mobile service available 24/7.",
   };
@@ -61,7 +61,7 @@ export const metadata = {
         {/* Call to Action */}
         <section className="mt-8">
           <p className="text-lg leading-relaxed">
-            Have a question thatÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢s not listed here? <strong>Call us now</strong> or use our contact form,
+            Have a question thatÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢s not listed here? <strong>Call us now</strong> or use our contact form,
             and our team will assist you immediately.
           </p>
         </section>

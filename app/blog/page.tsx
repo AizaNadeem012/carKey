@@ -39,7 +39,7 @@ export const metadata = {
               <strong>Remote Key Fobs & Transponders:</strong> We repair, replace, and program remote key fobs for all vehicles.
             </li>
             <li>
-              <strong>Ignition Repair & Replacement:</strong> Avoid expensive towing ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ we fix ignition issues on-site.
+              <strong>Ignition Repair & Replacement:</strong> Avoid expensive towing ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ we fix ignition issues on-site.
             </li>
           </ul>
         </section>
@@ -48,7 +48,7 @@ export const metadata = {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Why Choose Us?</h2>
           <ul className="list-disc list-inside space-y-2">
-            <li><strong>Fast Response:</strong> Mobile service across Stockport ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ we come to you.</li>
+            <li><strong>Fast Response:</strong> Mobile service across Stockport ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ we come to you.</li>
             <li><strong>Insurance Approved:</strong> Safe and secure services accepted by all major insurers.</li>
             <li><strong>Expert Technicians:</strong> Trained professionals with years of experience.</li>
             <li><strong>Affordable Prices:</strong> Transparent pricing with no hidden fees.</li>

@@ -132,7 +132,7 @@ export default function Users() {
           <h1 className="text-2xl font-bold text-foreground tracking-tight">Users</h1>
           <p className="text-sm text-muted-foreground mt-1">
             Manage team members and roles
-            {usersList.length > 0 && ` ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ ${usersList.length} users`}
+            {usersList.length > 0 && ` ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ ${usersList.length} users`}
           </p>
         </div>
         <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>

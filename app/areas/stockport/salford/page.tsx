@@ -114,7 +114,7 @@ export default function SalfordPage() {
                 </div>
                 <div className="card">
                   <Star className="w-6 h-6 text-orange-400 mx-auto mb-2" aria-hidden="true" />
-                  <div className="text-sm font-semibold">5ÃƒÆ’Ã‚Â¢Ãƒâ€¹Ã…â€œÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ Rated</div>
+                  <div className="text-sm font-semibold">5ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã¢â‚¬Â¹Ãƒâ€¦Ã¢â‚¬Å“ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ Rated</div>
                 </div>
               </div>
             </div>

@@ -101,14 +101,14 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Vikki Heaton ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Verified Author & Business Owner */}
+      {/* Vikki Heaton ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Verified Author & Business Owner */}
       <section className="section-padding bg-slate-800/50">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-8 items-start">
             <div className="flex-shrink-0 flex flex-col items-center gap-3">
               <Image
                 src="/images/vikki-heaton-auto-locksmith-stockport.jpg"
-                alt="Vikki Heaton ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Auto Locksmith & Business Owner, Stockport"
+                alt="Vikki Heaton ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Auto Locksmith & Business Owner, Stockport"
                 width={160}
                 height={180}
                 className="rounded-2xl object-cover ring-4 ring-orange-400 shadow-xl"
@@ -128,17 +128,17 @@ export default function AboutPage() {
                 <span className="font-semibold text-sm uppercase tracking-wide">Meet Your Locksmith</span>
               </div>
               <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3">
-                Vikki Heaton ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Auto Locksmith &amp; Business Owner
+                Vikki Heaton ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Auto Locksmith &amp; Business Owner
               </h2>
               <p className="text-gray-300 leading-relaxed mb-4">
-                Hi, I&apos;m Vikki ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â and I personally attend every job. I founded Car Keys Stockport in 2016
+                Hi, I&apos;m Vikki ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â and I personally attend every job. I founded Car Keys Stockport in 2016
                 with one simple goal: to give Stockport a trustworthy, no-nonsense auto locksmith service that
                 puts the customer first.
               </p>
               <p className="text-gray-300 leading-relaxed mb-4">
                 I&apos;m a fully insured, certified female auto locksmith with over 8 years of experience in
                 car key replacement, van lockout assistance, key fob programming, and ignition repair. I cover
-                Stockport and Greater Manchester 24 hours a day, 7 days a week ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â including bank holidays.
+                Stockport and Greater Manchester 24 hours a day, 7 days a week ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â including bank holidays.
               </p>
               <p className="text-gray-300 leading-relaxed mb-6">
                 Unlike national booking platforms, when you call <strong className="text-white">07309903243</strong> you
@@ -313,7 +313,7 @@ export default function AboutPage() {
                 <h3 className="font-bold text-xl mb-2">{member.name}</h3>
                 <p className="text-orange-400 mb-2">{member.role}</p>
                 <p className="text-gray-300 text-sm mb-3">
-                  {member.experience} ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ {member.speciality}
+                  {member.experience} ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ {member.speciality}
                 </p>
                 <p className="text-gray-400 text-sm mb-4">{member.bio}</p>
                 <div className="space-y-1">
@@ -445,7 +445,7 @@ export default function AboutPage() {
                   {
                     title: "Public Liability Insurance",
                     description:
-                      "Fully insured with Ãƒâ€šÃ‚Â£2 million public liability coverage for complete customer protection and peace of mind during our service.",
+                      "Fully insured with ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£2 million public liability coverage for complete customer protection and peace of mind during our service.",
                   },
                   {
                     title: "DBS Checked",
@@ -499,7 +499,7 @@ export default function AboutPage() {
                 title: "Local Charity Support",
                 description:
                   "Annual donations to Stockport food banks and homeless shelters, making a tangible difference.",
-                impact: "Ãƒâ€šÃ‚Â£5,000+ donated",
+                impact: "ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£5,000+ donated",
               },
               {
                 title: "Emergency Services",
@@ -557,7 +557,7 @@ export default function AboutPage() {
             </div>
 
             <p className="text-lg text-gray-300 mb-8">
-              When you choose Car Keys Stockport, you're not just getting a locksmith ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ you're getting a partner
+              When you choose Car Keys Stockport, you're not just getting a locksmith ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ you're getting a partner
               committed to solving your car key problems quickly, professionally, and affordably. We're here when you
               need us most, providing peace of mind and reliable service.
             </p>
