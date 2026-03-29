@@ -5,7 +5,7 @@ import Script from "next/script"
 import Breadcrumb from "../../components/breadcrumb"
 
 export const revalidate = 86400
-import { serviceSchema, faqSchema } from "@/carKey/lib/schema"
+import { serviceSchema, faqSchema } from "@/lib/schema"
 import { Phone, Clock, Shield, CheckCircle, Star } from "lucide-react"
 
 export const metadata: Metadata = {

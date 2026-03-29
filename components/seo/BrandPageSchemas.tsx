@@ -1,6 +1,6 @@
 // components/seo/BrandPageSchemas.tsx
 import Script from "next/script"
-import type { CarBrandData } from "@/carKey/data/carBrands"
+import type { CarBrandData } from "@/data/carBrands"
 import { authorSchemaData } from "./AuthorSchema"
 
 interface BrandPageSchemasProps {

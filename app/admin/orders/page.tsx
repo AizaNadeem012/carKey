@@ -2,15 +2,15 @@
 
 import { useState, useEffect } from "react"
 import { Search, Filter, Download, Eye, Calendar, DollarSign, User, Phone, Mail, MapPin, ClipboardList, X, Printer, FileText, CheckSquare, Square, RefreshCw, History } from "lucide-react"
-import { Input } from "@/carKey/components/ui/input"
-import { Badge } from "@/carKey/components/ui/badge"
-import { Button } from "@/carKey/components/ui/button"
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/carKey/components/ui/dialog"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/carKey/components/ui/select"
-import { toast } from "@/carKey/hooks/use-toast"
-import { Checkbox } from "@/carKey/components/ui/checkbox"
-import { CustomerHistoryModal } from "@/carKey/components/dashboard/CustomerHistoryModal"
-import { RevenueCalculator } from "@/carKey/components/dashboard/RevenueCalculator"
+import { Input } from "@/components/ui/input"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { toast } from "@/hooks/use-toast"
+import { Checkbox } from "@/components/ui/checkbox"
+import { CustomerHistoryModal } from "@/dashboard/CustomerHistoryModal"
+import { RevenueCalculator } from "@/dashboard/RevenueCalculator"
 
 interface Order {
   id: string

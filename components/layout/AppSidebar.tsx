@@ -2,13 +2,13 @@ import {
   LayoutDashboard, Package, ShoppingCart, Users, BarChart3,
   Settings, Globe, Search, LogOut, ChevronLeft
 } from "lucide-react";
-import { NavLink } from "@/carKey/components/NavLink";
+import { NavLink } from "@/components/NavLink";
 import { useLocation } from "react-router-dom";
 import {
   Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent,
   SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem,
   SidebarFooter, SidebarHeader, useSidebar,
-} from "@/carKey/components/ui/sidebar";
+} from "@/components/ui/sidebar";
 
 const mainNav = [
   { title: "Dashboard", url: "/", icon: LayoutDashboard },

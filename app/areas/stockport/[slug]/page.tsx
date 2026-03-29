@@ -4,8 +4,8 @@ import Script from "next/script"
 import { notFound } from "next/navigation"
 import { Phone, Clock, Shield, CheckCircle, MapPin, Star } from "lucide-react"
 import Breadcrumb from "../../../components/breadcrumb"
-import { faqSchema, localBusinessSchema, breadcrumbSchema } from "@/carKey/lib/schema"
-import { stockportSubAreaData, stockportSubAreaSlugs } from "@/carKey/lib/area-locations"
+import { faqSchema, localBusinessSchema, breadcrumbSchema } from "@/lib/schema"
+import { stockportSubAreaData, stockportSubAreaSlugs } from "@/lib/area-locations"
 
 export const revalidate = 86400
 

@@ -2,10 +2,10 @@
 
 import { useEffect, useState } from 'react'
 import { Search, Filter, Mail, Phone, Calendar } from 'lucide-react'
-import { Input } from "@/carKey/components/ui/input"
-import { Badge } from "@/carKey/components/ui/badge"
-import { Button } from "@/carKey/components/ui/button"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/carKey/components/ui/select"
+import { Input } from "@/components/ui/input"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 
 interface Contact {
   id: number

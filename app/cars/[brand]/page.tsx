@@ -1,22 +1,22 @@
 // app/cars/[brand]/page.tsx
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
-import { carBrandsData } from "@/carKey/data/carBrands"
+import { carBrandsData } from "@/data/carBrands"
 
 // Components — SEO
-import BrandPageSchemas from "@/carKey/components/seo/BrandPageSchemas"
-import RelatedBrandsSection from "@/carKey/components/seo/RelatedBrandsSection"
-import AreaLinksSection from "@/carKey/components/seo/AreaLinksSection"
-import NAPBlock from "@/carKey/components/seo/NAPBlock"
+import BrandPageSchemas from "@/components/seo/BrandPageSchemas"
+import RelatedBrandsSection from "@/components/seo/RelatedBrandsSection"
+import AreaLinksSection from "@/components/seo/AreaLinksSection"
+import NAPBlock from "@/components/seo/NAPBlock"
 
 // Components — UI
-import CarBreadcrumb from "@/carKey/components/ui/CarBreadcrumb"
-import HeroCallButton from "@/carKey/components/ui/HeroCallButton"
-import AuthorBio from "@/carKey/components/ui/AuthorBio"
-import FAQAccordion from "@/carKey/components/ui/FAQAccordion"
-import ServiceCard from "@/carKey/components/ui/ServiceCard"
-import ModelBadge from "@/carKey/components/ui/ModelBadge"
-import StickyCallBar from "@/carKey/components/ui/StickyCallBar"
+import CarBreadcrumb from "@/components/ui/CarBreadcrumb"
+import HeroCallButton from "@/components/ui/HeroCallButton"
+import AuthorBio from "@/components/ui/AuthorBio"
+import FAQAccordion from "@/components/ui/FAQAccordion"
+import ServiceCard from "@/components/ui/ServiceCard"
+import ModelBadge from "@/components/ui/ModelBadge"
+import StickyCallBar from "@/components/ui/StickyCallBar"
 
 import Link from "next/link"
 import { Clock, Shield, CheckCircle, Car, Key, Wrench } from "lucide-react"

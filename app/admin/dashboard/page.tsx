@@ -1,14 +1,14 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { StatsCard } from "@/carKey/components/dashboard/StatsCard"
-import { RecentActivity } from "@/carKey/components/dashboard/RecentActivity"
-import { PerformanceMeter } from "@/carKey/components/dashboard/PerformanceMeter"
-import { GoalsTracker } from "@/carKey/components/dashboard/GoalsTracker"
-import { UrgentOrdersAlert } from "@/carKey/components/dashboard/UrgentOrdersAlert"
+import { StatsCard } from "@/dashboard/StatsCard"
+import { RecentActivity } from "@/dashboard/RecentActivity"
+import { PerformanceMeter } from "@/dashboard/PerformanceMeter"
+import { GoalsTracker } from "@/dashboard/GoalsTracker"
+import { UrgentOrdersAlert } from "@/dashboard/UrgentOrdersAlert"
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, BarChart, Bar, AreaChart, Area } from "recharts"
 import { TrendingUp, TrendingDown, Clock, Calendar, Star, Zap, Award, DollarSign, ShoppingCart, CheckCircle, PoundSterling } from "lucide-react"
-import { Badge } from "@/carKey/components/ui/badge"
+import { Badge } from "@/components/ui/badge"
 
 interface Order {
   id: string

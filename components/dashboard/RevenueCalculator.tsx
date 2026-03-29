@@ -1,10 +1,10 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/carKey/components/ui/dialog"
-import { Button } from "@/carKey/components/ui/button"
-import { Input } from "@/carKey/components/ui/input"
-import { Badge } from "@/carKey/components/ui/badge"
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
+import { Badge } from "@/components/ui/badge"
 import { DollarSign, TrendingUp, TrendingDown, Calculator, Percent } from "lucide-react"
 
 interface Order {

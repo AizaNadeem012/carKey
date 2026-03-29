@@ -1,11 +1,11 @@
 "use client"
 
-import { useState } from "react"
+import { useState, Suspense } from "react"
 import { useRouter, useSearchParams } from "next/navigation"
 import Link from "next/link"
 import { Lock, ArrowLeft, CheckCircle } from "lucide-react"
 
-export default function ResetPassword() {
+function ResetPasswordForm() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const token = searchParams.get("token")
@@ -185,5 +185,17 @@ export default function ResetPassword() {
         </div>
       </div>
     </div>
+  )
+}
+
+export default function ResetPassword() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 flex items-center justify-center">
+        <div className="text-white text-xl">Loading...</div>
+      </div>
+    }>
+      <ResetPasswordForm />
+    </Suspense>
   )
 }

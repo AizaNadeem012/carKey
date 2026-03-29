@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server"
-import { getOrdersFromSheet } from "@/carKey/lib/google-orders"
+import { getOrdersFromSheet } from "@/lib/google-orders"
 
 export async function GET() {
   try {

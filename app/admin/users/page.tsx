@@ -1,13 +1,13 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Badge } from "@/carKey/components/ui/badge"
+import { Badge } from "@/components/ui/badge"
 import { Shield, ShieldCheck, User, Plus, Edit2, Trash2 } from "lucide-react"
-import { Button } from "@/carKey/components/ui/button"
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/carKey/components/ui/dialog"
-import { Input } from "@/carKey/components/ui/input"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/carKey/components/ui/select"
-import { toast } from "@/carKey/hooks/use-toast"
+import { Button } from "@/components/ui/button"
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
+import { Input } from "@/components/ui/input"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { toast } from "@/hooks/use-toast"
 
 interface AdminUser {
   id: string

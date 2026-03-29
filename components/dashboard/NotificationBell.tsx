@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react"
 import { Bell, Check, Trash2, AlertCircle, Info, CheckCircle, XCircle } from "lucide-react"
-import { Button } from "@/carKey/components/ui/button"
-import { Badge } from "@/carKey/components/ui/badge"
+import { Button } from "@/components/ui/button"
+import { Badge } from "@/components/ui/badge"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -11,7 +11,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/carKey/components/ui/dropdown-menu"
+} from "@/components/ui/dropdown-menu"
 
 interface Notification {
   id: string

@@ -2,7 +2,7 @@
 
 import { usePathname } from "next/navigation"
 import { useEffect } from "react"
-import { pageview } from "@/carKey/lib/gtag"
+import { pageview } from "@/lib/gtag"
 
 /**
  * Fires a GA4 page_view event every time the Next.js route changes.

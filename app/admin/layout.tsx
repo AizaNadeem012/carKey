@@ -16,11 +16,11 @@ import {
   Menu,
   X,
 } from "lucide-react"
-import { cn } from "@/carKey/lib/utils"
-import { SyncProvider } from "@/carKey/contexts/sync-provider"
-import { NotificationBell } from "@/carKey/components/dashboard/NotificationBell"
-import { ThemeToggle } from "@/carKey/components/dashboard/ThemeToggle"
-import { QuickActions } from "@/carKey/components/dashboard/QuickActions"
+import { cn } from "@/lib/utils"
+import { SyncProvider } from "@/contexts/sync-provider"
+import { NotificationBell } from "@/dashboard/NotificationBell"
+import { ThemeToggle } from "@/dashboard/ThemeToggle"
+import { QuickActions } from "@/dashboard/QuickActions"
 
 const navigation = [
   { name: "Dashboard", href: "/admin/dashboard", icon: LayoutDashboard },

@@ -1,7 +1,7 @@
 // components/seo/RelatedBrandsSection.tsx
 import Link from "next/link"
 import { ChevronRight } from "lucide-react"
-import { carBrandsData } from "@/carKey/data/carBrands"
+import { carBrandsData } from "@/data/carBrands"
 
 interface RelatedBrandsSectionProps {
   relatedBrands: string[]

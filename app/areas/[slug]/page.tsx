@@ -5,8 +5,8 @@ import Script from "next/script"
 import Breadcrumb from "../../components/breadcrumb"
 
 export const revalidate = 86400
-import { localBusinessSchema, faqSchema } from "@/carKey/lib/schema"
-import { areaLocationData, areaSlugs } from "@/carKey/lib/area-locations"
+import { localBusinessSchema, faqSchema } from "@/lib/schema"
+import { areaLocationData, areaSlugs } from "@/lib/area-locations"
 import { Phone, Clock, Shield, CheckCircle, MapPin, Star } from "lucide-react"
 
 interface LocationPageProps {

@@ -1,7 +1,7 @@
 "use client"
 
 import { TrendingUp, Activity, Target, Award, Clock, Zap } from "lucide-react"
-import { Badge } from "@/carKey/components/ui/badge"
+import { Badge } from "@/components/ui/badge"
 
 interface PerformanceMeterProps {
   totalOrders: number

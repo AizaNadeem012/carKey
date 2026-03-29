@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Script from "next/script"
 import { MapPin, Phone, ArrowRight } from "lucide-react"
-import { organizationSchema } from "@/carKey/lib/schema"
+import { organizationSchema } from "@/lib/schema"
 
 export const locationsMetadata = {
   title: "Auto Locksmith Services Across Greater Manchester | Stockport, Manchester, Bury & More",

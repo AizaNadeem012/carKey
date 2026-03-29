@@ -5,7 +5,7 @@ import Script from "next/script"
 import Breadcrumb from "../../../components/breadcrumb"
 
 export const revalidate = 86400
-import { localBusinessSchema, faqSchema } from "@/carKey/lib/schema"
+import { localBusinessSchema, faqSchema } from "@/lib/schema"
 import { Phone, Clock, Shield, CheckCircle, MapPin, Star } from "lucide-react"
 
 const locationName = "Manchester"

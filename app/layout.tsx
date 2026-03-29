@@ -20,7 +20,7 @@ import Script from "next/script"
 import "./globals.css"
 import MobileNav from "./components/mobile-nav"
 import PageViewTracker from "./components/google-analytics"
-import { GA_MEASUREMENT_ID } from "@/carKey/lib/gtag"
+import { GA_MEASUREMENT_ID } from "@/lib/gtag"
 
 const inter = Inter({ subsets: ["latin"] })
 

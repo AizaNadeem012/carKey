@@ -1,5 +1,5 @@
 import { type NextRequest, NextResponse } from "next/server"
-import { appendToGoogleSheet } from "@/carKey/lib/google-sheets"
+import { appendToGoogleSheet } from "@/lib/google-sheets"
 
 export async function POST(request: NextRequest) {
   try {

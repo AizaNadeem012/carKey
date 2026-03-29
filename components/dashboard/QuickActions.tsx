@@ -9,9 +9,9 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/carKey/components/ui/dropdown-menu"
-import { Button } from "@/carKey/components/ui/button"
-import { Badge } from "@/carKey/components/ui/badge"
+} from "@/components/ui/dropdown-menu"
+import { Button } from "@/components/ui/button"
+import { Badge } from "@/components/ui/badge"
 
 export function QuickActions() {
   const [open, setOpen] = useState(false)

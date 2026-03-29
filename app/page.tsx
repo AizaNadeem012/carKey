@@ -29,7 +29,7 @@ import {
   Settings,
 } from "lucide-react"
 import type { Metadata } from "next"
-import { faqSchema } from "@/carKey/lib/schema"
+import { faqSchema } from "@/lib/schema"
 
 export const revalidate = 86400
 

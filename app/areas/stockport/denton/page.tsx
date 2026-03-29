@@ -3,7 +3,7 @@ import Link from "next/link"
 import Script from "next/script"
 import { Phone, Clock, Shield, CheckCircle, MapPin, Star } from "lucide-react"
 import Breadcrumb from "../../../components/breadcrumb"
-import { faqSchema, localBusinessSchema, breadcrumbSchema } from "@/carKey/lib/schema"
+import { faqSchema, localBusinessSchema, breadcrumbSchema } from "@/lib/schema"
 
 export const revalidate = 86400
 

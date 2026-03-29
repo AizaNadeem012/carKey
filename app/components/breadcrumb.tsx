@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { ChevronRight } from "lucide-react"
 import Script from "next/script"
-import { breadcrumbSchema } from "@/carKey/lib/schema"
+import { breadcrumbSchema } from "@/lib/schema"
 
 interface BreadcrumbItem {
   name: string

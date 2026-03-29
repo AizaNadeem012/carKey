@@ -2,10 +2,10 @@
 
 import { useState, useEffect } from "react"
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, BarChart, Bar, LineChart, Line } from "recharts"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/carKey/components/ui/select"
-import { Button } from "@/carKey/components/ui/button"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { Button } from "@/components/ui/button"
 import { Download, TrendingUp, TrendingDown } from "lucide-react"
-import { toast } from "@/carKey/hooks/use-toast"
+import { toast } from "@/hooks/use-toast"
 
 interface Order {
   id: string

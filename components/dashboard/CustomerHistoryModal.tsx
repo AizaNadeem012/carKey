@@ -1,9 +1,9 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/carKey/components/ui/dialog"
-import { Badge } from "@/carKey/components/ui/badge"
-import { Button } from "@/carKey/components/ui/button"
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
 import { 
   ShoppingCart, 
   Calendar, 

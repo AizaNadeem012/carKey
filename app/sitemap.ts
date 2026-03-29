@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next"
-import { carBrandsData } from "@/carKey/data/carBrands"
+import { carBrandsData } from "@/data/carBrands"
 
 const SITE_URL = "https://carkeysinstockport.co.uk"
 

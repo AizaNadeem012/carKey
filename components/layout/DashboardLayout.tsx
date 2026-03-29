@@ -1,9 +1,9 @@
-import { SidebarProvider, SidebarTrigger } from "@/carKey/components/ui/sidebar";
+import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "./AppSidebar";
 import { Bell, Search } from "lucide-react";
 import { useState } from "react";
-import { notifications } from "@/carKey/lib/dummy-data";
-import { Input } from "@/carKey/components/ui/input";
+import { notifications } from "@/lib/dummy-data";
+import { Input } from "@/components/ui/input";
 
 export function DashboardLayout({ children }: { children: React.ReactNode }) {
   const [showNotifications, setShowNotifications] = useState(false);

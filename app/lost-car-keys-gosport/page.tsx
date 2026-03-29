@@ -21,7 +21,7 @@ import {
   TrendingUp,
 } from "lucide-react"
 import type { Metadata } from "next"
-import { faqSchema } from "@/carKey/lib/schema"
+import { faqSchema } from "@/lib/schema"
 
 // SEO Metadata for Lost Car Keys Gosport
 export const metadata: Metadata = {

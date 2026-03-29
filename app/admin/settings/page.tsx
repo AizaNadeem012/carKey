@@ -1,9 +1,9 @@
 "use client"
 
-import { Button } from "@/carKey/components/ui/button"
-import { Input } from "@/carKey/components/ui/input"
-import { Switch } from "@/carKey/components/ui/switch"
-import { toast } from "@/carKey/hooks/use-toast"
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
+import { Switch } from "@/components/ui/switch"
+import { toast } from "@/hooks/use-toast"
 
 export default function Settings() {
   const handleSave = () => toast({ title: "Settings saved" })

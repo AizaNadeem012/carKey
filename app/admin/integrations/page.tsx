@@ -2,10 +2,10 @@
 
 import { useState } from "react"
 import { Globe, Copy, Plus, ExternalLink } from "lucide-react"
-import { Button } from "@/carKey/components/ui/button"
-import { Input } from "@/carKey/components/ui/input"
-import { Badge } from "@/carKey/components/ui/badge"
-import { toast } from "@/carKey/hooks/use-toast"
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
+import { Badge } from "@/components/ui/badge"
+import { toast } from "@/hooks/use-toast"
 
 const webhookUrl = "https://api.carkeysinstockport.co.uk/webhook/form-submit/abc123"
 

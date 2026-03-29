@@ -1,7 +1,7 @@
 "use client"
 
 import { Target, TrendingUp, Award, Clock } from "lucide-react"
-import { Badge } from "@/carKey/components/ui/badge"
+import { Badge } from "@/components/ui/badge"
 
 interface GoalsTrackerProps {
   todayOrders: number

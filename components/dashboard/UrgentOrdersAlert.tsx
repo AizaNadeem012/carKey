@@ -1,8 +1,8 @@
 "use client"
 
 import { AlertTriangle, Clock, Phone, Mail, MapPin, ChevronRight } from "lucide-react"
-import { Badge } from "@/carKey/components/ui/badge"
-import { Button } from "@/carKey/components/ui/button"
+import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
 
 interface Order {
   id: string

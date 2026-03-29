@@ -17,7 +17,7 @@ import {
   MessageCircle,
 } from "lucide-react"
 import type { Metadata } from "next"
-import { faqSchema } from "@/carKey/lib/schema"
+import { faqSchema } from "@/lib/schema"
 
 const location = "Hazel Grove"
 const locationSlug = "hazel-grove"
