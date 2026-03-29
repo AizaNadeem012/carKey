@@ -1,7 +1,14 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import Script from "next/script"
-import Breadcrumb from "../../../components/breadcrumb"
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb"
 import { localBusinessSchema, faqSchema } from "@/lib/schema"
 import { Phone, Clock, Shield, CheckCircle, MapPin, Star } from "lucide-react"
 
@@ -66,14 +73,25 @@ export default function TraffordPage() {
           __html: JSON.stringify(faqSchema(faqItems)),
         }}
       />
-      <Breadcrumb
-        items={[
-          { name: "Home", href: "/" },
-          { name: "Service Areas", href: "/#locations" },
-          { name: "Stockport", href: "/areas/stockport" },
-          { name: locationName, href: `/areas/stockport/${locationSlug}` },
-        ]}
-      />
+      <Breadcrumb aria-label="Breadcrumb path">
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <BreadcrumbLink href="/">Home</BreadcrumbLink>
+          </BreadcrumbItem>
+          <BreadcrumbSeparator />
+          <BreadcrumbItem>
+            <BreadcrumbLink href="/#locations">Service Areas</BreadcrumbLink>
+          </BreadcrumbItem>
+          <BreadcrumbSeparator />
+          <BreadcrumbItem>
+            <BreadcrumbLink href="/areas/stockport">Stockport</BreadcrumbLink>
+          </BreadcrumbItem>
+          <BreadcrumbSeparator />
+          <BreadcrumbItem>
+            <BreadcrumbPage>{locationName}</BreadcrumbPage>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
       <main className="bg-slate-900 text-white pt-20">
         <section className="section-padding bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
           <div className="container-custom">
