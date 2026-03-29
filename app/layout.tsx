@@ -195,7 +195,7 @@ export default function RootLayout({
                   className="text-white/50 hover:text-white transition-colors text-sm flex items-center gap-1"
                   title="Admin Portal"
                 >
-                  ðŸ”’ Admin
+                  🔒 Admin
                 </Link>
               </nav>
 
