@@ -93,7 +93,7 @@ export function RevenueCalculator() {
             <div className="space-y-2">
               <label className="text-sm font-medium text-foreground flex items-center gap-2">
                 <DollarSign className="h-4 w-4 text-green-500" />
-                Cost Per Service (£)
+                Cost Per Service (Ã‚Â£)
               </label>
               <Input
                 type="number"
@@ -107,7 +107,7 @@ export function RevenueCalculator() {
             <div className="space-y-2">
               <label className="text-sm font-medium text-foreground flex items-center gap-2">
                 <TrendingDown className="h-4 w-4 text-red-500" />
-                Fixed Costs (£)
+                Fixed Costs (Ã‚Â£)
               </label>
               <Input
                 type="number"
@@ -134,7 +134,7 @@ export function RevenueCalculator() {
                     <p className="text-xs text-muted-foreground">{metrics.completedOrders} completed orders</p>
                   </div>
                 </div>
-                <p className="text-xl font-bold text-green-500">£{metrics.totalRevenue.toLocaleString()}</p>
+                <p className="text-xl font-bold text-green-500">Ã‚Â£{metrics.totalRevenue.toLocaleString()}</p>
               </div>
 
               <div className="flex items-center justify-between p-3 bg-red-500/10 rounded-lg border border-red-500/20">
@@ -144,10 +144,10 @@ export function RevenueCalculator() {
                   </div>
                   <div>
                     <p className="text-sm font-medium text-foreground">Total Costs</p>
-                    <p className="text-xs text-muted-foreground">Variable: £{metrics.variableCosts.toLocaleString()} + Fixed: £{fixedCosts.toLocaleString()}</p>
+                    <p className="text-xs text-muted-foreground">Variable: Ã‚Â£{metrics.variableCosts.toLocaleString()} + Fixed: Ã‚Â£{fixedCosts.toLocaleString()}</p>
                   </div>
                 </div>
-                <p className="text-xl font-bold text-red-500">£{metrics.totalCosts.toLocaleString()}</p>
+                <p className="text-xl font-bold text-red-500">Ã‚Â£{metrics.totalCosts.toLocaleString()}</p>
               </div>
             </div>
           </div>
@@ -163,7 +163,7 @@ export function RevenueCalculator() {
                   </div>
                   <span className="text-sm font-medium text-muted-foreground">Gross Profit</span>
                 </div>
-                <p className="text-3xl font-bold text-foreground mb-1">£{metrics.grossProfit.toLocaleString()}</p>
+                <p className="text-3xl font-bold text-foreground mb-1">Ã‚Â£{metrics.grossProfit.toLocaleString()}</p>
                 <Badge variant="outline" className="bg-blue-500/10 text-blue-500 border-blue-500/30">
                   From {metrics.totalServices} services
                 </Badge>
@@ -200,11 +200,11 @@ export function RevenueCalculator() {
                 <p className="text-xs text-muted-foreground">Total Services</p>
               </div>
               <div className="text-center">
-                <p className="text-2xl font-bold text-foreground">£{(metrics.totalRevenue / (metrics.completedOrders || 1)).toFixed(0)}</p>
+                <p className="text-2xl font-bold text-foreground">Ã‚Â£{(metrics.totalRevenue / (metrics.completedOrders || 1)).toFixed(0)}</p>
                 <p className="text-xs text-muted-foreground">Avg Order Value</p>
               </div>
               <div className="text-center">
-                <p className="text-2xl font-bold text-foreground">£{(metrics.grossProfit / (metrics.totalServices || 1)).toFixed(0)}</p>
+                <p className="text-2xl font-bold text-foreground">Ã‚Â£{(metrics.grossProfit / (metrics.totalServices || 1)).toFixed(0)}</p>
                 <p className="text-xs text-muted-foreground">Profit/Service</p>
               </div>
             </div>

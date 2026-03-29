@@ -80,7 +80,7 @@ export function GoalsTracker({
               {todayOrders} / {goals.daily.orders} orders
             </span>
             <span className="text-xs text-muted-foreground ml-2">
-              £{todayRevenue.toLocaleString()} / £{goals.daily.revenue.toLocaleString()}
+              Ã‚Â£{todayRevenue.toLocaleString()} / Ã‚Â£{goals.daily.revenue.toLocaleString()}
             </span>
           </div>
         </div>
@@ -155,10 +155,10 @@ export function GoalsTracker({
       {/* Motivational Message */}
       <div className={`mt-6 p-4 rounded-xl ${getProgressStatus(dailyProgress).bgColor} border ${getProgressStatus(dailyProgress).color.replace('text-', 'border-')} /20`}>
         <p className={`text-sm font-semibold ${getProgressStatus(dailyProgress).color}`}>
-          {dailyProgress >= 100 ? '🎉 Amazing! You\'ve crushed today\'s goal!' :
-           dailyProgress >= 70 ? '🔥 Almost there! Keep pushing!' :
-           dailyProgress >= 40 ? '💪 Good progress! Halfway there!' :
-           '⚡ Time to focus! Let\'s get those orders!'}
+          {dailyProgress >= 100 ? 'Ã°Å¸Å½â€° Amazing! You\'ve crushed today\'s goal!' :
+           dailyProgress >= 70 ? 'Ã°Å¸â€Â¥ Almost there! Keep pushing!' :
+           dailyProgress >= 40 ? 'Ã°Å¸â€™Âª Good progress! Halfway there!' :
+           'Ã¢Å¡Â¡ Time to focus! Let\'s get those orders!'}
         </p>
       </div>
     </div>

@@ -74,14 +74,14 @@ export default function ContactPage() {
             <div className="card mb-8">
               <h3 className="font-bold mb-4">Areas We Cover</h3>
               <div className="grid grid-cols-2 gap-2 text-sm text-gray-300">
-                <div>Ã¢â‚¬Â¢ Stockport</div>
-                <div>Ã¢â‚¬Â¢ Cheadle</div>
-                <div>Ã¢â‚¬Â¢ Bramhall</div>
-                <div>Ã¢â‚¬Â¢ Hazel Grove</div>
-                <div>Ã¢â‚¬Â¢ Marple</div>
-                <div>Ã¢â‚¬Â¢ Romiley</div>
-                <div>Ã¢â‚¬Â¢ Bredbury</div>
-                <div>Ã¢â‚¬Â¢ Woodley</div>
+                <div>ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Stockport</div>
+                <div>ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Cheadle</div>
+                <div>ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Bramhall</div>
+                <div>ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Hazel Grove</div>
+                <div>ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Marple</div>
+                <div>ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Romiley</div>
+                <div>ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Bredbury</div>
+                <div>ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Woodley</div>
               </div>
             </div>
 
@@ -117,7 +117,7 @@ export default function ContactPage() {
                 title="Contact Form"
                 className="w-full bg-white"
               >
-                LoadingÃ¢â‚¬Â¦
+                LoadingÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦
               </iframe>
             </div>
           </div>

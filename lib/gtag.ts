@@ -12,7 +12,7 @@ declare global {
   }
 }
 
-/** Fire a page_view hit — called on every SPA route change */
+/** Fire a page_view hit Ã¢â‚¬â€ called on every SPA route change */
 export const pageview = (url: string) => {
   if (typeof window === "undefined" || !window.gtag) return
   window.gtag("config", GA_MEASUREMENT_ID, { page_path: url })
@@ -35,7 +35,7 @@ export const event = ({ action, category, label, value }: GtagEvent) => {
   })
 }
 
-// ─── Site-specific convenience helpers ───────────────────────────────────────
+// Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ Site-specific convenience helpers Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
 
 /** Track a phone number click. Pass the UI location, e.g. "hero", "header", "footer" */
 export const trackPhoneClick = (location: string) =>

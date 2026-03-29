@@ -76,7 +76,7 @@ export default function FAQAccordion({ items }: FAQAccordionProps) {
               />
             </button>
 
-            {/* Answer panel — CSS max-height transition, no CLS */}
+            {/* Answer panel Ã¢â‚¬â€ CSS max-height transition, no CLS */}
             <div
               id={panelId}
               role="region"

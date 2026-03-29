@@ -38,7 +38,7 @@ export default function AuthorBio() {
             Vikki Heaton
           </p>
           <p className="text-sm text-gray-600 mb-2">
-            Auto Locksmith Expert · Stockport
+            Auto Locksmith Expert Ã‚Â· Stockport
           </p>
 
           {/* Trust ticks */}
@@ -61,7 +61,7 @@ export default function AuthorBio() {
             className="inline-block mt-2 text-xs text-[#0B1B2B] underline hover:text-yellow-500 transition-colors"
             aria-label="View Vikki Heaton's full profile"
           >
-            View full profile →
+            View full profile Ã¢â€ â€™
           </Link>
         </div>
       </div>

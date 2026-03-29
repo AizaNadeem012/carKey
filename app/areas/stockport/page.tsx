@@ -82,7 +82,7 @@ export default function StockportAreaPage() {
                 </div>
                 <div className="flex items-center gap-2 bg-slate-800/50 p-3 rounded-lg">
                   <Star className="w-5 h-5 text-yellow-400" aria-hidden="true" />
-                  <span>5Ã¢Ëœâ€¦ rated local service</span>
+                  <span>5ÃƒÆ’Ã‚Â¢Ãƒâ€¹Ã…â€œÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ rated local service</span>
                 </div>
               </div>
             </article>
@@ -210,7 +210,7 @@ export default function StockportAreaPage() {
                   Auto locksmith services available 24/7 with 25-minute response time.
                 </p>
                 <span className="text-orange-400 text-sm font-semibold group-hover:translate-x-1 transition-transform inline-block">
-                  View Details Ã¢â€ â€™
+                  View Details ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢
                 </span>
               </Link>
             ))}
@@ -429,7 +429,7 @@ export default function StockportAreaPage() {
               longitude: "-2.1575",
             },
             openingHours: "Mo-Su 00:00-23:59",
-            priceRange: "Ã‚Â£Ã‚Â£",
+            priceRange: "ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£",
             areaServed: [
               {
                 "@type": "City",

@@ -108,7 +108,7 @@ export function RecentActivity() {
               </div>
               <div className="text-right">
                 <p className="text-xs font-semibold text-foreground whitespace-nowrap">
-                  £{(order.services.split(',').filter(s => s.trim()).length * 150).toLocaleString()}
+                  Ã‚Â£{(order.services.split(',').filter(s => s.trim()).length * 150).toLocaleString()}
                 </p>
                 <span className="text-xs text-muted-foreground/60 whitespace-nowrap">
                   {new Date(order.timestamp).toLocaleDateString()}

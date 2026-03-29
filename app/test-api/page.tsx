@@ -38,7 +38,7 @@ export default function TestAPI() {
   return (
     <div className="min-h-screen bg-slate-900 text-white p-8">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-3xl font-bold mb-6">Ã°Å¸Â§Âª API Test Page</h1>
+        <h1 className="text-3xl font-bold mb-6">ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸Ãƒâ€šÃ‚Â§Ãƒâ€šÃ‚Âª API Test Page</h1>
         
         {loading ? (
           <div className="text-center py-12">
@@ -49,7 +49,7 @@ export default function TestAPI() {
             
             {/* Contacts Test */}
             <div className="bg-slate-800 rounded-lg p-6">
-              <h2 className="text-xl font-bold mb-4">Ã°Å¸â€œÅ¾ Contacts API (/api/contacts)</h2>
+              <h2 className="text-xl font-bold mb-4">ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒâ€¦Ã‚Â¾ Contacts API (/api/contacts)</h2>
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
                   <span className="text-sm">Status:</span>
@@ -67,7 +67,7 @@ export default function TestAPI() {
 
             {/* Orders Test */}
             <div className="bg-slate-800 rounded-lg p-6">
-              <h2 className="text-xl font-bold mb-4">Ã°Å¸â€ºâ€™ Orders API (/api/orders)</h2>
+              <h2 className="text-xl font-bold mb-4">ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂºÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ Orders API (/api/orders)</h2>
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
                   <span className="text-sm">Status:</span>
@@ -85,7 +85,7 @@ export default function TestAPI() {
 
             {/* Summary */}
             <div className="bg-blue-900/30 border border-blue-500 rounded-lg p-6">
-              <h3 className="text-lg font-bold mb-3">Ã°Å¸â€œÅ  Test Summary</h3>
+              <h3 className="text-lg font-bold mb-3">ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒâ€¦Ã‚Â  Test Summary</h3>
               <div className="space-y-2 text-sm">
                 <p>
                   <strong>Contacts Count:</strong> {contactsResult?.data?.contacts?.length || 0}
@@ -96,7 +96,7 @@ export default function TestAPI() {
                 
                 {contactsResult?.data?.contacts?.length === 0 && (
                   <div className="mt-4 p-4 bg-yellow-900/30 border border-yellow-500 rounded">
-                    <p className="font-semibold text-yellow-200">Ã¢Å¡Â Ã¯Â¸Â No contacts found</p>
+                    <p className="font-semibold text-yellow-200">ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã‚Â¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¸Ãƒâ€šÃ‚Â No contacts found</p>
                     <p className="text-sm mt-2">
                       Make sure your "CarForm" tab has data and service account has access.
                     </p>
@@ -105,7 +105,7 @@ export default function TestAPI() {
 
                 {ordersResult?.data?.orders?.length === 0 && (
                   <div className="mt-4 p-4 bg-yellow-900/30 border border-yellow-500 rounded">
-                    <p className="font-semibold text-yellow-200">Ã¢Å¡Â Ã¯Â¸Â No orders found</p>
+                    <p className="font-semibold text-yellow-200">ÃƒÆ’Ã‚Â¢Ãƒâ€¦Ã‚Â¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¸Ãƒâ€šÃ‚Â No orders found</p>
                     <p className="text-sm mt-2">
                       Create an "Orders" tab in your Google Sheet with proper headers and add sample data.
                     </p>

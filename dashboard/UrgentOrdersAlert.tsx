@@ -57,7 +57,7 @@ export function UrgentOrdersAlert({ orders }: UrgentOrdersProps) {
           </div>
         </div>
         <div className="text-center py-8 text-muted-foreground">
-          <div className="text-6xl mb-4">✅</div>
+          <div className="text-6xl mb-4">Ã¢Å“â€¦</div>
           <p className="text-sm">Great job! All orders are completed.</p>
           <p className="text-xs mt-2">Time to relax or prepare for new orders!</p>
         </div>

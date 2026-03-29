@@ -5,9 +5,9 @@ export async function GET() {
   try {
     const contacts = await getGoogleSheetData()
     
-    console.log('📋 Fetched contacts from Google Sheets:', contacts.length, 'contacts')
+    console.log('Ã°Å¸â€œâ€¹ Fetched contacts from Google Sheets:', contacts.length, 'contacts')
     if (contacts.length > 0) {
-      console.log('📋 First contact sample:', contacts[0])
+      console.log('Ã°Å¸â€œâ€¹ First contact sample:', contacts[0])
     }
     
     if (!contacts || contacts.length === 0) {

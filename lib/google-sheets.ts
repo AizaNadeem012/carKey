@@ -88,7 +88,7 @@ export async function getGoogleSheetData() {
     })
     
     const headers = headersResponse.data.values?.[0] || []
-    console.log('📋 Sheet headers:', headers)
+    console.log('Ã°Å¸â€œâ€¹ Sheet headers:', headers)
 
     // Get data from row 2 onwards
     const response = await sheets.spreadsheets.values.get({
@@ -98,9 +98,9 @@ export async function getGoogleSheetData() {
 
     const rows = response.data.values || []
     
-    console.log(`📋 Raw rows from ${sheetName}:`, rows.length, 'rows')
+    console.log(`Ã°Å¸â€œâ€¹ Raw rows from ${sheetName}:`, rows.length, 'rows')
     if (rows.length > 0) {
-      console.log('📋 First row sample:', rows[0])
+      console.log('Ã°Å¸â€œâ€¹ First row sample:', rows[0])
     }
     
     // Map based on actual header positions
@@ -113,7 +113,7 @@ export async function getGoogleSheetData() {
       message: headers.findIndex(h => h.toLowerCase().includes('message') || h.toLowerCase().includes('comment'))
     }
     
-    console.log('📋 Header indices:', headerIndex)
+    console.log('Ã°Å¸â€œâ€¹ Header indices:', headerIndex)
     
     // Convert to objects using dynamic header mapping
     const contacts = rows.map((row, index) => {
@@ -129,7 +129,7 @@ export async function getGoogleSheetData() {
       }
       
       if (index === 0) {
-        console.log('📋 Mapped first contact:', contact)
+        console.log('Ã°Å¸â€œâ€¹ Mapped first contact:', contact)
       }
       
       return contact

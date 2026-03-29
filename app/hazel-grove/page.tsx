@@ -117,7 +117,7 @@ const localBusinessSchema = {
     name: location,
     containsPlace: neighborhoods.map((n) => ({ "@type": "City", name: n })),
   },
-  priceRange: "Ã‚Â£Ã‚Â£",
+  priceRange: "ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£",
   paymentAccepted: "Cash, Credit Card, Debit Card",
   currenciesAccepted: "GBP",
   openingHoursSpecification: {
@@ -192,7 +192,7 @@ export default function HazelGrovePage() {
                   Looking for a trusted auto locksmith near me in {location}? Our professional mobile locksmiths provide
                   24/7 emergency car lockout assistance, lost car key replacement, key fob programming, and ignition
                   repair. Fully insured, certified technicians, fast response times, and no call-out fee. We come to you
-                  wherever you are in {location}Ã¢â‚¬â€home, work, or roadside. Your trusted local auto locksmith service.
+                  wherever you are in {location}ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âhome, work, or roadside. Your trusted local auto locksmith service.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-6 sm:mb-8">
                   <a
@@ -388,7 +388,7 @@ export default function HazelGrovePage() {
                   <CheckCircle className="w-6 h-6 text-green-400 flex-shrink-0 mt-1" />
                   <span className="text-gray-300">
                     <strong className="text-white">No Call-Out Fee:</strong> Transparent pricing with no hidden
-                    chargesÃ¢â‚¬â€you know exactly what you'll pay upfront before any work begins
+                    chargesÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âyou know exactly what you'll pay upfront before any work begins
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -408,7 +408,7 @@ export default function HazelGrovePage() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-400 flex-shrink-0 mt-1" />
                   <span className="text-gray-300">
-                    <strong className="text-white">Mobile Service:</strong> We come to youÃ¢â‚¬â€home, work, or roadside in{" "}
+                    <strong className="text-white">Mobile Service:</strong> We come to youÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âhome, work, or roadside in{" "}
                     {location}, bringing professional locksmith services directly to your location
                   </span>
                 </li>
@@ -503,7 +503,7 @@ export default function HazelGrovePage() {
               Locked out of your car? Lost your keys? Need urgent car key replacement? Our mobile locksmiths provide
               round-the-clock emergency auto locksmith services in {location}. We're available 24 hours a day, 7 days a
               week, including weekends and holidays. Fast response times, no call-out fee, and professional service when
-              you need it most. Our mobile service means we come to youÃ¢â‚¬â€whether you're at home, work, or stranded
+              you need it most. Our mobile service means we come to youÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âwhether you're at home, work, or stranded
               roadside in {location}.
             </p>
             <a
@@ -514,7 +514,7 @@ export default function HazelGrovePage() {
               <Phone className="w-5 h-5" />
               <strong>Call Now: 07309903243</strong>
             </a>
-            <p className="text-sm opacity-90">Available 24/7 Ã¢â‚¬Â¢ Fast Response Ã¢â‚¬Â¢ No Call-Out Fee Ã¢â‚¬Â¢ Fully Insured</p>
+            <p className="text-sm opacity-90">Available 24/7 ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Fast Response ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ No Call-Out Fee ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Fully Insured</p>
           </div>
         </section>
 
@@ -560,7 +560,7 @@ export default function HazelGrovePage() {
             <p className="text-lg sm:text-xl mb-8 max-w-2xl mx-auto">
               Whether you need emergency car lockout assistance, lost key replacement, key fob programming, or ignition
               repair, we're ready to help. Fast response, professional service, transparent pricing, and fully
-              insuredÃ¢â‚¬â€your trusted local auto locksmith in {location}.
+              insuredÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âyour trusted local auto locksmith in {location}.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8">
               <a
@@ -581,7 +581,7 @@ export default function HazelGrovePage() {
             </div>
             <div className="max-w-2xl mx-auto bg-white/10 backdrop-blur-sm rounded-2xl p-6">
               <p className="text-lg mb-4">
-                <strong>Fully Insured</strong> Ã¢â‚¬Â¢ <strong>No Call-Out Fee</strong> Ã¢â‚¬Â¢ <strong>Fast Response</strong> Ã¢â‚¬Â¢{" "}
+                <strong>Fully Insured</strong> ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ <strong>No Call-Out Fee</strong> ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ <strong>Fast Response</strong> ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢{" "}
                 <strong>24/7 Available</strong>
               </p>
               <p className="text-sm opacity-90">

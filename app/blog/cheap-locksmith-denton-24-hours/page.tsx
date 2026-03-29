@@ -40,7 +40,7 @@ export default function CheapLocksmithDenton24HoursPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: "Cheap Locksmith Denton 24 Hours Ã¢â‚¬â€ Auto, Car & Van Services",
+            headline: "Cheap Locksmith Denton 24 Hours ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Auto, Car & Van Services",
             description:
               "Need a cheap 24 hour locksmith in Denton? Fast auto, car & van locksmith in Denton SK14 day or night. Mobile service. No call-out fee.",
             url: "https://carkeysinstockport.co.uk/blog/cheap-locksmith-denton-24-hours",
@@ -93,14 +93,14 @@ export default function CheapLocksmithDenton24HoursPage() {
       <main className="max-w-5xl mx-auto p-6">
 
         <h1 className="text-4xl font-bold mb-4">
-          Cheap Locksmith Denton 24 Hours Ã¢â‚¬â€ Auto, Car &amp; Van Services
+          Cheap Locksmith Denton 24 Hours ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Auto, Car &amp; Van Services
         </h1>
 
-        {/* Author block Ã¢â‚¬â€ E-E-A-T */}
+        {/* Author block ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â E-E-A-T */}
         <div className="flex items-center gap-3 mb-6 pb-6 border-b border-gray-200">
           <Image
             src="/images/vikki-heaton-auto-locksmith-stockport.jpg"
-            alt="Vikki Heaton Ã¢â‚¬â€ Auto Locksmith"
+            alt="Vikki Heaton ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Auto Locksmith"
             width={48}
             height={48}
             className="rounded-full object-cover ring-2 ring-orange-400 flex-shrink-0"
@@ -127,7 +127,7 @@ export default function CheapLocksmithDenton24HoursPage() {
             Locked out in Denton at 2am? Lost your car keys near Crown Point? Whether it&apos;s a car lockout,
             a van key replacement, or a smart key programming job, <strong>Car Keys Stockport</strong> is your
             local <strong>cheap 24 hour locksmith in Denton SK14</strong>. We cover the full SK14 area with a
-            mobile auto, car and van locksmith service available day and night Ã¢â‚¬â€ including weekends and bank
+            mobile auto, car and van locksmith service available day and night ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â including weekends and bank
             holidays. No call-out fee. Fixed price agreed before work starts. Call{" "}
             <strong>07309903243</strong> any time and we aim to reach you within 20 minutes.
           </p>
@@ -141,7 +141,7 @@ export default function CheapLocksmithDenton24HoursPage() {
           <p className="leading-relaxed mb-4">
             One of the first things people ask is: how much will this cost me? At Car Keys Stockport, we believe
             in transparent, upfront pricing with no nasty surprises. There is no call-out fee for any job in
-            Denton SK14 Ã¢â‚¬â€ ever. Before we start any work, you receive a fixed price quote by phone.
+            Denton SK14 ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ever. Before we start any work, you receive a fixed price quote by phone.
           </p>
           <p className="leading-relaxed mb-4">
             The actual cost varies depending on what you need. A basic car key cut-and-programme for a common
@@ -154,7 +154,7 @@ export default function CheapLocksmithDenton24HoursPage() {
             <Link href="/services/car-key-replacement" className="text-blue-600 hover:underline">
               car key replacement
             </Link>
-            . Whatever your situation, we promise a cheap locksmith price for Denton Ã¢â‚¬â€ competitive, honest, and
+            . Whatever your situation, we promise a cheap locksmith price for Denton ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â competitive, honest, and
             agreed upfront.
           </p>
           <p className="leading-relaxed">
@@ -167,7 +167,7 @@ export default function CheapLocksmithDenton24HoursPage() {
         {/* H2 #2 */}
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">
-            Car Locksmith vs Van Locksmith in Denton Ã¢â‚¬â€ What&apos;s the Difference?
+            Car Locksmith vs Van Locksmith in Denton ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â What&apos;s the Difference?
           </h2>
           <p className="leading-relaxed mb-4">
             Whether you need a car locksmith or a van locksmith in Denton, the answer is the same: call Car
@@ -177,7 +177,7 @@ export default function CheapLocksmithDenton24HoursPage() {
           <p className="leading-relaxed mb-4">
             Car lockouts and car key replacement cover everything from standard hatchbacks and saloons to
             prestige vehicles with advanced security systems. Van lockout assistance in Denton covers
-            commercial vans, light goods vehicles, and all makes Ã¢â‚¬â€ Ford Transit, Mercedes Sprinter, Vauxhall
+            commercial vans, light goods vehicles, and all makes ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Ford Transit, Mercedes Sprinter, Vauxhall
             Vivaro and more.{" "}
             <Link href="/services/van-lockout" className="text-blue-600 hover:underline">
               Van key replacement
@@ -194,13 +194,13 @@ export default function CheapLocksmithDenton24HoursPage() {
           </p>
         </section>
 
-        {/* CTA box Ã¢â‚¬â€ placed after second H2 */}
+        {/* CTA box ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â placed after second H2 */}
         <section className="mb-8 rounded-lg border border-orange-400 bg-orange-50 p-6">
           <p className="text-lg font-semibold mb-2">
             Locked out in Denton? Need a car key or van lockout right now?
           </p>
           <p className="mb-4">
-            Call <strong>07309903243</strong> Ã¢â‚¬â€ available 24/7 in Denton SK14. 20 minute response. No
+            Call <strong>07309903243</strong> ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â available 24/7 in Denton SK14. 20 minute response. No
             call-out fee.
           </p>
           <Link
@@ -225,24 +225,24 @@ export default function CheapLocksmithDenton24HoursPage() {
           </p>
           <ul className="list-disc list-inside space-y-2 leading-relaxed mb-4">
             <li>
-              <strong>Always ask for a fixed price upfront</strong> Ã¢â‚¬â€ before anyone touches your vehicle. A
+              <strong>Always ask for a fixed price upfront</strong> ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â before anyone touches your vehicle. A
               reputable cheap locksmith in Denton will give you a firm quote over the phone.
             </li>
             <li>
-              <strong>Avoid national call centres</strong> Ã¢â‚¬â€ they often advertise low prices but add fees once
+              <strong>Avoid national call centres</strong> ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â they often advertise low prices but add fees once
               the job is done. You want to speak directly to your locksmith, not a booking agent.
             </li>
             <li>
-              <strong>Check they are insured</strong> Ã¢â‚¬â€ Car Keys Stockport is fully insured. Always ask for
+              <strong>Check they are insured</strong> ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Car Keys Stockport is fully insured. Always ask for
               proof of insurance before allowing work to begin.
             </li>
             <li>
-              <strong>Use a local Denton auto locksmith specialist</strong> Ã¢â‚¬â€ local means faster arrival,
+              <strong>Use a local Denton auto locksmith specialist</strong> ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â local means faster arrival,
               local knowledge of SK14, and no middleman markup.
             </li>
           </ul>
           <p className="leading-relaxed">
-            Car Keys Stockport ticks every box. We are a genuine local, cheap, 24 hour locksmith in Denton Ã¢â‚¬â€
+            Car Keys Stockport ticks every box. We are a genuine local, cheap, 24 hour locksmith in Denton ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â
             not a call centre redirect. Call 07309903243 and speak directly to us.
           </p>
         </section>
@@ -255,14 +255,14 @@ export default function CheapLocksmithDenton24HoursPage() {
           <p className="leading-relaxed mb-4">
             When you call a national locksmith number, you are usually speaking to someone in a call centre
             who has no idea where Ashton Road is, or whether Hyde Road is blocked at that time of night. They
-            then relay your details to a subcontractor Ã¢â‚¬â€ and your &quot;cheap locksmith Denton&quot; quote
+            then relay your details to a subcontractor ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â and your &quot;cheap locksmith Denton&quot; quote
             suddenly grows.
           </p>
           <p className="leading-relaxed mb-4">
             Car Keys Stockport is different. We are a local mobile auto locksmith based in Stockport. We know
             the roads around Crown Point Retail Park, we know the quickest route to Denton town centre at
             midnight, and we know that a customer on Hyde Road needs us there fast. That local knowledge means
-            a genuine 20 minute response time Ã¢â‚¬â€ not an estimate.
+            a genuine 20 minute response time ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â not an estimate.
           </p>
           <p className="leading-relaxed">
             When you call <strong>07309903243</strong>, you speak directly to the person coming to help you.
@@ -271,7 +271,7 @@ export default function CheapLocksmithDenton24HoursPage() {
           </p>
         </section>
 
-        {/* H2 #5 Ã¢â‚¬â€ CTA section */}
+        {/* H2 #5 ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â CTA section */}
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">
             Call a Cheap 24 Hour Locksmith in Denton Now
@@ -279,12 +279,12 @@ export default function CheapLocksmithDenton24HoursPage() {
           <p className="leading-relaxed mb-4">
             Car Keys Stockport provides a fully mobile, cheap 24 hour locksmith service in Denton SK14 with a
             20 minute response time. Whether you need car key replacement, a van lockout, or emergency
-            locksmith help in the middle of the night Ã¢â‚¬â€ we are on call right now.
+            locksmith help in the middle of the night ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â we are on call right now.
           </p>
           <ul className="list-disc list-inside space-y-1 mb-4 leading-relaxed">
             <li>Available 24/7 including bank holidays</li>
             <li>20 minute response across Denton SK14</li>
-            <li>No call-out fee Ã¢â‚¬â€ ever</li>
+            <li>No call-out fee ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ever</li>
             <li>Fixed price given before work starts</li>
             <li>All car and van makes and models covered</li>
           </ul>
@@ -312,7 +312,7 @@ export default function CheapLocksmithDenton24HoursPage() {
             <a href="tel:+447309903243" className="text-orange-600 hover:underline">
               07309903243
             </a>{" "}
-            Ã¢â‚¬â€ we&apos;re ready to help right now, 24 hours a day.
+            ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â we&apos;re ready to help right now, 24 hours a day.
           </p>
         </section>
 

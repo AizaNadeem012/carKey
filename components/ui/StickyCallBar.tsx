@@ -28,10 +28,10 @@ export default function StickyCallBar() {
       <a
         href={PHONE_HREF}
         className="flex items-center justify-center gap-2 w-full h-14 bg-[#FFD700] text-[#0B1B2B] font-bold text-base"
-        aria-label="Call Vikki Heaton — free quote, fast response"
+        aria-label="Call Vikki Heaton Ã¢â‚¬â€ free quote, fast response"
       >
-        <span aria-hidden="true">📞</span>
-        <span>Call Vikki — Free Quote, Fast Response</span>
+        <span aria-hidden="true">Ã°Å¸â€œÅ¾</span>
+        <span>Call Vikki Ã¢â‚¬â€ Free Quote, Fast Response</span>
         <span className="ml-1 text-sm opacity-80">{PHONE_DISPLAY}</span>
       </a>
     </div>

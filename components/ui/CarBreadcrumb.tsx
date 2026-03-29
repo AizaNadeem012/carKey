@@ -1,5 +1,5 @@
 // components/ui/CarBreadcrumb.tsx
-// Car-specific breadcrumb: Home → Cars → [Brand]
+// Car-specific breadcrumb: Home Ã¢â€ â€™ Cars Ã¢â€ â€™ [Brand]
 // Note: Named CarBreadcrumb to avoid conflict with /components/ui/breadcrumb.tsx (shadcn)
 import Link from "next/link"
 import { ChevronRight, Home } from "lucide-react"

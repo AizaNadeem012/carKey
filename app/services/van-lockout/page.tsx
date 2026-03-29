@@ -4,7 +4,7 @@ import Link from "next/link"
 import { Phone, Clock, Shield, CheckCircle, MapPin, AlertCircle } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Van Lockout Assistance Stockport | Emergency Mobile Service 24/7 | From Ã‚Â£69",
+  title: "Van Lockout Assistance Stockport | Emergency Mobile Service 24/7 | From ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£69",
   description:
     "Van locked out? Emergency van lockout assistance in Stockport, 24/7. Fast damage-free entry for all van types. 25-minute response. Fully insured. Call 07309903243",
   keywords: "van lockout, locked out of van, van locksmith Stockport, emergency van service",
@@ -51,7 +51,7 @@ export default function VanLockoutPage() {
                 </div>
                 <div className="card">
                   <CheckCircle className="w-6 h-6 text-orange-400 mx-auto mb-2" />
-                  <div className="text-sm font-semibold">From Ã‚Â£69</div>
+                  <div className="text-sm font-semibold">From ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£69</div>
                 </div>
               </div>
             </div>
@@ -124,7 +124,7 @@ export default function VanLockoutPage() {
                 <ul className="space-y-3 text-sm text-gray-300">
                   <li className="flex justify-between">
                     <span>Service Cost:</span>
-                    <span className="text-orange-400 font-bold">From Ã‚Â£69</span>
+                    <span className="text-orange-400 font-bold">From ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£69</span>
                   </li>
                   <li className="flex justify-between">
                     <span>Response Time:</span>

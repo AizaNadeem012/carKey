@@ -42,7 +42,7 @@ export default function BrandPageSchemas({
       { "@type": "City", name: "Manchester" },
       { "@type": "AdministrativeArea", name: "Greater Manchester" },
     ],
-    priceRange: "££",
+    priceRange: "Ã‚Â£Ã‚Â£",
     founder: {
       "@type": "Person",
       "@id": "https://carkeysinstockport.co.uk/about#vikki-heaton",

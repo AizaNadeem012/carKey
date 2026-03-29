@@ -154,7 +154,7 @@ const localBusinessSchema = {
     { "@type": "City", name: "Knutsford" },
     { "@type": "City", name: "Altrincham" },
   ],
-  priceRange: "Ã‚Â£Ã‚Â£",
+  priceRange: "ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£",
   paymentAccepted: "Cash, Credit Card, Debit Card",
   currenciesAccepted: "GBP",
   aggregateRating: {
@@ -286,7 +286,7 @@ export default function CheshireCarKeysPage() {
                 </div>
 
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
-                  Cheshire Car Keys Ã¢â‚¬â€œ Professional Car Key Replacement & Auto Locksmith
+                  Cheshire Car Keys ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ Professional Car Key Replacement & Auto Locksmith
                 </h1>
 
                 <p className="text-lg sm:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed">
@@ -541,7 +541,7 @@ export default function CheshireCarKeysPage() {
                 Why Choose Cheshire Car Keys?
               </h2>
               <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto px-2 sm:px-0">
-                Trust, professionalism, and reliabilityÃ¢â‚¬â€the foundation of Cheshire Car Keys' reputation as Cheshire's
+                Trust, professionalism, and reliabilityÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âthe foundation of Cheshire Car Keys' reputation as Cheshire's
                 leading auto locksmith service.
               </p>
             </div>
@@ -559,7 +559,7 @@ export default function CheshireCarKeysPage() {
                   <CheckCircle className="w-6 h-6 text-green-400 flex-shrink-0 mt-1" />
                   <span className="text-gray-300">
                     <strong className="text-white">No Call-Out Fee:</strong> Transparent pricing with no hidden
-                    charges or surprise feesÃ¢â‚¬â€you know exactly what you'll pay upfront
+                    charges or surprise feesÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âyou know exactly what you'll pay upfront
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -648,7 +648,7 @@ export default function CheshireCarKeysPage() {
                     <div>
                       <h3 className="text-xl sm:text-2xl font-bold mb-3 text-white">Fast Mobile Response</h3>
                       <p className="text-sm sm:text-base text-gray-300">
-                        Our mobile locksmiths arrive at your location quicklyÃ¢â‚¬â€whether you're at home, work, or
+                        Our mobile locksmiths arrive at your location quicklyÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âwhether you're at home, work, or
                         roadside. We're strategically positioned across Cheshire to provide fast response times. Our
                         fully equipped vans carry all necessary tools and equipment.
                       </p>
@@ -716,7 +716,7 @@ export default function CheshireCarKeysPage() {
                 Call Now: 07309903243
               </a>
               <p className="text-sm sm:text-base opacity-90">
-                Available 24/7 Ã¢â‚¬Â¢ Fast Response Ã¢â‚¬Â¢ No Call-Out Fee Ã¢â‚¬Â¢ Fully Insured
+                Available 24/7 ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Fast Response ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ No Call-Out Fee ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ Fully Insured
               </p>
             </div>
           </div>
@@ -795,7 +795,7 @@ export default function CheshireCarKeysPage() {
             <p className="text-lg sm:text-xl mb-8 sm:mb-10 max-w-2xl mx-auto px-2 sm:px-0">
               Whether you need car key replacement, key fob programming, emergency lockout assistance, or ignition
               repair, Cheshire Car Keys is ready to help. Fast response, professional service, transparent pricing, and
-              fully insuredÃ¢â‚¬â€your trusted local auto locksmith in Cheshire.
+              fully insuredÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âyour trusted local auto locksmith in Cheshire.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mb-8 sm:mb-10">
               <a

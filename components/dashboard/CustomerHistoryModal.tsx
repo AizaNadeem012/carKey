@@ -170,7 +170,7 @@ export function CustomerHistoryModal({ customerEmail, customerPhone, onClose }: 
                   <DollarSign className="h-5 w-5 text-yellow-500" />
                   <span className="text-sm font-medium text-muted-foreground">Total Spent</span>
                 </div>
-                <p className="text-2xl font-bold text-foreground">£{totalRevenue.toLocaleString()}</p>
+                <p className="text-2xl font-bold text-foreground">Ã‚Â£{totalRevenue.toLocaleString()}</p>
               </div>
             </div>
           </div>
@@ -214,7 +214,7 @@ export function CustomerHistoryModal({ customerEmail, customerPhone, onClose }: 
                         </div>
                         
                         <div className="text-right">
-                          <p className="text-lg font-bold text-primary">£{amount.toLocaleString()}</p>
+                          <p className="text-lg font-bold text-primary">Ã‚Â£{amount.toLocaleString()}</p>
                           <p className="text-xs text-muted-foreground">{serviceCount} service{serviceCount !== 1 ? 's' : ''}</p>
                         </div>
                       </div>

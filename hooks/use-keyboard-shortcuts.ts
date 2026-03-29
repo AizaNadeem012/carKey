@@ -120,7 +120,7 @@ function showShortcutsHelp() {
 
   const html = `
     <div style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: hsl(0 0% 10%); padding: 24px; border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.5); z-index: 9999; max-width: 500px; width: 90%;">
-      <h3 style="margin-bottom: 16px; font-size: 20px; font-weight: bold; color: hsl(0 0% 100%);">⌨️ Keyboard Shortcuts</h3>
+      <h3 style="margin-bottom: 16px; font-size: 20px; font-weight: bold; color: hsl(0 0% 100%);">Ã¢Å’Â¨Ã¯Â¸Â Keyboard Shortcuts</h3>
       <div style="display: grid; gap: 8px;">
         ${shortcuts.map(s => `
           <div style="display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; background: hsl(0 0% 15%); border-radius: 6px;">

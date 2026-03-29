@@ -114,7 +114,7 @@ export default function BuryPage() {
                 </div>
                 <div className="card">
                   <Star className="w-6 h-6 text-orange-400 mx-auto mb-2" aria-hidden="true" />
-                  <div className="text-sm font-semibold">5Ã¢Ëœâ€¦ Rated</div>
+                  <div className="text-sm font-semibold">5ÃƒÆ’Ã‚Â¢Ãƒâ€¹Ã…â€œÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ Rated</div>
                 </div>
               </div>
             </div>

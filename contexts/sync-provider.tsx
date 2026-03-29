@@ -17,7 +17,7 @@ export function SyncProvider({ children }: { children: ReactNode }) {
   // Listen for Google Sheets updates
   useEffect(() => {
     const handleSheetsUpdate = (event: CustomEvent) => {
-      console.log('📊 Google Sheets updated:', event.detail)
+      console.log('Ã°Å¸â€œÅ  Google Sheets updated:', event.detail)
       setLastSyncTime(Date.now())
       
       // Broadcast to all pages
@@ -35,7 +35,7 @@ export function SyncProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     const handleStorageChange = (e: StorageEvent) => {
       if (e.key === 'sheetsUpdate') {
-        console.log('🔄 Cross-tab sync detected:', e.newValue)
+        console.log('Ã°Å¸â€â€ž Cross-tab sync detected:', e.newValue)
         setLastSyncTime(Date.now())
       }
     }

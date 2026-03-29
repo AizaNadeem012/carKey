@@ -50,7 +50,7 @@ export default function RelatedBrandsSection({
           Other Car Makes We Cover in Stockport
         </h2>
         <p className="text-gray-400 text-center mb-8 text-sm">
-          We programme keys for all related makes — same mobile service, same day.
+          We programme keys for all related makes Ã¢â‚¬â€ same mobile service, same day.
         </p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
@@ -60,7 +60,7 @@ export default function RelatedBrandsSection({
               href={`/cars/${brand.slug}`}
               className="card p-5 hover:bg-slate-700 transition-colors group"
               aria-label={`${brand.brand} car key replacement Stockport`}
-              title={`${brand.brand} key replacement — mobile locksmith Stockport`}
+              title={`${brand.brand} key replacement Ã¢â‚¬â€ mobile locksmith Stockport`}
             >
               <div className="flex items-start justify-between mb-2">
                 <h3 className="font-bold text-white group-hover:text-orange-400 transition-colors leading-tight">

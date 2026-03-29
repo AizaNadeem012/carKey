@@ -9,8 +9,8 @@ interface HeroCallButtonProps {
 }
 
 export default function HeroCallButton({
-  label = "📞 Call Now — Free Quote",
-  ariaLabel = "Call Vikki Heaton — free quote, fast response",
+  label = "Ã°Å¸â€œÅ¾ Call Now Ã¢â‚¬â€ Free Quote",
+  ariaLabel = "Call Vikki Heaton Ã¢â‚¬â€ free quote, fast response",
 }: HeroCallButtonProps) {
   return (
     <div className="flex flex-col items-start gap-2">
@@ -32,7 +32,7 @@ export default function HeroCallButton({
         <span className="text-sm font-normal opacity-80">{PHONE_DISPLAY}</span>
       </a>
       <p className="text-sm text-gray-400 flex items-center gap-1">
-        <span aria-hidden="true">⚡</span>
+        <span aria-hidden="true">Ã¢Å¡Â¡</span>
         Vikki responds in 30 minutes on average
       </p>
     </div>

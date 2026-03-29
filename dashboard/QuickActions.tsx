@@ -110,7 +110,7 @@ export function QuickActions() {
         
         <div className="px-2 py-2">
           <p className="text-xs text-muted-foreground text-center">
-            ⌨️ Press <kbd className="px-1.5 py-0.5 bg-muted rounded text-[10px]">Shift</kbd> + <kbd className="px-1.5 py-0.5 bg-muted rounded text-[10px]">?</kbd> for keyboard shortcuts
+            Ã¢Å’Â¨Ã¯Â¸Â Press <kbd className="px-1.5 py-0.5 bg-muted rounded text-[10px]">Shift</kbd> + <kbd className="px-1.5 py-0.5 bg-muted rounded text-[10px]">?</kbd> for keyboard shortcuts
           </p>
         </div>
       </DropdownMenuContent>

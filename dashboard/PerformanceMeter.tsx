@@ -24,7 +24,7 @@ export function PerformanceMeter({
     const completionRate = totalOrders > 0 ? (completedOrders / totalOrders) * 100 : 0
     score += Math.min(completionRate * 0.4, 40)
     
-    // Revenue performance (30 points) - assuming £5000 target
+    // Revenue performance (30 points) - assuming Ã‚Â£5000 target
     const revenueScore = Math.min((totalRevenue / 5000) * 30, 30)
     score += revenueScore
     

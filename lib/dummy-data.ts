@@ -2,7 +2,7 @@ export const statsCards = [
   { title: "Total Orders", value: "2,847", change: "+12.5%", trend: "up" as const },
   { title: "Active Services", value: "8", change: "+3.2%", trend: "up" as const },
   { title: "Completed Jobs", value: "1,923", change: "+8.1%", trend: "up" as const },
-  { title: "Revenue", value: "£148,290", change: "+22.4%", trend: "up" as const },
+  { title: "Revenue", value: "Ã‚Â£148,290", change: "+22.4%", trend: "up" as const },
 ];
 
 export const ordersOverTime = [
@@ -35,9 +35,9 @@ export const monthlyRevenue = [
 export const recentActivity = [
   { id: 1, action: "New order placed", detail: "Car Key Replacement - BMW keys", time: "2 min ago", type: "order" },
   { id: 2, action: "Service completed", detail: "Lockout Assistance - Ford Fiesta", time: "15 min ago", type: "complete" },
-  { id: 3, action: "Payment received", detail: "£150 from John Smith", time: "1 hr ago", type: "payment" },
+  { id: 3, action: "Payment received", detail: "Ã‚Â£150 from John Smith", time: "1 hr ago", type: "payment" },
   { id: 4, action: "New user registered", detail: "sarah@example.com", time: "2 hrs ago", type: "user" },
-  { id: 5, action: "Order status updated", detail: "Auto Keys Programming → In Progress", time: "3 hrs ago", type: "update" },
+  { id: 5, action: "Order status updated", detail: "Auto Keys Programming Ã¢â€ â€™ In Progress", time: "3 hrs ago", type: "update" },
 ];
 
 export type Service = {
@@ -111,7 +111,7 @@ export const categories = [
 
 export const notifications = [
   { id: 1, title: "New order received", message: "ORD-009 from BMW customer", time: "Just now", read: false },
-  { id: 2, title: "Payment confirmed", message: "£150 from John Smith", time: "5 min ago", read: false },
+  { id: 2, title: "Payment confirmed", message: "Ã‚Â£150 from John Smith", time: "5 min ago", read: false },
   { id: 3, title: "Service completed", message: "Lockout Assistance for Ford Fiesta", time: "1 hr ago", read: true },
   { id: 4, title: "New team member", message: "Lisa Wong joined as Agent", time: "3 hrs ago", read: true },
 ];

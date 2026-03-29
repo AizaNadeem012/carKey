@@ -61,7 +61,7 @@ export default function AreaLinksSection({ brandName }: AreaLinksSectionProps) {
             <Link
               key={area.href}
               href={area.href}
-              title={`Car key replacement in ${area.name} — mobile auto locksmith`}
+              title={`Car key replacement in ${area.name} Ã¢â‚¬â€ mobile auto locksmith`}
               className="flex items-center gap-1.5 text-sm text-gray-300 hover:text-orange-400 transition-colors group py-1.5"
             >
               <MapPin

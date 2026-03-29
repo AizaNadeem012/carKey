@@ -69,12 +69,12 @@ export default function AdminDashboard() {
     // Fetch real orders from Google Sheets
     const fetchDashboardData = async () => {
       try {
-        console.log('ðŸ”„ Fetching dashboard data...')
+        console.log('ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ¢â‚¬Å¾ Fetching dashboard data...')
         const res = await fetch('/api/orders')
         const data = await res.json()
         const ordersList = data.orders || []
         
-        console.log('ðŸ“Š Received orders:', ordersList.length)
+        console.log('ÃƒÂ°Ã…Â¸Ã¢â‚¬Å“Ã…Â  Received orders:', ordersList.length)
         setOrders(ordersList)
         
         // Calculate real-time statistics
@@ -83,7 +83,7 @@ export default function AdminDashboard() {
         const completedOrders = ordersList.filter((o: Order) => o.status === 'completed').length
         const inProgressOrders = ordersList.filter((o: Order) => o.status === 'in_progress').length
         
-        // Calculate revenue based on services (Â£150 per service)
+        // Calculate revenue based on services (Ãƒâ€šÃ‚Â£150 per service)
         const calculateOrderAmount = (order: Order) => {
           const serviceCount = order.services.split(',').filter(s => s.trim()).length
           return serviceCount * 150
@@ -157,11 +157,11 @@ export default function AdminDashboard() {
           busiestDay
         }
         
-        console.log('âœ… Dashboard stats updated:', newStats)
+        console.log('ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Dashboard stats updated:', newStats)
         setStats(newStats)
         setLoading(false)
       } catch (err) {
-        console.error('âŒ Error fetching dashboard data:', err)
+        console.error('ÃƒÂ¢Ã‚ÂÃ…â€™ Error fetching dashboard data:', err)
         setLoading(false)
       }
     }
@@ -171,7 +171,7 @@ export default function AdminDashboard() {
 
     // Listen for order status changes (same tab)
     const handleOrderStatusChange = (event: CustomEvent) => {
-      console.log('ðŸŽ¯ Order status changed event received:', event.detail)
+      console.log('ÃƒÂ°Ã…Â¸Ã…Â½Ã‚Â¯ Order status changed event received:', event.detail)
       fetchDashboardData()
     }
 
@@ -180,7 +180,7 @@ export default function AdminDashboard() {
     // Listen for localStorage changes (cross-tab sync)
     const handleStorageChange = (e: StorageEvent) => {
       if (e.key === 'orderStatusUpdate') {
-        console.log('ðŸ’¾ localStorage change detected:', e.newValue)
+        console.log('ÃƒÂ°Ã…Â¸Ã¢â‚¬â„¢Ã‚Â¾ localStorage change detected:', e.newValue)
         fetchDashboardData()
       }
     }
@@ -290,8 +290,8 @@ export default function AdminDashboard() {
     },
     {
       title: "Total Revenue",
-      value: `Â£${stats.totalRevenue.toLocaleString()}`,
-      change: `Avg Â£${stats.averageOrderValue.toFixed(0)} per order`,
+      value: `Ãƒâ€šÃ‚Â£${stats.totalRevenue.toLocaleString()}`,
+      change: `Avg Ãƒâ€šÃ‚Â£${stats.averageOrderValue.toFixed(0)} per order`,
       icon: PoundSterling
     }
   ]
@@ -302,7 +302,7 @@ export default function AdminDashboard() {
         <h1 className="text-2xl font-bold text-foreground tracking-tight">Dashboard</h1>
         <p className="text-sm text-muted-foreground mt-1">
           Welcome back. Here's your overview from Google Sheets
-          {orders.length > 0 && ` â€¢ ${orders.length} total orders`}
+          {orders.length > 0 && ` ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ ${orders.length} total orders`}
         </p>
       </div>
 
@@ -351,7 +351,7 @@ export default function AdminDashboard() {
             </div>
             <div className="flex items-center justify-between p-3 bg-muted/30 rounded-lg">
               <span className="text-sm text-muted-foreground">Avg Order Value</span>
-              <span className="text-sm font-bold text-foreground">Â£{stats.averageOrderValue.toFixed(0)}</span>
+              <span className="text-sm font-bold text-foreground">Ãƒâ€šÃ‚Â£{stats.averageOrderValue.toFixed(0)}</span>
             </div>
             <div className="flex items-center justify-between p-3 bg-muted/30 rounded-lg">
               <span className="text-sm text-muted-foreground">Top Service</span>
@@ -390,7 +390,7 @@ export default function AdminDashboard() {
               <h3 className="text-sm font-semibold text-muted-foreground">Today</h3>
             </div>
             <p className="text-3xl font-bold text-foreground">{stats.todayOrders}</p>
-            <p className="text-xs text-muted-foreground mt-1">Orders â€¢ Â£{stats.todayRevenue.toLocaleString()}</p>
+            <p className="text-xs text-muted-foreground mt-1">Orders ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ Ãƒâ€šÃ‚Â£{stats.todayRevenue.toLocaleString()}</p>
           </div>
         </div>
 
@@ -405,7 +405,7 @@ export default function AdminDashboard() {
               <h3 className="text-sm font-semibold text-muted-foreground">This Week</h3>
             </div>
             <p className="text-3xl font-bold text-foreground">{stats.weekOrders}</p>
-            <p className="text-xs text-muted-foreground mt-1">Orders â€¢ Â£{stats.weekRevenue.toLocaleString()}</p>
+            <p className="text-xs text-muted-foreground mt-1">Orders ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ Ãƒâ€šÃ‚Â£{stats.weekRevenue.toLocaleString()}</p>
           </div>
         </div>
 
@@ -420,7 +420,7 @@ export default function AdminDashboard() {
               <h3 className="text-sm font-semibold text-muted-foreground">This Month</h3>
             </div>
             <p className="text-3xl font-bold text-foreground">{stats.monthOrders}</p>
-            <p className="text-xs text-muted-foreground mt-1">Orders â€¢ Â£{stats.monthRevenue.toLocaleString()}</p>
+            <p className="text-xs text-muted-foreground mt-1">Orders ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ Ãƒâ€šÃ‚Â£{stats.monthRevenue.toLocaleString()}</p>
           </div>
         </div>
 
@@ -464,7 +464,7 @@ export default function AdminDashboard() {
             </div>
             <div className="flex items-center justify-between p-3 bg-muted/30 rounded-lg">
               <span className="text-sm text-muted-foreground">Average Order Value</span>
-              <span className="text-sm font-bold text-foreground">Â£{stats.averageOrderValue.toFixed(2)}</span>
+              <span className="text-sm font-bold text-foreground">Ãƒâ€šÃ‚Â£{stats.averageOrderValue.toFixed(2)}</span>
             </div>
             <div className="flex items-center justify-between p-3 bg-muted/30 rounded-lg">
               <span className="text-sm text-muted-foreground">Busiest Day</span>
@@ -489,7 +489,7 @@ export default function AdminDashboard() {
                 <p className="text-sm font-medium text-foreground">Total Revenue Generated</p>
                 <p className="text-xs text-muted-foreground">All time earnings</p>
               </div>
-              <span className="text-sm font-bold text-green-500">Â£{stats.totalRevenue.toLocaleString()}</span>
+              <span className="text-sm font-bold text-green-500">Ãƒâ€šÃ‚Â£{stats.totalRevenue.toLocaleString()}</span>
             </div>
             <div className="flex items-center gap-3 p-3 bg-muted/30 rounded-lg">
               <div className="flex-shrink-0 w-8 h-8 bg-blue-500/20 rounded-full flex items-center justify-center">
@@ -607,8 +607,8 @@ export default function AdminDashboard() {
             </defs>
             <CartesianGrid strokeDasharray="3 3" stroke="hsl(320, 3%, 28%)" vertical={false} />
             <XAxis dataKey="month" stroke="hsl(0, 0%, 60%)" fontSize={11} tickLine={false} axisLine={false} dy={10} />
-            <YAxis stroke="hsl(0, 0%, 60%)" fontSize={11} tickLine={false} axisLine={false} tickFormatter={(value) => `Â£${value}`} dx={-10} />
-            <Tooltip content={<EnhancedTooltip title="Revenue" valuePrefix="Â£" />} />
+            <YAxis stroke="hsl(0, 0%, 60%)" fontSize={11} tickLine={false} axisLine={false} tickFormatter={(value) => `Ãƒâ€šÃ‚Â£${value}`} dx={-10} />
+            <Tooltip content={<EnhancedTooltip title="Revenue" valuePrefix="Ãƒâ€šÃ‚Â£" />} />
             <Bar dataKey="revenue" fill="url(#colorRevenue)" radius={[6, 6, 0, 0]} animationDuration={1500} />
           </BarChart>
         </ResponsiveContainer>
@@ -622,7 +622,7 @@ export default function AdminDashboard() {
               <CartesianGrid strokeDasharray="3 3" stroke="hsl(320, 3%, 28%)" vertical={false} />
               <XAxis dataKey="month" stroke="hsl(0, 0%, 60%)" fontSize={11} tickLine={false} axisLine={false} dy={10} />
               <YAxis stroke="hsl(0, 0%, 60%)" fontSize={11} tickLine={false} axisLine={false} tickFormatter={(v) => `$${(v/1000).toFixed(0)}k`} dx={-10} />
-              <Tooltip content={<EnhancedTooltip title="Revenue" valuePrefix="Â£" />} />
+              <Tooltip content={<EnhancedTooltip title="Revenue" valuePrefix="Ãƒâ€šÃ‚Â£" />} />
               <Bar dataKey="revenue" fill="hsl(0, 99%, 47.6%)" radius={[4, 4, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>

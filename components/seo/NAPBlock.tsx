@@ -14,7 +14,7 @@ export default function NAPBlock() {
       {/* Hidden structured data */}
       <link itemProp="url" href="https://carkeysinstockport.co.uk" />
       <meta itemProp="openingHours" content="Mo-Su 00:00-23:59" />
-      <meta itemProp="priceRange" content="££" />
+      <meta itemProp="priceRange" content="Ã‚Â£Ã‚Â£" />
 
       {/* Visible NAP content */}
       <div className="container-custom">
@@ -27,7 +27,7 @@ export default function NAPBlock() {
             Car Keys in Stockport
           </span>
 
-          <span className="hidden md:inline text-slate-600">·</span>
+          <span className="hidden md:inline text-slate-600">Ã‚Â·</span>
 
           {/* Phone */}
           <a
@@ -39,7 +39,7 @@ export default function NAPBlock() {
             {PHONE_DISPLAY}
           </a>
 
-          <span className="hidden md:inline text-slate-600">·</span>
+          <span className="hidden md:inline text-slate-600">Ã‚Â·</span>
 
           {/* Email */}
           <a
@@ -50,7 +50,7 @@ export default function NAPBlock() {
             {SITE_EMAIL}
           </a>
 
-          <span className="hidden md:inline text-slate-600">·</span>
+          <span className="hidden md:inline text-slate-600">Ã‚Â·</span>
 
           {/* Address */}
           <address
@@ -70,7 +70,7 @@ export default function NAPBlock() {
             </span>
           </address>
 
-          <span className="hidden md:inline text-slate-600">·</span>
+          <span className="hidden md:inline text-slate-600">Ã‚Â·</span>
 
           {/* Founder */}
           <span
@@ -85,7 +85,7 @@ export default function NAPBlock() {
             </span>
           </span>
 
-          <span className="hidden md:inline text-slate-600">·</span>
+          <span className="hidden md:inline text-slate-600">Ã‚Â·</span>
 
           {/* Hours */}
           <span className="text-gray-500 whitespace-nowrap">Open 24/7</span>

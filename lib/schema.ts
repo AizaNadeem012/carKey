@@ -34,7 +34,7 @@ export const organizationSchema = {
     { "@type": "City", name: "Trafford" },
     { "@type": "City", name: "Salford" },
   ],
-  priceRange: "££",
+  priceRange: "Ã‚Â£Ã‚Â£",
   paymentAccepted: "Cash, Credit Card, Debit Card",
   currenciesAccepted: "GBP",
   sameAs: [
@@ -198,7 +198,7 @@ export const localBusinessSchema = (location: string, area: string) => ({
     "@type": "City",
     name: area,
   },
-  priceRange: "££",
+  priceRange: "Ã‚Â£Ã‚Â£",
   openingHoursSpecification: {
     "@type": "OpeningHoursSpecification",
     dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],

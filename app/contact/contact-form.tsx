@@ -20,7 +20,7 @@ export default function ContactForm() {
         className="w-full bg-transparent"
         style={{ minHeight: "600px" }}
       >
-        LoadingÃ¢â‚¬Â¦
+        LoadingÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦
       </iframe>
     </div>
   )

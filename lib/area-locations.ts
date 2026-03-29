@@ -102,7 +102,7 @@ export const areaLocationData: Record<string, AreaLocation> = {
 
 export const areaSlugs = Object.keys(areaLocationData)
 
-// ─── Stockport sub-area data (for /areas/stockport/[slug]) ───────────────────
+// Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ Stockport sub-area data (for /areas/stockport/[slug]) Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
 
 export type StockportSubArea = {
   name: string
@@ -124,7 +124,7 @@ export const stockportSubAreaData: Record<string, StockportSubArea> = {
     metaTitle: "Auto Locksmith Cheadle | Car Keys & Lockout 24/7",
     metaDescription: "Locked out in Cheadle? Vikki Heaton provides 24/7 car key replacement, emergency lockout and key fob programming in Cheadle SK8. 20-min response. No call-out fee.",
     heroDescription: "Fast, professional auto locksmith services in Cheadle and the surrounding SK8 area.",
-    description: "Cheadle residents can rely on our fast, professional auto locksmith service. Whether you're locked out of your car on the A34 Kingsway, near Cheadle Royal Business Park, or at home in Cheadle Village, our mobile locksmith is with you quickly. We handle all car makes and models, from Ford and Vauxhall to BMW and Mercedes — with keys cut and programmed on-site.",
+    description: "Cheadle residents can rely on our fast, professional auto locksmith service. Whether you're locked out of your car on the A34 Kingsway, near Cheadle Royal Business Park, or at home in Cheadle Village, our mobile locksmith is with you quickly. We handle all car makes and models, from Ford and Vauxhall to BMW and Mercedes Ã¢â‚¬â€ with keys cut and programmed on-site.",
     nearbyAreas: ["Cheadle Hulme", "Gatley", "Cheadle Heath", "Cheadle Village", "East Didsbury"],
     whyChoose: "We know Cheadle's roads and can navigate directly to you. Transparent pricing, no hidden fees, and a fully insured professional service every time.",
     landmarks: ["Cheadle Royal Hospital", "Cheadle Village", "Kingsway A34", "Cheadle Heath"],
@@ -174,7 +174,7 @@ export const stockportSubAreaData: Record<string, StockportSubArea> = {
     heroDescription: "Prompt auto locksmith services in Romiley SK6, available day and night.",
     description: "Our mobile auto locksmith covers all of Romiley and the surrounding SK6 area. Locked out on Compstall Road or Mill Lane? Lost your car keys near Romiley Forum? We'll be with you quickly with the tools to resolve any car key or lockout situation on the spot. All vehicle makes and models catered for, 24 hours a day.",
     nearbyAreas: ["Bredbury", "Marple", "Compstall", "Woodley", "Hatherlow"],
-    whyChoose: "Romiley SK6 specialist — fast response, professional service, and honest upfront pricing. Fully insured, female locksmith operator.",
+    whyChoose: "Romiley SK6 specialist Ã¢â‚¬â€ fast response, professional service, and honest upfront pricing. Fully insured, female locksmith operator.",
     landmarks: ["Romiley Forum", "Compstall Road", "Romiley Station", "Etherow Country Park"],
     responseTime: "25 minutes",
   },
@@ -196,7 +196,7 @@ export const stockportSubAreaData: Record<string, StockportSubArea> = {
     metaTitle: "Auto Locksmith Reddish | Car Keys & Lockout SK5",
     metaDescription: "Emergency car locksmith in Reddish SK5. Car key replacement, lockout assistance, key fob programming. 24/7, no call-out fee. Call Vikki Heaton 07309903243.",
     heroDescription: "Fast auto locksmith services in Reddish SK5, available around the clock.",
-    description: "Reddish residents and businesses can rely on our rapid auto locksmith service. Close to the Tesco on Houldsworth Street, on Gorton Road, or anywhere across SK5 — we'll reach you quickly and sort your car key or lockout problem efficiently. Emergency service available 24/7 including bank holidays.",
+    description: "Reddish residents and businesses can rely on our rapid auto locksmith service. Close to the Tesco on Houldsworth Street, on Gorton Road, or anywhere across SK5 Ã¢â‚¬â€ we'll reach you quickly and sort your car key or lockout problem efficiently. Emergency service available 24/7 including bank holidays.",
     nearbyAreas: ["Brinnington", "Edgeley", "Bredbury", "Heaton Chapel", "Gorton"],
     whyChoose: "We're quick to reach Reddish from our base in Stockport. Transparent pricing, damage-free vehicle entry, and on-site key programming.",
     landmarks: ["Houldsworth Street", "Gorton Road", "Reddish Vale Country Park", "Reddish Station"],
@@ -210,7 +210,7 @@ export const stockportSubAreaData: Record<string, StockportSubArea> = {
     heroDescription: "Local auto locksmith in Edgeley SK3, minutes from Stockport town centre.",
     description: "Edgeley sits right next to Stockport town centre, meaning we can reach you here faster than almost anywhere. From Castle Street to Hardcastle Road, near Edgeley Park stadium, or on any Edgeley residential street, we provide professional car key replacement, emergency lockout assistance, and key fob programming. Fully equipped mobile workshop comes to you.",
     nearbyAreas: ["Stockport Town Centre", "Cheadle Heath", "Adswood", "Davenport", "Heaton Norris"],
-    whyChoose: "Edgeley is one of our fastest response areas — often under 15 minutes. Professional service, no call-out fee, honest upfront pricing.",
+    whyChoose: "Edgeley is one of our fastest response areas Ã¢â‚¬â€ often under 15 minutes. Professional service, no call-out fee, honest upfront pricing.",
     landmarks: ["Edgeley Park (Stockport County FC)", "Castle Street", "Hardcastle Road", "Edgeley Station"],
     responseTime: "15 minutes",
   },
@@ -232,9 +232,9 @@ export const stockportSubAreaData: Record<string, StockportSubArea> = {
     metaTitle: "Auto Locksmith Davenport | Car Keys SK3 24/7",
     metaDescription: "Auto locksmith in Davenport SK3. Car key replacement, emergency car lockout, key fob programming. Female locksmith. No call-out fee. 24/7. Call 07309903243.",
     heroDescription: "Trusted auto locksmith services in Davenport SK3, day and night.",
-    description: "Our mobile auto locksmith covers Davenport and the surrounding SK3 area. Whether you need emergency car lockout help near Davenport Station, on Bramhall Lane South, or at home, we provide a fast, professional response. All car key types handled — remote keys, transponder keys, smart keys, and traditional cut keys — all programmed on-site.",
+    description: "Our mobile auto locksmith covers Davenport and the surrounding SK3 area. Whether you need emergency car lockout help near Davenport Station, on Bramhall Lane South, or at home, we provide a fast, professional response. All car key types handled Ã¢â‚¬â€ remote keys, transponder keys, smart keys, and traditional cut keys Ã¢â‚¬â€ all programmed on-site.",
     nearbyAreas: ["Edgeley", "Bramhall", "Woodsmoor", "Offerton", "Stepping Hill"],
-    whyChoose: "Davenport SK3 is a core service area for us — fast response guaranteed. Professional service with modern equipment and transparent pricing.",
+    whyChoose: "Davenport SK3 is a core service area for us Ã¢â‚¬â€ fast response guaranteed. Professional service with modern equipment and transparent pricing.",
     landmarks: ["Davenport Station", "Bramhall Lane South", "Davenport Park", "Lisvane Road"],
     responseTime: "20 minutes",
   },
@@ -268,7 +268,7 @@ export const stockportSubAreaData: Record<string, StockportSubArea> = {
     metaTitle: "Auto Locksmith Heaton Moor | Car Lockout SK4 24/7",
     metaDescription: "Auto locksmith in Heaton Moor SK4. Emergency car lockout, key replacement, key fob programming. 24/7, no call-out fee. Fully insured. Call 07309903243.",
     heroDescription: "Expert auto locksmith services in Heaton Moor SK4, available around the clock.",
-    description: "Our auto locksmith covers all of Heaton Moor and the SK4 area. Whether you're locked out near Heaton Moor Road, outside a restaurant on Shaw Road, or at home, our certified locksmith will be with you fast. We handle all modern car security systems — transponder keys, remote fobs, smart keys, and traditional keys — programmed on-site.",
+    description: "Our auto locksmith covers all of Heaton Moor and the SK4 area. Whether you're locked out near Heaton Moor Road, outside a restaurant on Shaw Road, or at home, our certified locksmith will be with you fast. We handle all modern car security systems Ã¢â‚¬â€ transponder keys, remote fobs, smart keys, and traditional keys Ã¢â‚¬â€ programmed on-site.",
     nearbyAreas: ["Heaton Mersey", "Heaton Norris", "Edgeley", "Didsbury", "Reddish"],
     whyChoose: "Close to Heaton Moor SK4, fast response guaranteed. Professional, damage-free locksmith service with no call-out fee.",
     landmarks: ["Heaton Moor Road", "Shaw Road", "Heaton Moor Park", "Heaton Moor Station"],
@@ -292,7 +292,7 @@ export const stockportSubAreaData: Record<string, StockportSubArea> = {
     metaTitle: "Auto Locksmith Portwood | Car Keys Stockport SK1",
     metaDescription: "Auto locksmith in Portwood SK1, Stockport. Car key replacement, emergency lockout. Minutes from town centre. No call-out fee. 24/7. Call 07309903243.",
     heroDescription: "Fast auto locksmith services in Portwood SK1, right next to Stockport town centre.",
-    description: "Portwood is one of our quickest response areas, being so close to Stockport town centre. Industrial estates, retail parks, or residential streets — wherever you're locked out in Portwood, we'll be there rapidly. We handle all car key types and models, providing on-site key cutting and programming services.",
+    description: "Portwood is one of our quickest response areas, being so close to Stockport town centre. Industrial estates, retail parks, or residential streets Ã¢â‚¬â€ wherever you're locked out in Portwood, we'll be there rapidly. We handle all car key types and models, providing on-site key cutting and programming services.",
     nearbyAreas: ["Stockport Town Centre", "Heaton Norris", "Reddish", "Brinnington", "Edgeley"],
     whyChoose: "One of our fastest response areas in SK1. Professional locksmith service, no call-out fee, transparent pricing.",
     landmarks: ["Portwood Retail Park", "Tiviot Dale", "Portwood Roundabout", "River Goyt"],

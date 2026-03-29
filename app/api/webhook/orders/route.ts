@@ -6,7 +6,7 @@ export async function POST(request: NextRequest) {
     const body = await request.json()
     const { action, orderId, changes } = body
 
-    console.log('📡 Webhook received:', { action, orderId, changes })
+    console.log('Ã°Å¸â€œÂ¡ Webhook received:', { action, orderId, changes })
 
     // Broadcast to all connected clients via localStorage event
     // This will trigger updates in all open admin pages
