@@ -125,7 +125,7 @@ export default function Orders() {
         order.phoneNumber,
         order.address,
         order.status,
-        `ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£${amount}`
+        `£${amount}`
       ].join(',')
     })
     
@@ -184,12 +184,12 @@ export default function Orders() {
             <tr>
               <td>${order.services}</td>
               <td>${serviceCount}</td>
-              <td>ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£150</td>
-              <td>ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£${amount}</td>
+              <td>£150</td>
+              <td>£{amount}</td>
             </tr>
           </table>
           
-          <div class="total">Total: ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£${amount}</div>
+          <div class="total">Total: £${amount}</div>
           
           <div style="margin-top: 40px; text-align: center; color: #999; font-size: 12px;">
             Thank you for choosing Car Keys Stockport!
@@ -232,7 +232,7 @@ export default function Orders() {
           <h1 className="text-xl sm:text-2xl font-bold text-foreground tracking-tight">Orders</h1>
           <p className="text-xs sm:text-sm text-muted-foreground mt-1">
             Track and manage all orders from Google Sheets
-            {ordersList.length > 0 && ` ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ ${ordersList.length} order${ordersList.length !== 1 ? 's' : ''}`}
+            {ordersList.length > 0 && ` • ${ordersList.length} order${ordersList.length !== 1 ? 's' : ''}`}
           </p>
         </div>
         <div className="flex items-center gap-2 flex-wrap">
@@ -438,7 +438,7 @@ export default function Orders() {
                           </Badge>
                         </td>
                         <td className="px-2 py-3.5 text-right">
-                          <p className="text-sm font-bold text-foreground">Ãƒâ€šÃ‚Â£{amount.toLocaleString()}</p>
+                          <p className="text-sm font-bold text-foreground">£{amount.toLocaleString()}</p>
                           <p className="text-xs text-muted-foreground">{serviceCount} service{serviceCount !== 1 ? 's' : ''}</p>
                         </td>
                         <td className="px-2 py-3.5 text-right">
@@ -498,7 +498,7 @@ export default function Orders() {
                         <div className="flex-1 min-w-0">
                           <p className="text-xs font-mono font-medium text-foreground truncate">{order.id}</p>
                           <p className="text-[10px] text-muted-foreground">
-                            {new Date(order.timestamp).toLocaleDateString()} ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ {new Date(order.timestamp).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
+                            {new Date(order.timestamp).toLocaleDateString()} • {new Date(order.timestamp).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
                           </p>
                         </div>
                       </div>
@@ -555,7 +555,7 @@ export default function Orders() {
                     {/* Footer Row - Amount & Actions */}
                     <div className="flex items-center justify-between gap-2 pt-2 border-t border-border/50">
                       <div>
-                        <p className="text-sm font-bold text-foreground">Ãƒâ€šÃ‚Â£{amount.toLocaleString()}</p>
+                        <p className="text-sm font-bold text-foreground">£{amount.toLocaleString()}</p>
                         <p className="text-[10px] text-muted-foreground">{serviceCount} service{serviceCount !== 1 ? 's' : ''}</p>
                       </div>
                       <div className="flex items-center gap-1">
@@ -627,7 +627,7 @@ export default function Orders() {
                 <div>
                   <p className="text-xs text-muted-foreground mb-1">Total Amount</p>
                   <p className="text-lg font-bold text-primary">
-                    ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£{(viewingOrder.services.split(',').filter(s => s.trim()).length * 150).toLocaleString()}
+                    £{(viewingOrder.services.split(',').filter(s => s.trim()).length * 150).toLocaleString()}
                   </p>
                 </div>
               </div>
