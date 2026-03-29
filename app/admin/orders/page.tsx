@@ -229,46 +229,46 @@ export default function Orders() {
     <div className="space-y-6">
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
-          <h1 className="text-2xl font-bold text-foreground tracking-tight">Orders</h1>
-          <p className="text-sm text-muted-foreground mt-1">
+          <h1 className="text-xl sm:text-2xl font-bold text-foreground tracking-tight">Orders</h1>
+          <p className="text-xs sm:text-sm text-muted-foreground mt-1">
             Track and manage all orders from Google Sheets
-            {ordersList.length > 0 && ` Ã¢â‚¬Â¢ ${ordersList.length} order${ordersList.length !== 1 ? 's' : ''}`}
+            {ordersList.length > 0 && ` • ${ordersList.length} order${ordersList.length !== 1 ? 's' : ''}`}
           </p>
         </div>
         <div className="flex items-center gap-2 flex-wrap">
           <RevenueCalculator />
-          <Button onClick={fetchOrders} variant="outline" size="sm" className="border-border">
-            <RefreshCw className="h-4 w-4 mr-2" />
-            Refresh
+          <Button onClick={fetchOrders} variant="outline" size="sm" className="border-border text-xs sm:text-sm">
+            <RefreshCw className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
+            <span className="hidden xs:inline">Refresh</span>
           </Button>
-          <Button onClick={exportToCSV} variant="outline" className="border-border">
-            <Download className="h-4 w-4 mr-2" />
-            Export CSV
+          <Button onClick={exportToCSV} variant="outline" className="border-border text-xs sm:text-sm">
+            <Download className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
+            <span className="hidden xs:inline">Export</span>
           </Button>
         </div>
       </div>
 
       {/* Advanced Filters */}
-      <div className="glass-card p-4 space-y-4">
+      <div className="glass-card p-3 sm:p-4 space-y-3 sm:space-y-4">
         <div className="flex items-center gap-2 mb-2">
-          <Filter className="h-4 w-4 text-muted-foreground" />
-          <span className="text-sm font-semibold text-foreground">Advanced Filters</span>
+          <Filter className="h-3 w-3 sm:h-4 sm:w-4 text-muted-foreground" />
+          <span className="text-xs sm:text-sm font-semibold text-foreground">Filters</span>
         </div>
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2 sm:gap-3">
           <div className="relative">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+            <Search className="absolute left-2.5 sm:left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 sm:h-4 sm:w-4 text-muted-foreground" />
             <Input 
               placeholder="Search..." 
               value={search} 
               onChange={e => setSearch(e.target.value)} 
-              className="pl-9 bg-muted/50 border-border" 
+              className="pl-8 sm:pl-9 bg-muted/50 border-border text-xs sm:text-sm" 
             />
           </div>
           
           <Select value={statusFilter} onValueChange={setStatusFilter}>
-            <SelectTrigger className="bg-muted/50 border-border">
-              <SelectValue placeholder="Filter by status" />
+            <SelectTrigger className="bg-muted/50 border-border text-xs sm:text-sm">
+              <SelectValue placeholder="Status" />
             </SelectTrigger>
             <SelectContent className="bg-card border-border">
               <SelectItem value="all">All Statuses</SelectItem>
@@ -280,8 +280,8 @@ export default function Orders() {
           </Select>
           
           <Select value={sortBy} onValueChange={setSortBy}>
-            <SelectTrigger className="bg-muted/50 border-border">
-              <SelectValue placeholder="Sort by" />
+            <SelectTrigger className="bg-muted/50 border-border text-xs sm:text-sm">
+              <SelectValue placeholder="Sort" />
             </SelectTrigger>
             <SelectContent className="bg-card border-border">
               <SelectItem value="newest">Newest First</SelectItem>
@@ -295,16 +295,14 @@ export default function Orders() {
             type="date" 
             value={dateFrom} 
             onChange={e => setDateFrom(e.target.value)} 
-            className="bg-muted/50 border-border"
-            placeholder="From date"
+            className="bg-muted/50 border-border text-xs sm:text-sm"
           />
           
           <Input 
             type="date" 
             value={dateTo} 
             onChange={e => setDateTo(e.target.value)} 
-            className="bg-muted/50 border-border"
-            placeholder="To date"
+            className="bg-muted/50 border-border text-xs sm:text-sm"
           />
         </div>
       </div>
@@ -323,34 +321,36 @@ export default function Orders() {
         <>
           {/* Bulk Actions Bar */}
           {selectedOrders.size > 0 && (
-            <div className="glass-card p-3 bg-primary/10 border-primary/30 flex items-center justify-between animate-in fade-in slide-in-from-top-2">
-              <div className="flex items-center gap-3">
+            <div className="glass-card p-2.5 sm:p-3 bg-primary/10 border-primary/30 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 sm:gap-3 animate-in fade-in slide-in-from-top-2">
+              <div className="flex items-center gap-2 sm:gap-3">
                 <Checkbox
                   checked={selectedOrders.size === filtered.length}
                   onCheckedChange={toggleSelectAll}
+                  className="flex-shrink-0"
                 />
-                <span className="text-sm font-medium text-foreground">
+                <span className="text-xs sm:text-sm font-medium text-foreground">
                   {selectedOrders.size} order{selectedOrders.size !== 1 ? 's' : ''} selected
                 </span>
               </div>
-              <div className="flex items-center gap-2">
-                <Button size="sm" variant="outline" className="h-8">
-                  <Printer className="h-3 w-3 mr-2" />
+              <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap">
+                <Button size="sm" variant="outline" className="h-7 sm:h-8 text-xs">
+                  <Printer className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
                   Print
                 </Button>
-                <Button size="sm" variant="outline" className="h-8">
-                  <Download className="h-3 w-3 mr-2" />
-                  Export Selected
+                <Button size="sm" variant="outline" className="h-7 sm:h-8 text-xs">
+                  <Download className="h-3 w-3 sm:h-4 sm:w-4 mr-1 sm:mr-2" />
+                  Export
                 </Button>
-                <Button size="sm" variant="destructive" className="h-8">
-                  Delete Selected
+                <Button size="sm" variant="destructive" className="h-7 sm:h-8 text-xs">
+                  Delete
                 </Button>
               </div>
             </div>
           )}
 
           <div className="glass-card">
-            <div className="w-full overflow-hidden">
+            {/* Desktop Table View */}
+            <div className="hidden md:block w-full overflow-x-auto">
               <table className="w-full">
                 <thead>
                   <tr className="border-b border-border">
@@ -437,8 +437,8 @@ export default function Orders() {
                             {order.status === 'in_progress' ? 'In Progress' : order.status.charAt(0).toUpperCase() + order.status.slice(1)}
                           </Badge>
                         </td>
-                        <td className="px-5 py-3.5 text-right">
-                          <p className="text-sm font-bold text-foreground">Ã‚Â£{amount.toLocaleString()}</p>
+                        <td className="px-2 py-3.5 text-right">
+                          <p className="text-sm font-bold text-foreground">£{amount.toLocaleString()}</p>
                           <p className="text-xs text-muted-foreground">{serviceCount} service{serviceCount !== 1 ? 's' : ''}</p>
                         </td>
                         <td className="px-2 py-3.5 text-right">
@@ -477,6 +477,117 @@ export default function Orders() {
                   })}
                 </tbody>
               </table>
+            </div>
+
+            {/* Mobile Card View */}
+            <div className="md:hidden space-y-3 p-3">
+              {filtered.map((order) => {
+                const serviceCount = order.services.split(',').filter(s => s.trim()).length
+                const amount = serviceCount * 150
+                
+                return (
+                  <div key={order.id} className="bg-card/50 border border-border rounded-lg p-3 space-y-2.5">
+                    {/* Header Row */}
+                    <div className="flex items-start justify-between gap-2">
+                      <div className="flex items-center gap-2 flex-1 min-w-0">
+                        <Checkbox
+                          checked={selectedOrders.has(order.id)}
+                          onCheckedChange={() => toggleSelectOrder(order.id)}
+                          className="flex-shrink-0 mt-0.5"
+                        />
+                        <div className="flex-1 min-w-0">
+                          <p className="text-xs font-mono font-medium text-foreground truncate">{order.id}</p>
+                          <p className="text-[10px] text-muted-foreground">
+                            {new Date(order.timestamp).toLocaleDateString()} • {new Date(order.timestamp).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
+                          </p>
+                        </div>
+                      </div>
+                      <Badge className={getStatusBadgeClass(order.status)} variant="outline">
+                        {order.status === 'in_progress' ? 'In Progress' : order.status.charAt(0).toUpperCase() + order.status.slice(1)}
+                      </Badge>
+                    </div>
+
+                    {/* Customer Name */}
+                    <div className="flex items-center gap-2 text-sm">
+                      <User className="h-3.5 w-3.5 text-muted-foreground flex-shrink-0" />
+                      <span className="font-medium text-foreground truncate">
+                        {order.firstName} {order.lastName}
+                      </span>
+                    </div>
+
+                    {/* Services */}
+                    <div className="space-y-1">
+                      <div className="flex items-start gap-2">
+                        <ClipboardList className="h-3.5 w-3.5 text-muted-foreground flex-shrink-0 mt-0.5" />
+                        <div className="flex-1 min-w-0">
+                          <p className="text-xs font-medium text-foreground line-clamp-2">{order.services}</p>
+                          {order.additionalDescription && (
+                            <p className="text-[10px] text-muted-foreground mt-0.5 line-clamp-2">{order.additionalDescription}</p>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Contact Links */}
+                    <div className="grid grid-cols-2 gap-2">
+                      {order.email && (
+                        <a href={`mailto:${order.email}`} className="flex items-center gap-1.5 text-xs text-blue-600 hover:underline truncate">
+                          <Mail className="h-3 w-3 flex-shrink-0" />
+                          <span className="truncate">{order.email}</span>
+                        </a>
+                      )}
+                      {order.phoneNumber && (
+                        <a href={`tel:${order.phoneNumber}`} className="flex items-center gap-1.5 text-xs text-blue-600 hover:underline truncate">
+                          <Phone className="h-3 w-3 flex-shrink-0" />
+                          <span className="truncate">{order.phoneNumber}</span>
+                        </a>
+                      )}
+                    </div>
+
+                    {/* Address - Only if present */}
+                    {order.address && (
+                      <div className="flex items-start gap-2">
+                        <MapPin className="h-3.5 w-3.5 text-muted-foreground flex-shrink-0 mt-0.5" />
+                        <span className="text-xs text-foreground line-clamp-2">{order.address}</span>
+                      </div>
+                    )}
+
+                    {/* Footer Row - Amount & Actions */}
+                    <div className="flex items-center justify-between gap-2 pt-2 border-t border-border/50">
+                      <div>
+                        <p className="text-sm font-bold text-foreground">£{amount.toLocaleString()}</p>
+                        <p className="text-[10px] text-muted-foreground">{serviceCount} service{serviceCount !== 1 ? 's' : ''}</p>
+                      </div>
+                      <div className="flex items-center gap-1">
+                        <Button
+                          size="sm"
+                          variant="ghost"
+                          onClick={() => setViewingCustomerHistory({ email: order.email, phone: order.phoneNumber })}
+                          className="h-7 w-7 p-0 hover:bg-blue-500/10 hover:text-blue-500"
+                        >
+                          <History className="h-3.5 w-3.5" />
+                        </Button>
+                        <Button
+                          size="sm"
+                          variant="ghost"
+                          onClick={() => setViewingOrder(order)}
+                          className="h-7 w-7 p-0 hover:bg-primary/10 hover:text-primary"
+                        >
+                          <Eye className="h-3.5 w-3.5" />
+                        </Button>
+                        <Button
+                          size="sm"
+                          variant="ghost"
+                          onClick={() => printOrder(order)}
+                          className="h-7 w-7 p-0 hover:bg-primary/10 hover:text-primary"
+                        >
+                          <Printer className="h-3.5 w-3.5" />
+                        </Button>
+                      </div>
+                    </div>
+                  </div>
+                )
+              })}
             </div>
           </div>
         </>
