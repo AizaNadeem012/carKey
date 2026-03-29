@@ -1,14 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import Script from "next/script"
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb"
+import Breadcrumb from "../../../components/breadcrumb"
 import { localBusinessSchema, faqSchema } from "@/lib/schema"
 import { Phone, Clock, Shield, CheckCircle, MapPin, Star } from "lucide-react"
 
@@ -73,25 +66,14 @@ export default function TraffordPage() {
           __html: JSON.stringify(faqSchema(faqItems)),
         }}
       />
-      <Breadcrumb aria-label="Breadcrumb path" className="w-full overflow-x-auto">
-        <BreadcrumbList className="flex-wrap sm:flex-nowrap gap-1.5 sm:gap-2.5 py-2">
-          <BreadcrumbItem>
-            <BreadcrumbLink href="/" className="text-xs sm:text-sm whitespace-nowrap">Home</BreadcrumbLink>
-          </BreadcrumbItem>
-          <BreadcrumbSeparator className="[&>svg]:size-3 [&>svg]:sm:size-3.5" />
-          <BreadcrumbItem>
-            <BreadcrumbLink href="/#locations" className="text-xs sm:text-sm whitespace-nowrap">Service Areas</BreadcrumbLink>
-          </BreadcrumbItem>
-          <BreadcrumbSeparator className="[&>svg]:size-3 [&>svg]:sm:size-3.5" />
-          <BreadcrumbItem>
-            <BreadcrumbLink href="/areas/stockport" className="text-xs sm:text-sm whitespace-nowrap">Stockport</BreadcrumbLink>
-          </BreadcrumbItem>
-          <BreadcrumbSeparator className="[&>svg]:size-3 [&>svg]:sm:size-3.5" />
-          <BreadcrumbItem>
-            <BreadcrumbPage className="text-xs sm:text-sm font-semibold whitespace-nowrap">{locationName}</BreadcrumbPage>
-          </BreadcrumbItem>
-        </BreadcrumbList>
-      </Breadcrumb>
+      <Breadcrumb
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Service Areas", href: "/#locations" },
+          { name: "Stockport", href: "/areas/stockport" },
+          { name: locationName, href: `/areas/stockport/${locationSlug}` },
+        ]}
+      />
       <main className="bg-slate-900 text-white pt-20">
         <section className="section-padding bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
           <div className="container-custom">
@@ -132,7 +114,7 @@ export default function TraffordPage() {
                 </div>
                 <div className="card">
                   <Star className="w-6 h-6 text-orange-400 mx-auto mb-2" aria-hidden="true" />
-                  <div className="text-sm font-semibold">5â˜… Rated</div>
+                  <div className="text-sm font-semibold">5Ã¢Ëœâ€¦ Rated</div>
                 </div>
               </div>
             </div>

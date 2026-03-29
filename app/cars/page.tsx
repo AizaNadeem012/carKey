@@ -14,11 +14,11 @@ const PHONE = "07309903243"
 const PHONE_HREF = "tel:+447309903243"
 const DATE_MODIFIED = "2026-03-09"
 
-// â”€â”€ Metadata â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// Ã¢â€â‚¬Ã¢â€â‚¬ Metadata Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
 export const metadata: Metadata = {
   title: "Car Key Replacement by Make & Model | Stockport Auto Locksmith | Car Keys in Stockport",
   description:
-    "Lost your car key in Stockport? Find your make below â€” same-day replacement for every brand. Audi, BMW, Ford, Toyota, VW & 40+ more. Call Vikki Heaton: 07309903243.",
+    "Lost your car key in Stockport? Find your make below Ã¢â‚¬â€ same-day replacement for every brand. Audi, BMW, Ford, Toyota, VW & 40+ more. Call Vikki Heaton: 07309903243.",
   authors: [
     { name: "Vikki Heaton", url: "https://carkeysinstockport.co.uk/about" },
   ],
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
         url: "https://carkeysinstockport.co.uk/images/auto-car-locksmith-services-in-stockport.jpg",
         width: 1200,
         height: 630,
-        alt: "Car key replacement by make and model â€” Vikki Heaton Auto Locksmith Stockport",
+        alt: "Car key replacement by make and model Ã¢â‚¬â€ Vikki Heaton Auto Locksmith Stockport",
       },
     ],
   },
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
   },
 }
 
-// â”€â”€ Schema helpers â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// Ã¢â€â‚¬Ã¢â€â‚¬ Schema helpers Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -115,7 +115,7 @@ const localBusinessSchema = {
     "@id": "https://carkeysinstockport.co.uk/about#vikki-heaton",
     name: "Vikki Heaton",
   },
-  priceRange: "Â£Â£",
+  priceRange: "Ã‚Â£Ã‚Â£",
   openingHoursSpecification: {
     "@type": "OpeningHoursSpecification",
     dayOfWeek: [
@@ -147,7 +147,7 @@ const webPageSchema = {
   url: "https://carkeysinstockport.co.uk/cars",
   name: "Car Key Replacement by Make & Model | Stockport Auto Locksmith",
   description:
-    "Find your car make and get same-day key replacement in Stockport. 45+ brands covered by Vikki Heaton â€” mobile service, no call-out fee.",
+    "Find your car make and get same-day key replacement in Stockport. 45+ brands covered by Vikki Heaton Ã¢â‚¬â€ mobile service, no call-out fee.",
   inLanguage: "en-GB",
   dateModified: `${DATE_MODIFIED}T00:00:00+00:00`,
   author: {
@@ -163,17 +163,17 @@ const webPageSchema = {
   },
 }
 
-// â”€â”€ UI helpers â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// Ã¢â€â‚¬Ã¢â€â‚¬ UI helpers Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
 type Origin = "European" | "British" | "Asian & Other"
 const originOrder: Origin[] = ["European", "British", "Asian & Other"]
 
 const originDescriptions: Record<Origin, string> = {
   European:
-    "Audi, BMW, Ford, Mercedes-Benz, Volkswagen and more â€” full transponder, smart key and keyless programming.",
+    "Audi, BMW, Ford, Mercedes-Benz, Volkswagen and more Ã¢â‚¬â€ full transponder, smart key and keyless programming.",
   British:
-    "Aston Martin, Bentley, MG, McLaren and Rolls-Royce â€” specialist encrypted key systems handled with care.",
+    "Aston Martin, Bentley, MG, McLaren and Rolls-Royce Ã¢â‚¬â€ specialist encrypted key systems handled with care.",
   "Asian & Other":
-    "BYD, Chevrolet, Maserati, Suzuki and more â€” ID46, ID47 and AES 128-bit mobile programming.",
+    "BYD, Chevrolet, Maserati, Suzuki and more Ã¢â‚¬â€ ID46, ID47 and AES 128-bit mobile programming.",
 }
 
 function DifficultyBadge({
@@ -202,7 +202,7 @@ function DifficultyBadge({
   )
 }
 
-// â”€â”€ Page â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// Ã¢â€â‚¬Ã¢â€â‚¬ Page Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
 export default function CarsIndexPage() {
   const grouped = originOrder.reduce<Record<Origin, CarBrandData[]>>(
     (acc, origin) => {
@@ -248,41 +248,41 @@ export default function CarsIndexPage() {
 
       <main className="bg-slate-900 text-white pt-20">
 
-        {/* â”€â”€ HERO â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+        {/* Ã¢â€â‚¬Ã¢â€â‚¬ HERO Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */}
         <section className="section-padding bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
           <div className="container-custom">
             <div className="max-w-3xl">
               <div className="flex items-center gap-2 text-orange-400 mb-4">
                 <Car className="w-5 h-5" aria-hidden="true" />
                 <span className="font-semibold">
-                  {totalBrands} Brands Covered Â· Stockport &amp; Greater Manchester
+                  {totalBrands} Brands Covered Ã‚Â· Stockport &amp; Greater Manchester
                 </span>
               </div>
 
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
                 Car Key Replacement by{" "}
                 <span className="text-orange-400">Make &amp; Model</span>{" "}
-                â€” Stockport
+                Ã¢â‚¬â€ Stockport
               </h1>
 
               <p className="text-xl text-gray-300 mb-4 leading-relaxed">
                 Find your car make below and get same-day key replacement anywhere in
                 Stockport. Vikki Heaton is a verified auto locksmith expert covering{" "}
-                {totalBrands} brands â€” all models, all key types. Fixed price, no
+                {totalBrands} brands Ã¢â‚¬â€ all models, all key types. Fixed price, no
                 call-out fee, fully insured.
               </p>
 
               <p className="text-gray-400 mb-8 text-sm leading-relaxed">
                 Whether you drive a common Ford or a specialist Porsche, our mobile
                 service reaches you in 30 minutes across Stockport and Greater Manchester.
-                Keys cut and programmed on-site â€” no recovery truck required.
+                Keys cut and programmed on-site Ã¢â‚¬â€ no recovery truck required.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
                   href={PHONE_HREF}
                   className="btn-primary text-center flex items-center justify-center gap-2"
-                  aria-label="Call Vikki Heaton â€” Stockport auto locksmith"
+                  aria-label="Call Vikki Heaton Ã¢â‚¬â€ Stockport auto locksmith"
                 >
                   <Phone className="w-5 h-5" aria-hidden="true" />
                   Call Vikki: {PHONE}
@@ -295,7 +295,7 @@ export default function CarsIndexPage() {
           </div>
         </section>
 
-        {/* â”€â”€ TRUST BAR â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+        {/* Ã¢â€â‚¬Ã¢â€â‚¬ TRUST BAR Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */}
         <section className="bg-orange-500 py-4" aria-label="Trust signals">
           <div className="container-custom">
             <div className="flex flex-wrap justify-center gap-5 md:gap-8 text-sm font-bold text-white text-center">
@@ -305,8 +305,8 @@ export default function CarsIndexPage() {
                 { icon: <Shield className="w-5 h-5 mx-auto mb-1" />, label: "No Fix No Fee" },
                 { icon: <CheckCircle className="w-5 h-5 mx-auto mb-1" />, label: "DBS Checked" },
                 {
-                  icon: <span className="text-lg mx-auto mb-1 block">â˜…</span>,
-                  label: "Vikki Heaton â€” Verified Expert",
+                  icon: <span className="text-lg mx-auto mb-1 block">Ã¢Ëœâ€¦</span>,
+                  label: "Vikki Heaton Ã¢â‚¬â€ Verified Expert",
                 },
               ].map(({ icon, label }) => (
                 <div key={label} className="flex flex-col items-center min-w-[90px]">
@@ -318,7 +318,7 @@ export default function CarsIndexPage() {
           </div>
         </section>
 
-        {/* â”€â”€ BRAND GROUPS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+        {/* Ã¢â€â‚¬Ã¢â€â‚¬ BRAND GROUPS Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */}
         {originOrder.map((origin) => {
           const brands = grouped[origin]
           if (!brands.length) return null
@@ -346,7 +346,7 @@ export default function CarsIndexPage() {
                       href={`/cars/${brand.slug}`}
                       className="card p-5 hover:bg-slate-700 transition-colors group flex flex-col"
                       aria-label={`${brand.brand} car key replacement Stockport`}
-                      title={`${brand.brand} key replacement â€” mobile locksmith Stockport`}
+                      title={`${brand.brand} key replacement Ã¢â‚¬â€ mobile locksmith Stockport`}
                     >
                       <div className="flex items-start justify-between mb-2 gap-2">
                         <h3 className="font-bold text-white text-lg group-hover:text-orange-400 transition-colors leading-tight">
@@ -376,7 +376,7 @@ export default function CarsIndexPage() {
           )
         })}
 
-        {/* â”€â”€ DIFFICULTY KEY â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+        {/* Ã¢â€â‚¬Ã¢â€â‚¬ DIFFICULTY KEY Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */}
         <section className="section-padding bg-slate-800" aria-labelledby="difficulty-heading">
           <div className="container-custom">
             <h2
@@ -399,14 +399,14 @@ export default function CarsIndexPage() {
                   colour: "text-yellow-400",
                   border: "border-yellow-700",
                   bg: "bg-yellow-900/20",
-                  desc: "Encrypted or proximity smart key. Requires specialist OBD programming â€” still completed on-site.",
+                  desc: "Encrypted or proximity smart key. Requires specialist OBD programming Ã¢â‚¬â€ still completed on-site.",
                 },
                 {
                   level: "Specialist",
                   colour: "text-red-400",
                   border: "border-red-700",
                   bg: "bg-red-900/20",
-                  desc: "Highly encrypted or proprietary key system. Advanced tools required â€” contact us for a tailored quote.",
+                  desc: "Highly encrypted or proprietary key system. Advanced tools required Ã¢â‚¬â€ contact us for a tailored quote.",
                 },
               ].map(({ level, colour, border, bg, desc }) => (
                 <div key={level} className={`card p-5 ${bg} border ${border}`}>
@@ -418,7 +418,7 @@ export default function CarsIndexPage() {
           </div>
         </section>
 
-        {/* â”€â”€ WHY CHOOSE US â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+        {/* Ã¢â€â‚¬Ã¢â€â‚¬ WHY CHOOSE US Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */}
         <section className="section-padding" aria-labelledby="why-heading">
           <div className="container-custom">
             <h2 id="why-heading" className="text-3xl font-bold mb-10 text-center">
@@ -428,7 +428,7 @@ export default function CarsIndexPage() {
               {[
                 {
                   title: "All Makes & Models",
-                  desc: `We cover ${totalBrands} brands â€” from everyday Fords to specialist Porsche and Tesla keys.`,
+                  desc: `We cover ${totalBrands} brands Ã¢â‚¬â€ from everyday Fords to specialist Porsche and Tesla keys.`,
                 },
                 {
                   title: "No Original Key Needed",
@@ -436,7 +436,7 @@ export default function CarsIndexPage() {
                 },
                 {
                   title: "Fixed Prices Upfront",
-                  desc: "You receive a firm quote before we start â€” no nasty surprises, no hidden charges.",
+                  desc: "You receive a firm quote before we start Ã¢â‚¬â€ no nasty surprises, no hidden charges.",
                 },
                 {
                   title: "Faster Than a Dealer",
@@ -456,7 +456,7 @@ export default function CarsIndexPage() {
           </div>
         </section>
 
-        {/* â”€â”€ AUTHOR BIO â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+        {/* Ã¢â€â‚¬Ã¢â€â‚¬ AUTHOR BIO Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */}
         <section className="section-padding bg-slate-800" aria-label="About the author">
           <div className="container-custom">
             <h2 className="text-2xl font-bold mb-6">
@@ -466,15 +466,15 @@ export default function CarsIndexPage() {
           </div>
         </section>
 
-        {/* â”€â”€ AREA LINKS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+        {/* Ã¢â€â‚¬Ã¢â€â‚¬ AREA LINKS Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */}
         <AreaLinksSection />
 
-        {/* â”€â”€ NAP BLOCK â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+        {/* Ã¢â€â‚¬Ã¢â€â‚¬ NAP BLOCK Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */}
         <div className="bg-slate-900">
           <NAPBlock />
         </div>
 
-        {/* â”€â”€ FINAL CTA â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+        {/* Ã¢â€â‚¬Ã¢â€â‚¬ FINAL CTA Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */}
         <section className="section-padding bg-gradient-to-br from-orange-600 to-orange-700">
           <div className="container-custom text-center">
             <h2 className="text-4xl font-bold mb-4">
@@ -482,13 +482,13 @@ export default function CarsIndexPage() {
             </h2>
             <p className="text-xl text-orange-50 mb-8 max-w-2xl mx-auto">
               We cover virtually every car brand on the road. Call Vikki on{" "}
-              <strong>{PHONE}</strong> for an instant quote â€” available 24/7.
+              <strong>{PHONE}</strong> for an instant quote Ã¢â‚¬â€ available 24/7.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <a
                 href={PHONE_HREF}
                 className="inline-flex items-center justify-center gap-2 bg-white text-orange-600 font-bold text-lg px-8 py-4 rounded-lg hover:bg-gray-100 transition-colors"
-                aria-label="Call Vikki Heaton â€” Stockport auto locksmith"
+                aria-label="Call Vikki Heaton Ã¢â‚¬â€ Stockport auto locksmith"
               >
                 <Phone className="w-5 h-5" aria-hidden="true" />
                 Call Vikki: {PHONE}

@@ -1,7 +1,7 @@
 // app/privacy-policy/page.jsx
 import React from "react";
 export const metadata = {
-    title: "Privacy Policy â€“ Car Keys Stockport",
+    title: "Privacy Policy Ã¢â‚¬â€œ Car Keys Stockport",
     description:
       "Learn how Car Keys Stockport collects, uses, and protects your personal information. Transparent and secure services for car key replacement and lockout assistance.",
   };

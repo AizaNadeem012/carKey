@@ -81,7 +81,7 @@ export default function Analytics() {
         
         setAnalyticsData({ orders, contacts })
         
-        // Calculate revenue based on £150 per service
+        // Calculate revenue based on Â£150 per service
         const calculateOrderAmount = (order: Order) => {
           const serviceCount = order.services.split(',').filter(s => s.trim()).length
           return serviceCount * 150
@@ -163,7 +163,7 @@ export default function Analytics() {
       // Count orders per month
       monthlyData[monthName]++
       
-      // Calculate revenue per month (£150 per service)
+      // Calculate revenue per month (Â£150 per service)
       const serviceCount = order.services.split(',').filter(s => s.trim()).length
       revenueData[monthName] += serviceCount * 150
     })
@@ -220,7 +220,7 @@ export default function Analytics() {
           <h1 className="text-2xl font-bold text-foreground tracking-tight">Analytics</h1>
           <p className="text-sm text-muted-foreground mt-1">
             Real-time performance insights from Google Sheets
-            {stats.totalOrders > 0 && ` • ${stats.totalOrders} orders analyzed`}
+            {stats.totalOrders > 0 && ` â€¢ ${stats.totalOrders} orders analyzed`}
           </p>
         </div>
         <div className="flex items-center gap-3">
@@ -260,7 +260,7 @@ export default function Analytics() {
             <h3 className="text-sm font-medium text-muted-foreground">Total Revenue</h3>
             <TrendingUp className="h-4 w-4 text-success" />
           </div>
-          <p className="text-2xl font-bold text-foreground">£{stats.totalRevenue.toLocaleString()}</p>
+          <p className="text-2xl font-bold text-foreground">Â£{stats.totalRevenue.toLocaleString()}</p>
           <p className="text-xs text-muted-foreground mt-1">From all completed orders</p>
         </div>
 
@@ -308,7 +308,7 @@ export default function Analytics() {
             <BarChart data={orderData}>
               <CartesianGrid strokeDasharray="3 3" stroke="hsl(320, 3%, 28%)" />
               <XAxis dataKey="month" stroke="hsl(0, 0%, 60%)" fontSize={12} />
-              <YAxis stroke="hsl(0, 0%, 60%)" fontSize={12} tickFormatter={(v) => `£${(v/1000).toFixed(0)}k`} />
+              <YAxis stroke="hsl(0, 0%, 60%)" fontSize={12} tickFormatter={(v) => `Â£${(v/1000).toFixed(0)}k`} />
               <Tooltip content={<CustomTooltip />} />
               <Bar dataKey="revenue" fill="hsl(0, 99%, 47.6%)" radius={[4, 4, 0, 0]} />
             </BarChart>
@@ -353,7 +353,7 @@ export default function Analytics() {
           </div>
           <div>
             <p className="text-sm text-muted-foreground mb-1">Average Order Value</p>
-            <p className="text-lg font-bold text-foreground">£{stats.averageOrderValue > 0 ? stats.averageOrderValue.toFixed(0) : 0}</p>
+            <p className="text-lg font-bold text-foreground">Â£{stats.averageOrderValue > 0 ? stats.averageOrderValue.toFixed(0) : 0}</p>
           </div>
           <div>
             <p className="text-sm text-muted-foreground mb-1">Growth Trend</p>

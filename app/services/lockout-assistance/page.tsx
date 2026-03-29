@@ -161,7 +161,7 @@ export default function LockoutAssistancePage() {
                 <div className="space-y-1 text-sm">
                   {["Stockport", "Cheadle", "Bramhall", "Hazel Grove", "Marple", "Romiley"].map((area, index) => (
                     <div key={index} className="text-gray-300">
-                      â€¢ {area}
+                      Ã¢â‚¬Â¢ {area}
                     </div>
                   ))}
                 </div>

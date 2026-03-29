@@ -53,7 +53,7 @@ export default function Settings() {
         <h3 className="text-sm font-semibold text-foreground">API Configuration</h3>
         <div>
           <label className="text-xs text-muted-foreground mb-1.5 block">API Key</label>
-          <Input defaultValue="sk_live_â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢" readOnly className="bg-muted/50 border-border font-mono text-xs" />
+          <Input defaultValue="sk_live_Ã¢â‚¬Â¢Ã¢â‚¬Â¢Ã¢â‚¬Â¢Ã¢â‚¬Â¢Ã¢â‚¬Â¢Ã¢â‚¬Â¢Ã¢â‚¬Â¢Ã¢â‚¬Â¢Ã¢â‚¬Â¢Ã¢â‚¬Â¢Ã¢â‚¬Â¢Ã¢â‚¬Â¢Ã¢â‚¬Â¢Ã¢â‚¬Â¢Ã¢â‚¬Â¢Ã¢â‚¬Â¢" readOnly className="bg-muted/50 border-border font-mono text-xs" />
         </div>
       </div>
 

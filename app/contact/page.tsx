@@ -74,14 +74,14 @@ export default function ContactPage() {
             <div className="card mb-8">
               <h3 className="font-bold mb-4">Areas We Cover</h3>
               <div className="grid grid-cols-2 gap-2 text-sm text-gray-300">
-                <div>â€¢ Stockport</div>
-                <div>â€¢ Cheadle</div>
-                <div>â€¢ Bramhall</div>
-                <div>â€¢ Hazel Grove</div>
-                <div>â€¢ Marple</div>
-                <div>â€¢ Romiley</div>
-                <div>â€¢ Bredbury</div>
-                <div>â€¢ Woodley</div>
+                <div>Ã¢â‚¬Â¢ Stockport</div>
+                <div>Ã¢â‚¬Â¢ Cheadle</div>
+                <div>Ã¢â‚¬Â¢ Bramhall</div>
+                <div>Ã¢â‚¬Â¢ Hazel Grove</div>
+                <div>Ã¢â‚¬Â¢ Marple</div>
+                <div>Ã¢â‚¬Â¢ Romiley</div>
+                <div>Ã¢â‚¬Â¢ Bredbury</div>
+                <div>Ã¢â‚¬Â¢ Woodley</div>
               </div>
             </div>
 
@@ -117,7 +117,7 @@ export default function ContactPage() {
                 title="Contact Form"
                 className="w-full bg-white"
               >
-                Loadingâ€¦
+                LoadingÃ¢â‚¬Â¦
               </iframe>
             </div>
           </div>

@@ -19,7 +19,7 @@ export default function ServicesPage() {
       slug: "car-key-replacement",
       description: "Lost, stolen or broken car keys? We provide fast replacement keys for all makes and models.",
       features: ["All car makes & models", "Cut & programmed on-site", "Transponder keys", "Remote key fobs"],
-      price: "From Â£89",
+      price: "From Ã‚Â£89",
       image: "/real-car-keys.jpg",
       popular: true,
     },
@@ -28,7 +28,7 @@ export default function ServicesPage() {
       slug: "auto-keys-programming",
       description: "Professional transponder key programming and remote key fob coding for modern vehicles.",
       features: ["Transponder programming", "Remote fob coding", "Immobilizer bypass", "ECU programming"],
-      price: "From Â£79",
+      price: "From Ã‚Â£79",
       image: "/real-locksmith-service.jpg",
     },
     {
@@ -36,7 +36,7 @@ export default function ServicesPage() {
       slug: "key-fob-programming",
       description: "Expert programming for all types of remote key fobs, transponder keys, and smart keys.",
       features: ["Remote fob coding", "Smart key programming", "Transponder chip sync", "Key fob repair"],
-      price: "From Â£79",
+      price: "From Ã‚Â£79",
       image: "/real-car-keys.jpg",
     },
     {
@@ -44,7 +44,7 @@ export default function ServicesPage() {
       slug: "lockout-assistance",
       description: "Locked out of your car? Fast, damage-free entry service available 24/7 across Stockport.",
       features: ["Damage-free entry", "All vehicle types", "24/7 availability", "Insurance approved"],
-      price: "From Â£59",
+      price: "From Ã‚Â£59",
       image: "/real-mobile-locksmith.jpg",
       emergency: true,
     },
@@ -53,7 +53,7 @@ export default function ServicesPage() {
       slug: "ignition-repair",
       description: "Ignition switch problems? We repair and replace faulty ignition systems and worn keys.",
       features: ["Ignition switch repair", "Key extraction", "Cylinder replacement", "Steering lock repair"],
-      price: "From Â£99",
+      price: "From Ã‚Â£99",
       image: "/real-locksmith-service.jpg",
     },
     {
@@ -61,7 +61,7 @@ export default function ServicesPage() {
       slug: "remote-key-fobs",
       description: "Replacement and programming of remote key fobs and central locking systems.",
       features: ["Remote fob replacement", "Central locking repair", "Button repair", "Range optimization"],
-      price: "From Â£69",
+      price: "From Ã‚Â£69",
       image: "/real-car-keys.jpg",
     },
     {
@@ -69,7 +69,7 @@ export default function ServicesPage() {
       slug: "emergency-service",
       description: "24/7 emergency automotive locksmith service for urgent car key problems.",
       features: ["24/7 availability", "30min response", "All emergencies", "No call-out fee"],
-      price: "From Â£79",
+      price: "From Ã‚Â£79",
       image: "/real-mobile-locksmith.jpg",
       emergency: true,
     },
@@ -298,30 +298,30 @@ export default function ServicesPage() {
               <tbody className="divide-y divide-slate-600">
                 <tr>
                   <td className="px-6 py-4 font-semibold text-gray-300">Key Replacement</td>
-                  <td className="px-6 py-4 text-center text-orange-400">Â£89</td>
-                  <td className="px-6 py-4 text-center text-orange-400">Â£129</td>
-                  <td className="px-6 py-4 text-center text-orange-400">Â£199</td>
+                  <td className="px-6 py-4 text-center text-orange-400">Ã‚Â£89</td>
+                  <td className="px-6 py-4 text-center text-orange-400">Ã‚Â£129</td>
+                  <td className="px-6 py-4 text-center text-orange-400">Ã‚Â£199</td>
                   <td className="px-6 py-4 text-center text-gray-300">30 mins</td>
                 </tr>
                 <tr>
                   <td className="px-6 py-4 font-semibold text-gray-300">Key Programming</td>
-                  <td className="px-6 py-4 text-center text-orange-400">Â£79</td>
-                  <td className="px-6 py-4 text-center text-orange-400">Â£99</td>
-                  <td className="px-6 py-4 text-center text-orange-400">Â£149</td>
+                  <td className="px-6 py-4 text-center text-orange-400">Ã‚Â£79</td>
+                  <td className="px-6 py-4 text-center text-orange-400">Ã‚Â£99</td>
+                  <td className="px-6 py-4 text-center text-orange-400">Ã‚Â£149</td>
                   <td className="px-6 py-4 text-center text-gray-300">30 mins</td>
                 </tr>
                 <tr>
                   <td className="px-6 py-4 font-semibold text-gray-300">Lockout Service</td>
-                  <td className="px-6 py-4 text-center text-orange-400">Â£59</td>
-                  <td className="px-6 py-4 text-center text-orange-400">Â£79</td>
-                  <td className="px-6 py-4 text-center text-orange-400">Â£99</td>
+                  <td className="px-6 py-4 text-center text-orange-400">Ã‚Â£59</td>
+                  <td className="px-6 py-4 text-center text-orange-400">Ã‚Â£79</td>
+                  <td className="px-6 py-4 text-center text-orange-400">Ã‚Â£99</td>
                   <td className="px-6 py-4 text-center text-gray-300">15 mins</td>
                 </tr>
                 <tr>
                   <td className="px-6 py-4 font-semibold text-gray-300">Ignition Repair</td>
-                  <td className="px-6 py-4 text-center text-orange-400">Â£99</td>
-                  <td className="px-6 py-4 text-center text-orange-400">Â£149</td>
-                  <td className="px-6 py-4 text-center text-orange-400">Â£249</td>
+                  <td className="px-6 py-4 text-center text-orange-400">Ã‚Â£99</td>
+                  <td className="px-6 py-4 text-center text-orange-400">Ã‚Â£149</td>
+                  <td className="px-6 py-4 text-center text-orange-400">Ã‚Â£249</td>
                   <td className="px-6 py-4 text-center text-gray-300">45 mins</td>
                 </tr>
               </tbody>
@@ -403,7 +403,7 @@ export default function ServicesPage() {
               {
                 icon: <Shield className="w-8 h-8 text-green-400" />,
                 title: "Damage Protection",
-                description: "Â£2M insurance covers any potential damage during service.",
+                description: "Ã‚Â£2M insurance covers any potential damage during service.",
               },
               {
                 icon: <Clock className="w-8 h-8 text-blue-400" />,

@@ -125,7 +125,7 @@ export default function Orders() {
         order.phoneNumber,
         order.address,
         order.status,
-        `£${amount}`
+        `Â£${amount}`
       ].join(',')
     })
     
@@ -162,7 +162,7 @@ export default function Orders() {
         </head>
         <body>
           <div class="header">
-            <div class="invoice-title">ðŸ”‘ Car Keys Stockport - Invoice</div>
+            <div class="invoice-title">Ã°Å¸â€â€˜ Car Keys Stockport - Invoice</div>
             <div>Order #${order.id}</div>
             <div>Date: ${new Date(order.timestamp).toLocaleString()}</div>
           </div>
@@ -184,12 +184,12 @@ export default function Orders() {
             <tr>
               <td>${order.services}</td>
               <td>${serviceCount}</td>
-              <td>Â£150</td>
-              <td>Â£${amount}</td>
+              <td>Ã‚Â£150</td>
+              <td>Ã‚Â£${amount}</td>
             </tr>
           </table>
           
-          <div class="total">Total: Â£${amount}</div>
+          <div class="total">Total: Ã‚Â£${amount}</div>
           
           <div style="margin-top: 40px; text-align: center; color: #999; font-size: 12px;">
             Thank you for choosing Car Keys Stockport!
@@ -232,7 +232,7 @@ export default function Orders() {
           <h1 className="text-2xl font-bold text-foreground tracking-tight">Orders</h1>
           <p className="text-sm text-muted-foreground mt-1">
             Track and manage all orders from Google Sheets
-            {ordersList.length > 0 && ` â€¢ ${ordersList.length} order${ordersList.length !== 1 ? 's' : ''}`}
+            {ordersList.length > 0 && ` Ã¢â‚¬Â¢ ${ordersList.length} order${ordersList.length !== 1 ? 's' : ''}`}
           </p>
         </div>
         <div className="flex items-center gap-2 flex-wrap">
@@ -438,7 +438,7 @@ export default function Orders() {
                           </Badge>
                         </td>
                         <td className="px-5 py-3.5 text-right">
-                          <p className="text-sm font-bold text-foreground">Â£{amount.toLocaleString()}</p>
+                          <p className="text-sm font-bold text-foreground">Ã‚Â£{amount.toLocaleString()}</p>
                           <p className="text-xs text-muted-foreground">{serviceCount} service{serviceCount !== 1 ? 's' : ''}</p>
                         </td>
                         <td className="px-2 py-3.5 text-right">
@@ -516,7 +516,7 @@ export default function Orders() {
                 <div>
                   <p className="text-xs text-muted-foreground mb-1">Total Amount</p>
                   <p className="text-lg font-bold text-primary">
-                    Â£{(viewingOrder.services.split(',').filter(s => s.trim()).length * 150).toLocaleString()}
+                    Ã‚Â£{(viewingOrder.services.split(',').filter(s => s.trim()).length * 150).toLocaleString()}
                   </p>
                 </div>
               </div>

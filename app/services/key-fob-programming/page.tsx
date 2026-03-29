@@ -193,7 +193,7 @@ export default function KeyFobProgrammingPage() {
                     "Mitsubishi",
                   ].map((make, index) => (
                     <div key={index} className="text-gray-300">
-                      â€¢ {make}
+                      Ã¢â‚¬Â¢ {make}
                     </div>
                   ))}
                 </div>
@@ -208,19 +208,19 @@ export default function KeyFobProgrammingPage() {
                 <div className="space-y-3">
                   <div className="flex justify-between">
                     <span>Transponder Key Programming</span>
-                    <span className="text-orange-400 font-bold">From Â£79</span>
+                    <span className="text-orange-400 font-bold">From Ã‚Â£79</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Remote Key Fob Programming</span>
-                    <span className="text-orange-400 font-bold">From Â£99</span>
+                    <span className="text-orange-400 font-bold">From Ã‚Â£99</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Smart Key / Proximity Key</span>
-                    <span className="text-orange-400 font-bold">From Â£149</span>
+                    <span className="text-orange-400 font-bold">From Ã‚Â£149</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Key Fob Repair / Battery</span>
-                    <span className="text-orange-400 font-bold">From Â£30</span>
+                    <span className="text-orange-400 font-bold">From Ã‚Â£30</span>
                   </div>
                 </div>
                 <p className="text-sm text-gray-400 mt-4">
@@ -247,7 +247,7 @@ export default function KeyFobProgrammingPage() {
                   {["Stockport", "Cheadle", "Bramhall", "Hazel Grove", "Marple", "Romiley", "Bredbury", "Woodley"].map(
                     (area, index) => (
                       <div key={index} className="text-gray-300">
-                        â€¢ {area}
+                        Ã¢â‚¬Â¢ {area}
                       </div>
                     ),
                   )}

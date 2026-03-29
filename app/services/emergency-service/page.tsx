@@ -98,7 +98,7 @@ export default function EmergencyServicePage() {
             <div className="card text-center p-6 bg-slate-800 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
               <div className="w-12 h-12 text-orange-400 bg-black rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
               <h4 className="font-bold mb-2">Call & Quote</h4>
-              <p className="text-gray-300 text-sm">Call us immediately and get an instant quote. Weâ€™ll ask about your vehicle and situation.</p>
+              <p className="text-gray-300 text-sm">Call us immediately and get an instant quote. WeÃ¢â‚¬â„¢ll ask about your vehicle and situation.</p>
             </div>
             <div className="card text-center p-6 bg-slate-800 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
               <div className="w-12 h-12 text-orange-400 bg-black rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
@@ -108,7 +108,7 @@ export default function EmergencyServicePage() {
             <div className="card text-center p-6 bg-slate-800 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
               <div className="w-12 h-12 text-orange-400 bg-black rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
               <h4 className="font-bold mb-2">On-Site Resolution</h4>
-              <p className="text-gray-300 text-sm">We cut, program, and test your replacement keys on-site, ensuring youâ€™re back on the road immediately.</p>
+              <p className="text-gray-300 text-sm">We cut, program, and test your replacement keys on-site, ensuring youÃ¢â‚¬â„¢re back on the road immediately.</p>
             </div>
           </div>
         </div>

@@ -104,13 +104,13 @@ export default function AutoLocksmithNearMePage() {
                   <span className="font-semibold text-sm sm:text-base">Available 24/7 - Fast Mobile Response</span>
                 </div>
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
-                  {location} Auto Locksmith Near Me 24/7 â€“ Fast, Mobile Car Key Services
+                  {location} Auto Locksmith Near Me 24/7 Ã¢â‚¬â€œ Fast, Mobile Car Key Services
                 </h1>
                 <p className="text-lg sm:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed">
                   Looking for a trusted auto locksmith near me in {location}? Our certified mobile locksmiths provide
                   24/7 emergency car lockout assistance, lost car key replacement, key fob programming, and ignition
                   repair. Fully insured, professional technicians, fast response times, and no call-out fee. We come to
-                  you wherever you are in {location}â€”home, work, or roadside. Your trusted local auto locksmith service.
+                  you wherever you are in {location}Ã¢â‚¬â€home, work, or roadside. Your trusted local auto locksmith service.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-6 sm:mb-8">
                   <a
@@ -292,7 +292,7 @@ export default function AutoLocksmithNearMePage() {
                   <CheckCircle className="w-6 h-6 text-green-400 flex-shrink-0 mt-1" />
                   <span className="text-gray-300">
                     <strong className="text-white">No Call-Out Fee:</strong> Transparent pricing with no hidden
-                    chargesâ€”you know exactly what you'll pay upfront
+                    chargesÃ¢â‚¬â€you know exactly what you'll pay upfront
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -319,7 +319,7 @@ export default function AutoLocksmithNearMePage() {
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-400 flex-shrink-0 mt-1" />
                   <span className="text-gray-300">
-                    <strong className="text-white">Mobile Service:</strong> We come to youâ€”home, work, or roadside in{" "}
+                    <strong className="text-white">Mobile Service:</strong> We come to youÃ¢â‚¬â€home, work, or roadside in{" "}
                     {location}
                   </span>
                 </li>
@@ -406,7 +406,7 @@ export default function AutoLocksmithNearMePage() {
               Locked out of your car? Lost your keys? Need urgent car key replacement? Our mobile locksmiths provide
               round-the-clock emergency auto locksmith services in {location}. We're available 24 hours a day, 7 days a
               week, including weekends and holidays. Fast response times, no call-out fee, and professional service
-              when you need it most. Our mobile service means we come to youâ€”whether you're at home, work, or stranded
+              when you need it most. Our mobile service means we come to youÃ¢â‚¬â€whether you're at home, work, or stranded
               roadside in {location}.
             </p>
             <a
@@ -416,7 +416,7 @@ export default function AutoLocksmithNearMePage() {
               <Phone className="w-5 h-5" />
               Call Now: 07309903243
             </a>
-            <p className="text-sm opacity-90">Available 24/7 â€¢ Fast Response â€¢ No Call-Out Fee â€¢ Fully Insured</p>
+            <p className="text-sm opacity-90">Available 24/7 Ã¢â‚¬Â¢ Fast Response Ã¢â‚¬Â¢ No Call-Out Fee Ã¢â‚¬Â¢ Fully Insured</p>
           </div>
         </section>
 
@@ -447,7 +447,7 @@ export default function AutoLocksmithNearMePage() {
             <p className="text-lg sm:text-xl mb-8 max-w-2xl mx-auto">
               Whether you need emergency car lockout assistance, lost key replacement, key fob programming, or ignition
               repair, we're ready to help. Fast response, professional service, transparent pricing, and fully
-              insuredâ€”your trusted local auto locksmith in {location}.
+              insuredÃ¢â‚¬â€your trusted local auto locksmith in {location}.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8">
               <a
@@ -467,7 +467,7 @@ export default function AutoLocksmithNearMePage() {
             </div>
             <div className="max-w-2xl mx-auto bg-white/10 backdrop-blur-sm rounded-2xl p-6">
               <p className="text-lg mb-4">
-                <strong>Fully Insured</strong> â€¢ <strong>No Call-Out Fee</strong> â€¢ <strong>Fast Response</strong> â€¢{" "}
+                <strong>Fully Insured</strong> Ã¢â‚¬Â¢ <strong>No Call-Out Fee</strong> Ã¢â‚¬Â¢ <strong>Fast Response</strong> Ã¢â‚¬Â¢{" "}
                 <strong>24/7 Available</strong>
               </p>
             </div>
