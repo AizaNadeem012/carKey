@@ -35,7 +35,7 @@ export const revalidate = 86400
 
 // Enhanced SEO Metadata
 export const metadata: Metadata = {
-  title: "Vikki Heaton | 24/7 Auto Locksmith Stockport â€“ Fast & Reliable",
+  title: "Vikki Heaton | 24/7 Auto Locksmith Stockport – Fast & Reliable",
   description:
     "Locked out or lost your car keys in Stockport? Call Vikki Heaton, expert female auto locksmith. 25-min response, 24/7 service, no call-out fee, fully insured.",
   keywords: [
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Vikki Heaton | 24/7 Auto Locksmith Stockport â€“ Fast & Reliable",
+    title: "Vikki Heaton | 24/7 Auto Locksmith Stockport – Fast & Reliable",
     description:
       "Locked out or lost your car keys in Stockport? Call Vikki Heaton, expert female auto locksmith. 25-min response, 24/7 service, no call-out fee, fully insured.",
     url: "https://carkeysinstockport.co.uk",
@@ -84,13 +84,13 @@ export const metadata: Metadata = {
         url: "https://carkeysinstockport.co.uk/images/auto-locksmith-hero.jpg",
         width: 1200,
         height: 630,
-        alt: "Vikki Heaton â€“ Female Auto Locksmith Stockport",
+        alt: "Vikki Heaton – Female Auto Locksmith Stockport",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vikki Heaton | 24/7 Auto Locksmith Stockport â€“ Fast & Reliable",
+    title: "Vikki Heaton | 24/7 Auto Locksmith Stockport – Fast & Reliable",
     description:
       "Locked out or lost your car keys in Stockport? Call Vikki Heaton, expert female auto locksmith. 25-min response, 24/7 service, no call-out fee, fully insured.",
     images: ["https://carkeysinstockport.co.uk/images/auto-locksmith-hero.jpg"],

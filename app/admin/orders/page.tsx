@@ -125,7 +125,7 @@ export default function Orders() {
         order.phoneNumber,
         order.address,
         order.status,
-        `Â£${amount}`
+        `£${amount}`
       ].join(',')
     })
     
